@@ -2,10 +2,11 @@
   "plugins": {
     "dsh-code-ui": {
       "builtIn": false,
+      "deleted": true,
       "displayName": "dsh-code-ui",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-code-ui",
-      "installSpec": "dsh-code-ui@1.6.7",
+      "installSpec": null,
       "name": "dsh-code-ui",
       "origin": "npm",
       "pathOnly": false,
@@ -18,7 +19,7 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-07T17:44:40.525Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "1.6.7"
     },
@@ -313,5 +314,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:22:10.341Z"
+  "updatedAt": "2026-11-07T17:44:40.525Z"
 }

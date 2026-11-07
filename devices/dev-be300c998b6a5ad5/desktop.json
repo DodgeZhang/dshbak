@@ -35,30 +35,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "dsh-code-ui",
-      "enabled": true,
-      "id": "dsh-code-ui",
-      "installSpec": "dsh-code-ui@1.6.7",
-      "name": "dsh-code-ui",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-code-ui",
-          "moduleName": "dsh-code-ui",
-          "rowId": "dsh-code-ui"
-        }
-      ],
-      "syncable": true,
-      "version": "1.6.7"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
@@ -574,5 +550,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:22:10.341Z"
+  "updatedAt": "2026-11-07T17:44:40.525Z"
 }
