@@ -1,0 +1,578 @@
+{
+  "device": {
+    "arch": "x64",
+    "dshVersion": "0.2.2-rc.1",
+    "id": "dev-be300c998b6a5ad5",
+    "name": "Dodge",
+    "platform": "win32",
+    "pluginVersion": "0.2.11"
+  },
+  "plugins": [
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "cordis:include",
+      "installSpec": null,
+      "name": "cordis:include",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include",
+          "moduleName": "cordis:include"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-code-ui",
+      "enabled": true,
+      "id": "dsh-code-ui",
+      "installSpec": "dsh-code-ui@1.6.7",
+      "name": "dsh-code-ui",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-code-ui",
+          "moduleName": "dsh-code-ui",
+          "rowId": "dsh-code-ui"
+        }
+      ],
+      "syncable": true,
+      "version": "1.6.7"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-connect-trae",
+      "enabled": true,
+      "id": "dsh-connect-trae",
+      "installSpec": "dsh-connect-trae@4.14.2",
+      "name": "dsh-connect-trae",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-trae",
+          "moduleName": "dsh-connect-trae",
+          "rowId": "dsh-connect-trae"
+        }
+      ],
+      "syncable": true,
+      "version": "4.14.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
+      "id": "dsh-connect-workbuddy",
+      "installSpec": "dsh-connect-workbuddy@5.20.2",
+      "name": "dsh-connect-workbuddy",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
+      "syncable": true,
+      "version": "5.20.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-conversation-recycle-bin",
+      "enabled": true,
+      "id": "dsh-conversation-recycle-bin",
+      "installSpec": "dsh-conversation-recycle-bin@0.3.19",
+      "name": "dsh-conversation-recycle-bin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:conversation-recycle-bin",
+          "moduleName": "dsh-conversation-recycle-bin",
+          "rowId": "conversation-recycle-bin"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.19"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Git Panel",
+      "enabled": true,
+      "id": "dsh-git-plus",
+      "installSpec": "dsh-git-plus@0.1.59",
+      "name": "dsh-git-plus",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:git-plus",
+          "moduleName": "dsh-git-plus",
+          "rowId": "git-plus"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.59"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-jot",
+      "enabled": true,
+      "id": "dsh-jot",
+      "installSpec": "dsh-jot@0.2.14",
+      "name": "dsh-jot",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-jot",
+          "moduleName": "dsh-jot",
+          "rowId": "dsh-jot"
+        }
+      ],
+      "syncable": true,
+      "version": "0.2.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "MCP & Skill Manager",
+      "enabled": true,
+      "id": "dsh-mcp-skill-manage",
+      "installSpec": "dsh-mcp-skill-manage@0.5.5",
+      "name": "dsh-mcp-skill-manage",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:mcp-skill-manager",
+          "moduleName": "dsh-mcp-skill-manage",
+          "rowId": "mcp-skill-manager"
+        }
+      ],
+      "syncable": true,
+      "version": "0.5.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Plugin Backup",
+      "enabled": true,
+      "id": "dsh-plugins-git-sync",
+      "installSpec": "dsh-plugins-git-sync@0.2.11",
+      "name": "dsh-plugins-git-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugins-git-sync",
+          "moduleName": "dsh-plugins-git-sync",
+          "rowId": "dsh-plugins-git-sync"
+        }
+      ],
+      "syncable": false,
+      "version": "0.2.11"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-purge",
+      "enabled": true,
+      "id": "dsh-purge",
+      "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "name": "dsh-purge",
+      "origin": "git",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge",
+          "moduleName": "dsh-purge",
+          "rowId": "dsh-purge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam",
+          "moduleName": "dsh-purge/redteam",
+          "rowId": "dsh-purge-redteam"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-store",
+          "moduleName": "dsh-purge/redteam/store",
+          "rowId": "dsh-purge-redteam-store"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-ui",
+          "moduleName": "dsh-purge/redteam/ui",
+          "rowId": "dsh-purge-redteam-ui"
+        }
+      ],
+      "source": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "syncable": true,
+      "version": "2.0.4"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-recall-plugin",
+      "enabled": true,
+      "id": "dsh-recall-plugin",
+      "installSpec": "dsh-recall-plugin@2.6.5",
+      "name": "dsh-recall-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:recall",
+          "moduleName": "dsh-recall-plugin",
+          "rowId": "recall"
+        }
+      ],
+      "syncable": true,
+      "version": "2.6.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-session-sync",
+      "enabled": true,
+      "id": "dsh-session-sync",
+      "installSpec": "dsh-session-sync@0.2.32",
+      "name": "dsh-session-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:session-sync",
+          "moduleName": "dsh-session-sync",
+          "rowId": "session-sync"
+        }
+      ],
+      "syncable": true,
+      "version": "0.2.32"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-streamfold",
+      "enabled": true,
+      "id": "dsh-streamfold",
+      "installSpec": "dsh-streamfold@0.7.14",
+      "name": "dsh-streamfold",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-streamfold",
+          "moduleName": "dsh-streamfold",
+          "rowId": "dsh-streamfold"
+        }
+      ],
+      "syncable": true,
+      "version": "0.7.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Web Bridge",
+      "enabled": false,
+      "id": "dsh-webcode-bridge",
+      "installSpec": "dsh-webcode-bridge@0.22.3",
+      "name": "dsh-webcode-bridge",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-webcode-bridge",
+          "rowId": "webcode-bridge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-standard",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-webcode"
+        }
+      ],
+      "syncable": true,
+      "version": "0.22.3"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Component System",
+      "enabled": true,
+      "id": "dsh-widgets",
+      "installSpec": "dsh-widgets@1.8.5",
+      "name": "dsh-widgets",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:widgets",
+          "moduleName": "dsh-widgets",
+          "rowId": "widgets"
+        }
+      ],
+      "syncable": true,
+      "version": "1.8.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@agentscope-ai/reme-dsh-plugin",
+      "enabled": true,
+      "id": "local:@agentscope-ai/reme-dsh-plugin",
+      "installSpec": null,
+      "name": "@agentscope-ai/reme-dsh-plugin",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:reme-memory",
+          "moduleName": "@agentscope-ai/reme-dsh-plugin",
+          "rowId": "reme-memory"
+        }
+      ],
+      "source": "@agentscope-ai/reme-dsh-plugin@0.1.3",
+      "syncable": false,
+      "version": "0.1.3"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@dmh2002/dsh-connect-qoder",
+      "enabled": true,
+      "id": "local:@dmh2002/dsh-connect-qoder",
+      "installSpec": null,
+      "name": "@dmh2002/dsh-connect-qoder",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-qoder",
+          "moduleName": "@dmh2002/dsh-connect-qoder",
+          "rowId": "dsh-connect-qoder"
+        }
+      ],
+      "source": "@dmh2002/dsh-connect-qoder@1.20.1",
+      "syncable": false,
+      "version": "1.20.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Task Center",
+      "enabled": true,
+      "id": "local:@ds-hu/dsh-auto-task-center",
+      "installSpec": null,
+      "name": "@ds-hu/dsh-auto-task-center",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-auto-task-center",
+          "moduleName": "@ds-hu/dsh-auto-task-center",
+          "rowId": "dsh-auto-task-center"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-task-center",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-task-center"
+        }
+      ],
+      "source": "@ds-hu/dsh-auto-task-center@0.5.0",
+      "syncable": false,
+      "version": "0.5.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Prompt Enhancer",
+      "enabled": true,
+      "id": "local:@jianyiagi/dsh-prompt-enhancer",
+      "installSpec": null,
+      "name": "@jianyiagi/dsh-prompt-enhancer",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:prompt-enhancer",
+          "moduleName": "@jianyiagi/dsh-prompt-enhancer",
+          "rowId": "prompt-enhancer"
+        }
+      ],
+      "source": "@jianyiagi/dsh-prompt-enhancer@1.1.1",
+      "syncable": false,
+      "version": "1.1.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@liustack/modsearch",
+      "enabled": true,
+      "id": "local:@liustack/modsearch",
+      "installSpec": null,
+      "name": "@liustack/modsearch",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:modsearch",
+          "moduleName": "@liustack/modsearch",
+          "rowId": "modsearch"
+        }
+      ],
+      "source": "@liustack/modsearch@5.10.11",
+      "syncable": false,
+      "version": "5.10.11"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "@taxueseek/argo-dsh",
+      "enabled": true,
+      "id": "local:@taxueseek/argo-dsh",
+      "installSpec": null,
+      "name": "@taxueseek/argo-dsh",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:wide-research",
+          "moduleName": "@taxueseek/argo-dsh",
+          "rowId": "wide-research"
+        }
+      ],
+      "source": "@taxueseek/argo-dsh@2.9.9",
+      "syncable": false,
+      "version": "2.9.9"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "id": "local:@yolk_vat-y/dsh-project-memory",
+      "installSpec": null,
+      "name": "@yolk_vat-y/dsh-project-memory",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:project-memory",
+          "moduleName": "@yolk_vat-y/dsh-project-memory",
+          "rowId": "project-memory"
+        }
+      ],
+      "source": "@yolk_vat-y/dsh-project-memory@0.6.11",
+      "syncable": false,
+      "version": "0.6.11"
+    }
+  ],
+  "profile": "desktop",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-07T17:22:10.341Z"
+}

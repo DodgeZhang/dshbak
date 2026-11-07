@@ -1,0 +1,317 @@
+{
+  "plugins": {
+    "dsh-code-ui": {
+      "builtIn": false,
+      "displayName": "dsh-code-ui",
+      "enabled": true,
+      "id": "dsh-code-ui",
+      "installSpec": "dsh-code-ui@1.6.7",
+      "name": "dsh-code-ui",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-code-ui",
+          "moduleName": "dsh-code-ui",
+          "rowId": "dsh-code-ui"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "1.6.7"
+    },
+    "dsh-connect-trae": {
+      "builtIn": false,
+      "displayName": "dsh-connect-trae",
+      "enabled": true,
+      "id": "dsh-connect-trae",
+      "installSpec": "dsh-connect-trae@4.14.2",
+      "name": "dsh-connect-trae",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-trae",
+          "moduleName": "dsh-connect-trae",
+          "rowId": "dsh-connect-trae"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "4.14.2"
+    },
+    "dsh-connect-workbuddy": {
+      "builtIn": false,
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
+      "id": "dsh-connect-workbuddy",
+      "installSpec": "dsh-connect-workbuddy@5.20.2",
+      "name": "dsh-connect-workbuddy",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "5.20.2"
+    },
+    "dsh-conversation-recycle-bin": {
+      "builtIn": false,
+      "displayName": "dsh-conversation-recycle-bin",
+      "enabled": true,
+      "id": "dsh-conversation-recycle-bin",
+      "installSpec": "dsh-conversation-recycle-bin@0.3.19",
+      "name": "dsh-conversation-recycle-bin",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:conversation-recycle-bin",
+          "moduleName": "dsh-conversation-recycle-bin",
+          "rowId": "conversation-recycle-bin"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.3.19"
+    },
+    "dsh-git-plus": {
+      "builtIn": false,
+      "displayName": "Git Panel",
+      "enabled": true,
+      "id": "dsh-git-plus",
+      "installSpec": "dsh-git-plus@0.1.59",
+      "name": "dsh-git-plus",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:git-plus",
+          "moduleName": "dsh-git-plus",
+          "rowId": "git-plus"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.1.59"
+    },
+    "dsh-jot": {
+      "builtIn": false,
+      "displayName": "dsh-jot",
+      "enabled": true,
+      "id": "dsh-jot",
+      "installSpec": "dsh-jot@0.2.14",
+      "name": "dsh-jot",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-jot",
+          "moduleName": "dsh-jot",
+          "rowId": "dsh-jot"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.2.14"
+    },
+    "dsh-mcp-skill-manage": {
+      "builtIn": false,
+      "displayName": "MCP & Skill Manager",
+      "enabled": true,
+      "id": "dsh-mcp-skill-manage",
+      "installSpec": "dsh-mcp-skill-manage@0.5.5",
+      "name": "dsh-mcp-skill-manage",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:mcp-skill-manager",
+          "moduleName": "dsh-mcp-skill-manage",
+          "rowId": "mcp-skill-manager"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.5.5"
+    },
+    "dsh-purge": {
+      "builtIn": false,
+      "displayName": "dsh-purge",
+      "enabled": true,
+      "id": "dsh-purge",
+      "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "name": "dsh-purge",
+      "origin": "git",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge",
+          "moduleName": "dsh-purge",
+          "rowId": "dsh-purge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam",
+          "moduleName": "dsh-purge/redteam",
+          "rowId": "dsh-purge-redteam"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-store",
+          "moduleName": "dsh-purge/redteam/store",
+          "rowId": "dsh-purge-redteam-store"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-ui",
+          "moduleName": "dsh-purge/redteam/ui",
+          "rowId": "dsh-purge-redteam-ui"
+        }
+      ],
+      "source": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "2.0.4"
+    },
+    "dsh-recall-plugin": {
+      "builtIn": false,
+      "displayName": "dsh-recall-plugin",
+      "enabled": true,
+      "id": "dsh-recall-plugin",
+      "installSpec": "dsh-recall-plugin@2.6.5",
+      "name": "dsh-recall-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:recall",
+          "moduleName": "dsh-recall-plugin",
+          "rowId": "recall"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "2.6.5"
+    },
+    "dsh-session-sync": {
+      "builtIn": false,
+      "displayName": "dsh-session-sync",
+      "enabled": true,
+      "id": "dsh-session-sync",
+      "installSpec": "dsh-session-sync@0.2.32",
+      "name": "dsh-session-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:session-sync",
+          "moduleName": "dsh-session-sync",
+          "rowId": "session-sync"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.2.32"
+    },
+    "dsh-streamfold": {
+      "builtIn": false,
+      "displayName": "dsh-streamfold",
+      "enabled": true,
+      "id": "dsh-streamfold",
+      "installSpec": "dsh-streamfold@0.7.14",
+      "name": "dsh-streamfold",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-streamfold",
+          "moduleName": "dsh-streamfold",
+          "rowId": "dsh-streamfold"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.7.14"
+    },
+    "dsh-webcode-bridge": {
+      "builtIn": false,
+      "displayName": "Web Bridge",
+      "enabled": false,
+      "id": "dsh-webcode-bridge",
+      "installSpec": "dsh-webcode-bridge@0.22.3",
+      "name": "dsh-webcode-bridge",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-webcode-bridge",
+          "rowId": "webcode-bridge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:preset-standard",
+          "moduleName": "@deepseek-ai/dsh-agent-preset",
+          "rowId": "preset-webcode"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.22.3"
+    },
+    "dsh-widgets": {
+      "builtIn": false,
+      "displayName": "Component System",
+      "enabled": true,
+      "id": "dsh-widgets",
+      "installSpec": "dsh-widgets@1.8.5",
+      "name": "dsh-widgets",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:widgets",
+          "moduleName": "dsh-widgets",
+          "rowId": "widgets"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "1.8.5"
+    }
+  },
+  "profile": "desktop",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-07T17:22:10.341Z"
+}

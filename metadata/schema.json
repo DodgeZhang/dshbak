@@ -1,0 +1,30 @@
+{
+  "commitTrailers": {
+    "Device-Id": "设备稳定 ID / stable device id",
+    "Device-Name": "设备显示名称 / device display name",
+    "Operation": "产生提交的操作 / operation that produced the commit",
+    "Plugin-Count": "涉及的插件数量 / number of plugins involved",
+    "Profile": "DSH profile 名称 / DSH profile name",
+    "Result": "操作结果 / operation result"
+  },
+  "description": "DSH 插件 Git 同步的备份布局 / Backup layout of DSH Plugin Git Sync. 此目录由插件自动维护，请勿手工修改 / maintained automatically; do not edit by hand.",
+  "files": {
+    "README.md": "仓库说明 / human-readable repository notes",
+    "devices/<deviceId>/<profile>.json": "设备快照 / device snapshot",
+    "manifest.json": "备份索引 / index of the backup",
+    "metadata/schema.json": "本说明文档 / this document",
+    "profiles/<profile>/configs/<plugin-id>.json": "旧版配置目录，不再写入 / legacy config directory, no longer written",
+    "profiles/<profile>/plugins.json": "共享插件状态 / shared plugin state per profile",
+    "profiles/<profile>/skills/<skill-name>/": "已部署技能的真实文件 / deployed DSH skill files per profile"
+  },
+  "generator": {
+    "name": "dsh-plugins-git-sync",
+    "version": "0.2.11"
+  },
+  "notes": [
+    "所有路径都相对于备份目录（默认是仓库根目录）/ all paths are relative to the backup directory (the repository root by default)",
+    "配置文件中的敏感键和疑似密钥的值不会被写入 / sensitive config keys and secret-looking values are never written",
+    "同一仓库被多个设备同时写入时，插件会重新拉取、合并并重试，绝不强制推送 / concurrent writes are re-merged and retried; the plugin never force-pushes"
+  ],
+  "schemaVersion": 1
+}

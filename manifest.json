@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "generator": {
+    "name": "dsh-plugins-git-sync",
+    "version": "0.2.11"
+  },
+  "createdAt": "2026-11-07T17:22:10.341Z",
+  "updatedAt": "2026-11-07T17:22:10.341Z",
+  "profiles": {
+    "desktop": {
+      "pluginCount": 13,
+      "updatedAt": "2026-11-07T17:22:10.341Z"
+    }
+  },
+  "devices": [
+    "dev-be300c998b6a5ad5"
+  ]
+}
