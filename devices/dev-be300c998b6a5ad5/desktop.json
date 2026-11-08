@@ -226,13 +226,13 @@
           "rowId": "mnemon-strategy-default-three-tier"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-general",
           "moduleName": "dsh-mnemon-strategy-general",
           "rowId": "mnemon-strategy-general"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-auto-capture",
           "moduleName": "dsh-mnemon-strategy-auto-capture",
           "rowId": "mnemon-strategy-auto-capture"
@@ -391,6 +391,30 @@
       ],
       "syncable": true,
       "version": "0.7.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-vision-router",
+      "enabled": true,
+      "id": "dsh-vision-router",
+      "installSpec": "dsh-vision-router@3.0.3",
+      "name": "dsh-vision-router",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:vision-router",
+          "moduleName": "dsh-vision-router",
+          "rowId": "vision-router"
+        }
+      ],
+      "syncable": true,
+      "version": "3.0.3"
     },
     {
       "builtIn": false,
@@ -572,9 +596,9 @@
           "rowId": "modsearch"
         }
       ],
-      "source": "@liustack/modsearch@5.10.11",
+      "source": "@liustack/modsearch@5.10.12",
       "syncable": false,
-      "version": "5.10.11"
+      "version": "5.10.12"
     },
     {
       "builtIn": false,
@@ -628,5 +652,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:11:41.394Z"
+  "updatedAt": "2026-11-08T09:32:05.537Z"
 }

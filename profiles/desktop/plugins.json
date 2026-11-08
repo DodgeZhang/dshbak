@@ -338,6 +338,28 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.7.14"
     },
+    "dsh-vision-router": {
+      "builtIn": false,
+      "displayName": "dsh-vision-router",
+      "enabled": true,
+      "id": "dsh-vision-router",
+      "installSpec": "dsh-vision-router@3.0.3",
+      "name": "dsh-vision-router",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:vision-router",
+          "moduleName": "dsh-vision-router",
+          "rowId": "vision-router"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-08T09:32:05.537Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "3.0.3"
+    },
     "dsh-webcode-bridge": {
       "builtIn": false,
       "displayName": "Web Bridge",
@@ -390,5 +412,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:11:41.394Z"
+  "updatedAt": "2026-11-08T09:32:05.537Z"
 }
