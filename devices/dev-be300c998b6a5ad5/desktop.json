@@ -233,31 +233,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "WeChat BOT",
-      "enabled": true,
-      "id": "dsh-plugin-weixin",
-      "installSpec": "git+https://github.com/panqing0313/dsh-plugin-weixin.git#eecb64081dd4a19d2908d8bce55bee1d11e01b81",
-      "name": "dsh-plugin-weixin",
-      "origin": "git",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-weixin",
-          "moduleName": "dsh-plugin-weixin",
-          "rowId": "dsh-weixin"
-        }
-      ],
-      "source": "git+https://github.com/panqing0313/dsh-plugin-weixin.git#eecb64081dd4a19d2908d8bce55bee1d11e01b81",
-      "syncable": true,
-      "version": "1.5.12"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
@@ -587,6 +562,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "IM bots (dsh-im)",
+      "enabled": true,
+      "id": "local:@xmanrui/dsh-im",
+      "installSpec": null,
+      "name": "@xmanrui/dsh-im",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:xmanrui-dsh-im",
+          "moduleName": "@xmanrui/dsh-im",
+          "rowId": "xmanrui-dsh-im"
+        }
+      ],
+      "source": "@xmanrui/dsh-im@4.39.0",
+      "syncable": false,
+      "version": "4.39.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "enabled": true,
       "id": "local:@yolk_vat-y/dsh-project-memory",
       "installSpec": null,
@@ -610,5 +610,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:18:47.984Z"
+  "updatedAt": "2026-11-08T17:26:59.775Z"
 }

@@ -233,10 +233,11 @@
     },
     "dsh-plugin-weixin": {
       "builtIn": false,
+      "deleted": true,
       "displayName": "WeChat BOT",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-plugin-weixin",
-      "installSpec": "git+https://github.com/panqing0313/dsh-plugin-weixin.git#eecb64081dd4a19d2908d8bce55bee1d11e01b81",
+      "installSpec": null,
       "name": "dsh-plugin-weixin",
       "origin": "git",
       "pathOnly": false,
@@ -248,9 +249,8 @@
           "rowId": "dsh-weixin"
         }
       ],
-      "source": "git+https://github.com/panqing0313/dsh-plugin-weixin.git#eecb64081dd4a19d2908d8bce55bee1d11e01b81",
       "syncable": true,
-      "updatedAt": "2026-11-08T16:07:03.882Z",
+      "updatedAt": "2026-11-08T17:26:59.775Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "1.5.12"
     },
@@ -441,5 +441,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:18:47.984Z"
+  "updatedAt": "2026-11-08T17:26:59.775Z"
 }
