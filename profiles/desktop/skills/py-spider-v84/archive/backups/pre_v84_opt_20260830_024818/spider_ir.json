@@ -1,0 +1,9 @@
+{
+  "request": {"method": "GET", "url_templates": {}, "headers": {}},
+  "list": {"source": "html|json", "selectors_or_paths": [], "id_rule": "", "name_rule": "", "pic_rule": ""},
+  "detail": {"url_template": "", "fields": {}, "source_rule": "", "episode_rule": ""},
+  "search": {"method": "GET", "url_template": "", "data": {}},
+  "player": {"type": "direct|page|iframe|api", "patterns": [], "headers": {}},
+  "pagination": {"page_param": "", "pagecount_rule": "", "total_rule": ""},
+  "special": {"token": false, "decode": "", "proxy": false, "context_queue": false}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "py-spider-pro",
+  "version": "3.0.1",
+  "description": "PY爬虫开发专业工具集 | 专为Operit AI优化 | 极简token消耗 | 一键分析→生成→验证",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint lib/",
+    "lint:fix": "eslint lib/ --fix",
+    "format": "prettier --write lib/",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "mcp",
+    "spider",
+    "crawler",
+    "maccms",
+    "operit"
+  ],
+  "author": "operit-optimized",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "@xmldom/xmldom": "^0.9.10",
+    "axios": "^1.6.0",
+    "cheerio": "^1.2.0",
+    "xpath": "^0.0.34",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "esbuild": "^0.28.0",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "vitest": "^1.6.1"
+  }
+}

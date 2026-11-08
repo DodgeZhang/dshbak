@@ -1,0 +1,139 @@
+{
+  "name": "py-spider-pro",
+  "display_name": "PY Spider Pro",
+  "version": "3.0.0",
+  "description": "PY爬虫开发专业工具集 | 9个精炼工具 | MacCMS v8/v10/Api采集 | 分析→生成→验证一站式 | 极简token消耗",
+  "author": { "name": "operit-optimized" },
+  "type": "stdio",
+  "server": {
+    "command": "node",
+    "args": ["index.js"]
+  },
+  "user_config": {
+    "ROOT": {
+      "type": "string",
+      "title": "项目根目录",
+      "description": "爬虫源项目根目录，留空自动检测",
+      "default": "C:\\Users\\ShuLeiOK\\PeekPro\\data\\php\\看剧[剧]",
+      "required": false
+    }
+  },
+  "permissions": ["network"],
+  "tools": [
+    {
+      "name": "analyze_website",
+      "description": "深度分析网站结构。识别MacCMS类型(v8/v10/API/非标)，提取分类、选择器、加密、搜索方式，结果自动缓存30min。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "description": "网站URL" },
+          "html": { "type": "string", "description": "预获取的HTML(CF保护站可用visit_web获取后传入)" },
+          "cf_cookie": { "type": "string", "description": "cf_clearance cookie值" }
+        },
+        "required": ["url"]
+      }
+    },
+    {
+      "name": "one_click_spider",
+      "description": "🔥核心工具：一键分析+生成爬虫源码。自动：分析网站→识别CMS→选择模板→注入选择器→覆盖内容类型→快速验证方法完整性。比分开调用省50% token。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "description": "网站URL" },
+          "content_type": { "type": "string", "description": "内容类型: video/novel/image/manga/music/live/short", "default": "video" },
+          "html": { "type": "string", "description": "预获取HTML(CF站)" },
+          "cf_cookie": { "type": "string", "description": "cf_clearance cookie" },
+          "write_file": { "type": "boolean", "description": "是否写入文件到ROOT路径", "default": false },
+          "file_name": { "type": "string", "description": "文件名（默认自动生成）" }
+        },
+        "required": ["url"]
+      }
+    },
+    {
+      "name": "debug_selector",
+      "description": "调试CSS/XPath选择器。自动识别选择器类型，返回匹配数量和前3个结果。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "description": "页面URL" },
+          "selector": { "type": "string", "description": "CSS或XPath选择器(//开头自动识别为XPath)" },
+          "extract": { "type": "string", "description": "提取属性: text/html/attr:name", "default": "text" }
+        },
+        "required": ["url", "selector"]
+      }
+    },
+    {
+      "name": "debug_play_link",
+      "description": "调试播放链接。递归解析m3u8/mp4直链、iframe嵌套(最多3层)、v8/v10/xgplayer变量提取。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "description": "播放页URL或疑似直链" },
+          "page_url": { "type": "string", "description": "上级页面URL(用于Referer)" }
+        },
+        "required": ["url"]
+      }
+    },
+    {
+      "name": "test_interface",
+      "description": "静态+语义分析爬虫源五大接口完整性。含Python结构解析、方法存在性验证、严重度分级(critical/major/minor)。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_code": { "type": "string", "description": "爬虫源Python代码" },
+          "interface": { "type": "string", "description": "接口名: home/category/detail/search/play/all" }
+        },
+        "required": ["source_code", "interface"]
+      }
+    },
+    {
+      "name": "evaluate_source",
+      "description": "评估爬虫源代码规范(9项加权检查：contains匹配、兜底、去重、pp变量安全等)，输出等级S/A/B/C。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_code": { "type": "string", "description": "爬虫源Python代码" }
+        },
+        "required": ["source_code"]
+      }
+    },
+    {
+      "name": "batch_analyze",
+      "description": "并行分析多个网站(默认3并发)。汇总CMS类型、选择器、搜索方式，适合批量采集站开发。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "urls": { "type": "string", "description": "URL数组JSON，如[\"https://a.com\",\"https://b.com\"]" },
+          "max_concurrent": { "type": "integer", "description": "最大并发(默认3)", "default": 3 }
+        },
+        "required": ["urls"]
+      }
+    },
+    {
+      "name": "show_history",
+      "description": "显示分析和生成的历史记录",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "limit": { "type": "integer", "description": "显示数量 (默认20)", "default": 20 }
+        }
+      }
+    },
+    {
+      "name": "clear_history",
+      "description": "清除所有历史记录",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "health_check",
+      "description": "健康检查接口。检查服务状态、依赖加载、配置有效性、缓存状态。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
+}

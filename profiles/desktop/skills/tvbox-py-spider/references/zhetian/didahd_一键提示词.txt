@@ -1,0 +1,56 @@
+我要为 https://www.didahd.xyz/ 生成一个 TVBox 爬虫源。
+
+【站点信息】
+- 名称: 嘀嗒影视
+- 域名: https://www.didahd.xyz
+- 类型: 影视聚合站（高分电影、电视剧、动漫）
+- 特点: 超清秒播、评分系统、今日更新
+- 原域名 didahd.pro 已被污染，现用 didahd.xyz
+
+【请按以下步骤执行】
+
+步骤1: 分析站点
+用 RealmAutoRouter 分析 https://www.didahd.xyz 的 HTML 特征，
+判定防御等级和推荐境界（轮海/道宫/四极/化龙/仙台/洞天）。
+
+步骤2: 生成配置
+基于分析结果，生成 DEFAULT_CONFIG 覆盖配置：
+- host: https://www.didahd.xyz
+- endpoints（根据站点实际 API 调整）
+- headers（包含正确的 Referer 和 UA）
+- 如果判定为洞天境，配置 HTMX 伪头部
+
+步骤3: 生成 Spider 类
+继承推荐境界的类，实现 TVBox 六接口：
+- homeContent() → 返回分类列表
+- categoryContent(tid, pg, filter, extend) → 返回视频列表
+- detailContent(ids) → 返回详情和播放源
+- playerContent(flag, id, vipFlags) → 返回播放地址
+- searchContent(key, quick, pg) → 返回搜索结果
+- localProxy(param) → 本地代理
+
+步骤4: 关键处理
+- 图片 URL 用 DouZiMi.fix_pic() 修复防盗链
+- 播放页用 QianZiMi.extract_player_url() 提取 13层策略
+- m3u8 用 JieZiMi.clean_m3u8() 清洗广告
+- 全 try-except 兜底，任何错误不崩溃
+
+步骤5: 验证
+在代码末尾加入：
+if __name__ == "__main__":
+    spider = Spider()
+    spider.siteUrl = "https://www.didahd.xyz"
+    print("=== homeContent ===")
+    print(json.dumps(spider.homeContent(), ensure_ascii=False, indent=2))
+    print("=== categoryContent ===")
+    print(json.dumps(spider.categoryContent("1", "1", False, {}), ensure_ascii=False, indent=2))
+
+【绝对铁律】
+1. 禁止硬编码 API 路径，必须从配置读取
+2. 每个函数参数必须在体内使用
+3. 引号和括号必须正确闭合
+4. 异常必须分级处理，禁止 except Exception: pass
+5. 生成后自我验证语法正确
+
+【输出格式】
+直接输出完整的 Python 代码，不需要解释，代码可以直接保存为 .py 文件运行。

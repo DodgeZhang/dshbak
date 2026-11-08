@@ -1,0 +1,34 @@
+声明：本工具仅用于技术学习交流，请勿传播。
+
+注：本工具仅作为辅助使用，做不到100%全自动，也不适用于所有网站。
+
+电脑端推荐软件：
+⭕【首推】Trae官方下载地址https://www.trae.cn/ 
+【体积大，专业编程工具，免费，但是有时需要排队】
+
+⭕Cheery Studio官方下载地址https://www.cherry-ai.com/ 
+【体积小，较轻量，任务型工具，需配置自己的API】
+
+⭕AiPyPro官方下载地址https://www.aipyaipy.com/ 
+填邀请码fJTz赠送200万token【每周赠送200万token够用】
+
+
+部署方法，打开软件MCP设置添加选JSON配置复制下面
+
+{
+  "mcpServers": {
+    "PY MCP S": {
+      "command": "node",
+      "args": [
+        "你的py-spider-pro文件夹路径\\dist\\index.mjs"
+      ],
+      "env": {
+        "ROOT": "你指定生成文件存放的路径"
+      }
+    }
+  }
+}
+
+保存后打开，对话框选择上就可以用了。
+
+SKILL.md直接导入即可

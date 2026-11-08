@@ -1,0 +1,10 @@
+{
+  "site": {"host": "", "reachable": false, "encoding": "utf-8", "redirect": "", "anti_bot": false},
+  "mode": {"runtime": "t4", "content_type": "video", "cms": "", "confidence": "low"},
+  "routes": {"home": "", "category": "", "detail": "", "search": "", "play": ""},
+  "selectors": {"nav": [], "list": [], "title": [], "pic": [], "detail": {}, "sources": [], "episodes": []},
+  "api": {"enabled": false, "endpoints": {}, "method": "GET", "token": false, "encrypted": false},
+  "player": {"type": "direct", "patterns": [], "iframe": false, "headers": [], "proxy": false},
+  "pagination": {"enabled": false, "page_param": "", "count_selector": "", "fallback": 1},
+  "samples": {"list_count": 0, "detail_id": "", "source_count": 0, "episode_count": 0}
+}

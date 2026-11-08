@@ -1,0 +1,35 @@
+{
+  "nav": [".stui-header__menu a", ".nav-list a", ".header-nav a", "nav a", ".navbar a", "#nav a", ".menu a", "ul.nav a", ".type-list a", ".header-menu a", "div.stui-header__menu a", "div.header a"],
+  "videoList": [
+    { "sel": "div.stui-vodlist__box a", "name": "stui" },
+    { "sel": "div.module-items div.module-item a", "name": "module" },
+    { "sel": "ul.myui-vodlist li a", "name": "myui" },
+    { "sel": "div.vodlist a", "name": "vodlist" },
+    { "sel": "div.hy-video-list a", "name": "haiyang" },
+    { "sel": "div.list-a a", "name": "list-a" },
+    { "sel": "ul.playlist a", "name": "playlist" },
+    { "sel": "div.video-list a", "name": "video-list" },
+    { "sel": "div.items a", "name": "items" },
+    { "sel": "div.content a[href*='detail'],div.content a[href*='vod'],div.content a[href*='movie']", "name": "content-detail" }
+  ],
+  "playSource": [
+    { "sel": "div.stui-vodlist__head h3", "name": "stui-head" },
+    { "sel": "div.module-tab-item", "name": "module-tab" },
+    { "sel": "div.myui-panel__head h3", "name": "myui-head" },
+    { "sel": "ul.nav-tabs li", "name": "nav-tabs" },
+    { "sel": "div.tabbar span", "name": "tabbar" },
+    { "sel": "div.playlist-tab a", "name": "playlist-tab" },
+    { "sel": "h3.title", "name": "title-h3" }
+  ],
+  "episodeList": [
+    { "sel": "div.stui-content__playlist ul li a", "name": "stui-ep" },
+    { "sel": "div.module-blocklist div a", "name": "module-ep" },
+    { "sel": "ul.myui-content__list li a", "name": "myui-ep" },
+    { "sel": "div.playlist a", "name": "playlist-ep" },
+    { "sel": "ul.sort-list a", "name": "sort-list" },
+    { "sel": "div.scroll-content a", "name": "scroll-ep" }
+  ],
+  "playArea": ["div.stui-player", "div.module-player", "div.myui-player", "div.player", "div#player", "iframe"],
+  "fetchVideoList": ["div.stui-vodlist__box", "div.module-items", "ul.myui-vodlist", "div.vodlist", "div.hy-video-list", "div.list-a", "div.video-list"],
+  "fetchPlayArea": ["div.stui-player", "div.module-player", "div.myui-player", "div.player", "div#player", "iframe"]
+}

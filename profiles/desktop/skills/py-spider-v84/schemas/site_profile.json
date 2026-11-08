@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "site_profile.schema.json",
+  "title": "Spider Site Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["site", "mode", "routes", "selectors", "api", "player", "pagination", "samples"],
+  "properties": {
+    "site": {"type": "object", "additionalProperties": false, "required": ["host", "reachable", "encoding", "redirect", "anti_bot"], "properties": {"host": {"type": "string", "format": "uri", "pattern": "^https?://"}, "reachable": {"type": "boolean"}, "encoding": {"type": "string", "minLength": 1}, "redirect": {"type": "string"}, "anti_bot": {"type": "boolean"}}},
+    "mode": {"type": "object", "additionalProperties": false, "required": ["runtime", "content_type", "cms", "confidence"], "properties": {"runtime": {"enum": ["t4", "client"]}, "content_type": {"enum": ["video", "novel", "manga", "image", "music", "live", "short", "mixed"]}, "cms": {"type": "string"}, "confidence": {"enum": ["low", "medium", "high"]}}},
+    "routes": {"type": "object", "additionalProperties": false, "required": ["home", "category", "detail", "search", "play"], "properties": {"home": {"type": "string"}, "category": {"type": "string"}, "detail": {"type": "string"}, "search": {"type": "string"}, "play": {"type": "string"}}},
+    "selectors": {"type": "object", "additionalProperties": false, "required": ["nav", "list", "title", "pic", "detail", "sources", "episodes"], "properties": {"nav": {"type": "array", "items": {"type": "string"}}, "list": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "title": {"type": "array", "items": {"type": "string"}}, "pic": {"type": "array", "items": {"type": "string"}}, "detail": {"type": "object"}, "sources": {"type": "array", "items": {"type": "string"}}, "episodes": {"type": "array", "items": {"type": "string"}}}},
+    "api": {"type": "object", "additionalProperties": false, "required": ["enabled", "endpoints", "method", "token", "encrypted"], "properties": {"enabled": {"type": "boolean"}, "endpoints": {"type": "object"}, "method": {"enum": ["GET", "POST", "MIXED"]}, "token": {"type": "boolean"}, "encrypted": {"type": "boolean"}}},
+    "player": {"type": "object", "additionalProperties": false, "required": ["type", "patterns", "iframe", "headers", "proxy"], "properties": {"type": {"enum": ["direct", "page", "iframe", "api", "mixed"]}, "patterns": {"type": "array", "items": {"type": "string"}}, "iframe": {"type": "boolean"}, "headers": {"type": "object", "additionalProperties": {"type": "string"}}, "proxy": {"type": "boolean"}}},
+    "pagination": {"type": "object", "additionalProperties": false, "required": ["enabled", "page_param", "count_selector", "fallback"], "properties": {"enabled": {"type": "boolean"}, "page_param": {"type": "string"}, "count_selector": {"type": "string"}, "fallback": {"type": "integer", "minimum": 1}}},
+    "samples": {"type": "object", "additionalProperties": false, "required": ["list_count", "detail_id", "source_count", "episode_count"], "properties": {"list_count": {"type": "integer", "minimum": 0}, "detail_id": {"type": "string"}, "source_count": {"type": "integer", "minimum": 0}, "episode_count": {"type": "integer", "minimum": 0}}}
+  }
+}

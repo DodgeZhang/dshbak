@@ -1,0 +1,31 @@
+{
+    "作者": "abcdefghijklmnopqrstuvwxyz0123456789[工具:随机字符-5]",
+    "站名": "小男娘自动挡",
+    "请求头":"User-Agent@Mozilla/5.0 (Linux；； Android 16；； 2510DRK44C Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.192 Mobile Safari/537.36",
+    "境外永久": "https://nanniang10.com/,https://nanniang6.com/",
+    "发布页": "https://nanniang10.com/",
+    "key截取": "{{发布页}}[工具:源码#key:*\"截取\"]",
+    "key": "{{key截取}}[工具:SHA]",
+    "iv": "{{key}}[工具:1截取16]",
+    "后缀": "{{发布页}}[工具:源码#data:*\"截取\"#解aes-{{key}}-{{iv}}-AES/CBC/PKCS7Padding#\"zz_line\":\"截取\"]",//\"zz_backup_line\":\"截取\"备用自动，勿动
+    "域名-c": "https://{{作者}}.{{后缀}}/",
+	"数组": "<div class=\"xqbj-list-rows-image\">&&<div class=\"xqbj-list-rows-bottom-tags-text is-mobile\">||往期--<div class=\"da&&</li>[不包含:follow]||📌首页--<div class=\"xqbj-list-rows-bottom\">&&<svg class=\"xqbj-icon-view icon-small\">||📌标签--<div class=\"tags-group\">&&<nav role=\"navigation\"分割(前:<a hr)||📌原创主--<div class=\"content\"&&<div class=\"bottom||📌up主收藏榜,📌up主--<div class=\"rank-card-content-avatar&&<div class=\"bottom",
+	"标题": "title=\"&&\"||往期--<h3>&&</h3>||📌首页--title=\"&&\"||📌标签--<h3>&&</h3>||📌原创主,📌up主,📌up主收藏榜--<h2>&&</h2>",
+	"副标题": "<div class=\"xqbj-list-rows-bottom-tags-text is-desktop\">&&</div>||往期--te\">&&</div>||📌首页--alt=\"&&\"||📌标签--📺+(&&)||📌原创主,📌up主,📌up主收藏榜--👨🏻‍🦰+<div class=\"item\"><span>&&</span>粉丝+❤️+粉丝</div>**<div class=\"item\"><span>&&</span>获赞",
+	"简介": "<meta name=\"description\"*content=\"&&\"",
+	//"图片": "{{前缀}}+z-image-loader-url=\"`&&`\"[工具:源码转b64#解密aes-f5d965df75336270-97b60394abc2fbe1-AES/CBC/PKCS7Padding]",
+    "前缀": "data:image/jpeg;base64,",
+	"链接": "<a href=\"&&\"||📌首页,📌原创主--<a href=\"&&\"+page/{catePg}/||📌标签--ef=\"&&\"+{catePg}/||📌up主收藏榜,📌up主--{{域名-c}}author/+data-id=\"&&\"+/new/page/{catePg}/",
+    "跳转播放链接": "<div class=\"dplayer\"**\"video\":{\"url\":\"&&\"",
+	"嗅探词": ".m3u8",
+	"直接播放": "1",
+	"搜索模式": "1",
+    "二级目录": "📌首页,📌原创主,📌up主,📌up主收藏榜,📌标签|folder-0-0-H",
+    "二级ID": "",
+    "特殊分类链接": "伪娘自拍,剧情演绎,原创招募,早泄训练,伪娘AV,雌堕系列,欧美伪娘,伪娘户外$https://hcsn4.etozomfen.cc/{cateId}/{catePg}/#📌首页${{域名-c}}page/{catePg}/#📌原创主${{域名-c}}authors_blogger/original/#📌up主${{域名-c}}authors_blogger/creator/page/{catePg}/#📌up主收藏榜${{域名-c}}authors_up/favorite-all/{catePg}/#📌标签${{域名-c}}tags/page/{catePg}/#往期${{域名-c}}date/page/{catePg}/",
+	"搜索url": "{{域名-c}}search_contents/{wd}/{pg}/",
+    "分类url": "{{域名-c}}{cateId}/page/{catePg}/",
+    "分类": "📌首页#男娘热门$order/hot#今日更新$order/today#伪娘自拍$category/wnzp#剧情演绎$category/jqyy#原创招募$category/yczm#早泄训练$category/jxxl#伪娘AV$category/wnav#雌堕系列$category/cdxl#欧美伪娘$category/omwn#伪娘户外$category/wnhw#📌原创主#📌up主#📌up主收藏榜#📌标签#往期"
+}
+
+
