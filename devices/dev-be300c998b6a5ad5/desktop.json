@@ -372,7 +372,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-streamfold",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-streamfold",
       "installSpec": "dsh-streamfold@0.7.14",
       "name": "dsh-streamfold",
@@ -382,7 +382,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-streamfold",
           "moduleName": "dsh-streamfold",
           "rowId": "dsh-streamfold"
         }
@@ -447,7 +448,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -457,7 +458,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:widgets",
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
@@ -623,7 +625,7 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "enabled": false,
+      "enabled": true,
       "id": "local:@yolk_vat-y/dsh-project-memory",
       "installSpec": null,
       "name": "@yolk_vat-y/dsh-project-memory",
@@ -633,7 +635,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:project-memory",
           "moduleName": "@yolk_vat-y/dsh-project-memory",
           "rowId": "project-memory"
         }
@@ -645,5 +648,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:43:16.447Z"
+  "updatedAt": "2026-11-08T09:46:17.288Z"
 }
