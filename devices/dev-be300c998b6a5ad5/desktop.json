@@ -233,6 +233,30 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Our Free Model",
+      "enabled": true,
+      "id": "dsh-our-free-model",
+      "installSpec": "git+https://github.com/Ebony-Vinyl/dsh-our-free-model.git#999e9f784ea3ea7a11cae383b142697b1ff2c42f",
+      "name": "dsh-our-free-model",
+      "origin": "git",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "moduleName": "dsh-our-free-model",
+          "rowId": "our-free-model"
+        }
+      ],
+      "source": "git+https://github.com/Ebony-Vinyl/dsh-our-free-model.git#999e9f784ea3ea7a11cae383b142697b1ff2c42f",
+      "syncable": true,
+      "version": "2.8.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
@@ -610,5 +634,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:26:59.775Z"
+  "updatedAt": "2026-11-08T17:32:28.924Z"
 }
