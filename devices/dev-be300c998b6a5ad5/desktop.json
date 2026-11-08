@@ -36,7 +36,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-connect-trae",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-trae",
       "installSpec": "dsh-connect-trae@4.14.2",
       "name": "dsh-connect-trae",
@@ -46,8 +46,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-trae",
+          "enabled": false,
           "moduleName": "dsh-connect-trae",
           "rowId": "dsh-connect-trae"
         }
@@ -60,7 +59,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-connect-workbuddy",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.20.2",
       "name": "dsh-connect-workbuddy",
@@ -70,8 +69,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-workbuddy",
+          "enabled": false,
           "moduleName": "dsh-connect-workbuddy",
           "rowId": "dsh-connect-workbuddy"
         }
@@ -84,7 +82,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-conversation-recycle-bin",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-conversation-recycle-bin",
       "installSpec": "dsh-conversation-recycle-bin@0.3.19",
       "name": "dsh-conversation-recycle-bin",
@@ -94,8 +92,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:conversation-recycle-bin",
+          "enabled": false,
           "moduleName": "dsh-conversation-recycle-bin",
           "rowId": "conversation-recycle-bin"
         }
@@ -108,7 +105,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Git Panel",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-git-plus",
       "installSpec": "dsh-git-plus@0.1.59",
       "name": "dsh-git-plus",
@@ -118,8 +115,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:git-plus",
+          "enabled": false,
           "moduleName": "dsh-git-plus",
           "rowId": "git-plus"
         }
@@ -132,7 +128,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-jot",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-jot",
       "installSpec": "dsh-jot@0.2.14",
       "name": "dsh-jot",
@@ -142,8 +138,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-jot",
+          "enabled": false,
           "moduleName": "dsh-jot",
           "rowId": "dsh-jot"
         }
@@ -156,7 +151,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "MCP & Skill Manager",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-mcp-skill-manage",
       "installSpec": "dsh-mcp-skill-manage@0.5.5",
       "name": "dsh-mcp-skill-manage",
@@ -166,8 +161,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:mcp-skill-manager",
+          "enabled": false,
           "moduleName": "dsh-mcp-skill-manage",
           "rowId": "mcp-skill-manager"
         }
@@ -180,7 +174,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-mnemon",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-mnemon",
       "installSpec": "dsh-mnemon@0.5.42",
       "name": "dsh-mnemon",
@@ -190,62 +184,52 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:mnemon",
+          "enabled": false,
           "moduleName": "dsh-mnemon",
           "rowId": "mnemon"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-runtime",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-runtime",
           "rowId": "mnemon-source-runtime"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-documents",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-documents",
           "rowId": "mnemon-source-documents"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-memory-spaces",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-memory-spaces",
           "rowId": "mnemon-source-memory-spaces"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-skills",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-skills",
           "rowId": "mnemon-source-skills"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-default-three-tier",
+          "enabled": false,
           "moduleName": "dsh-mnemon-strategy-default-three-tier",
           "rowId": "mnemon-strategy-default-three-tier"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-general",
+          "enabled": false,
           "moduleName": "dsh-mnemon-strategy-general",
           "rowId": "mnemon-strategy-general"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-auto-capture",
+          "enabled": false,
           "moduleName": "dsh-mnemon-strategy-auto-capture",
           "rowId": "mnemon-strategy-auto-capture"
         },
         {
           "enabled": false,
-          "entryId": "include:mnemon-strategy-light-context",
           "moduleName": "dsh-mnemon-strategy-light-context",
           "rowId": "mnemon-strategy-light-context"
         },
         {
           "enabled": false,
-          "entryId": "include:mnemon-strategy-scoped",
           "moduleName": "dsh-mnemon-strategy-scoped",
           "rowId": "mnemon-strategy-scoped"
         }
@@ -282,7 +266,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-purge",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-purge",
       "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
       "name": "dsh-purge",
@@ -292,26 +276,22 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge",
+          "enabled": false,
           "moduleName": "dsh-purge",
           "rowId": "dsh-purge"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-store",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/store",
           "rowId": "dsh-purge-redteam-store"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-ui",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/ui",
           "rowId": "dsh-purge-redteam-ui"
         }
@@ -325,7 +305,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-recall-plugin",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-recall-plugin",
       "installSpec": "dsh-recall-plugin@2.6.5",
       "name": "dsh-recall-plugin",
@@ -335,8 +315,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:recall",
+          "enabled": false,
           "moduleName": "dsh-recall-plugin",
           "rowId": "recall"
         }
@@ -349,7 +328,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-session-sync",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-session-sync",
       "installSpec": "dsh-session-sync@0.2.32",
       "name": "dsh-session-sync",
@@ -359,8 +338,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:session-sync",
+          "enabled": false,
           "moduleName": "dsh-session-sync",
           "rowId": "session-sync"
         }
@@ -373,7 +351,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-streamfold",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-streamfold",
       "installSpec": "dsh-streamfold@0.7.14",
       "name": "dsh-streamfold",
@@ -383,8 +361,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-streamfold",
+          "enabled": false,
           "moduleName": "dsh-streamfold",
           "rowId": "dsh-streamfold"
         }
@@ -397,7 +374,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-vision-router",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-vision-router",
       "installSpec": "dsh-vision-router@3.0.3",
       "name": "dsh-vision-router",
@@ -407,8 +384,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:vision-router",
+          "enabled": false,
           "moduleName": "dsh-vision-router",
           "rowId": "vision-router"
         }
@@ -450,7 +426,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -460,8 +436,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
@@ -474,7 +449,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@agentscope-ai/reme-dsh-plugin",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@agentscope-ai/reme-dsh-plugin",
       "installSpec": null,
       "name": "@agentscope-ai/reme-dsh-plugin",
@@ -484,8 +459,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:reme-memory",
+          "enabled": false,
           "moduleName": "@agentscope-ai/reme-dsh-plugin",
           "rowId": "reme-memory"
         }
@@ -499,7 +473,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@dmh2002/dsh-connect-qoder",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@dmh2002/dsh-connect-qoder",
       "installSpec": null,
       "name": "@dmh2002/dsh-connect-qoder",
@@ -509,8 +483,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-qoder",
+          "enabled": false,
           "moduleName": "@dmh2002/dsh-connect-qoder",
           "rowId": "dsh-connect-qoder"
         }
@@ -524,7 +497,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Task Center",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@ds-hu/dsh-auto-task-center",
       "installSpec": null,
       "name": "@ds-hu/dsh-auto-task-center",
@@ -534,14 +507,13 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-auto-task-center",
+          "enabled": false,
           "moduleName": "@ds-hu/dsh-auto-task-center",
           "rowId": "dsh-auto-task-center"
         },
         {
           "enabled": true,
-          "entryId": "include:preset-task-center",
+          "entryId": "include:preset-standard",
           "moduleName": "@deepseek-ai/dsh-agent-preset",
           "rowId": "preset-task-center"
         }
@@ -555,7 +527,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Prompt Enhancer",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@jianyiagi/dsh-prompt-enhancer",
       "installSpec": null,
       "name": "@jianyiagi/dsh-prompt-enhancer",
@@ -565,8 +537,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:prompt-enhancer",
+          "enabled": false,
           "moduleName": "@jianyiagi/dsh-prompt-enhancer",
           "rowId": "prompt-enhancer"
         }
@@ -580,7 +551,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@liustack/modsearch",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@liustack/modsearch",
       "installSpec": null,
       "name": "@liustack/modsearch",
@@ -590,8 +561,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:modsearch",
+          "enabled": false,
           "moduleName": "@liustack/modsearch",
           "rowId": "modsearch"
         }
@@ -605,7 +575,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@taxueseek/argo-dsh",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@taxueseek/argo-dsh",
       "installSpec": null,
       "name": "@taxueseek/argo-dsh",
@@ -615,8 +585,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:wide-research",
+          "enabled": false,
           "moduleName": "@taxueseek/argo-dsh",
           "rowId": "wide-research"
         }
@@ -629,7 +598,7 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "enabled": true,
+      "enabled": false,
       "id": "local:@yolk_vat-y/dsh-project-memory",
       "installSpec": null,
       "name": "@yolk_vat-y/dsh-project-memory",
@@ -639,8 +608,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:project-memory",
+          "enabled": false,
           "moduleName": "@yolk_vat-y/dsh-project-memory",
           "rowId": "project-memory"
         }
@@ -652,5 +620,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:32:05.537Z"
+  "updatedAt": "2026-11-08T09:41:52.202Z"
 }

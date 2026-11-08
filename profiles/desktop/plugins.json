@@ -26,7 +26,7 @@
     "dsh-connect-trae": {
       "builtIn": false,
       "displayName": "dsh-connect-trae",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-trae",
       "installSpec": "dsh-connect-trae@4.14.2",
       "name": "dsh-connect-trae",
@@ -34,21 +34,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-trae",
+          "enabled": false,
           "moduleName": "dsh-connect-trae",
           "rowId": "dsh-connect-trae"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "4.14.2"
     },
     "dsh-connect-workbuddy": {
       "builtIn": false,
       "displayName": "dsh-connect-workbuddy",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.20.2",
       "name": "dsh-connect-workbuddy",
@@ -56,21 +55,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-workbuddy",
+          "enabled": false,
           "moduleName": "dsh-connect-workbuddy",
           "rowId": "dsh-connect-workbuddy"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "5.20.2"
     },
     "dsh-conversation-recycle-bin": {
       "builtIn": false,
       "displayName": "dsh-conversation-recycle-bin",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-conversation-recycle-bin",
       "installSpec": "dsh-conversation-recycle-bin@0.3.19",
       "name": "dsh-conversation-recycle-bin",
@@ -78,21 +76,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:conversation-recycle-bin",
+          "enabled": false,
           "moduleName": "dsh-conversation-recycle-bin",
           "rowId": "conversation-recycle-bin"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.3.19"
     },
     "dsh-git-plus": {
       "builtIn": false,
       "displayName": "Git Panel",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-git-plus",
       "installSpec": "dsh-git-plus@0.1.59",
       "name": "dsh-git-plus",
@@ -100,21 +97,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:git-plus",
+          "enabled": false,
           "moduleName": "dsh-git-plus",
           "rowId": "git-plus"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.1.59"
     },
     "dsh-jot": {
       "builtIn": false,
       "displayName": "dsh-jot",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-jot",
       "installSpec": "dsh-jot@0.2.14",
       "name": "dsh-jot",
@@ -122,21 +118,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-jot",
+          "enabled": false,
           "moduleName": "dsh-jot",
           "rowId": "dsh-jot"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.2.14"
     },
     "dsh-mcp-skill-manage": {
       "builtIn": false,
       "displayName": "MCP & Skill Manager",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-mcp-skill-manage",
       "installSpec": "dsh-mcp-skill-manage@0.5.5",
       "name": "dsh-mcp-skill-manage",
@@ -144,21 +139,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:mcp-skill-manager",
+          "enabled": false,
           "moduleName": "dsh-mcp-skill-manage",
           "rowId": "mcp-skill-manager"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.5.5"
     },
     "dsh-mnemon": {
       "builtIn": false,
       "displayName": "dsh-mnemon",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-mnemon",
       "installSpec": "dsh-mnemon@0.5.42",
       "name": "dsh-mnemon",
@@ -166,75 +160,65 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:mnemon",
+          "enabled": false,
           "moduleName": "dsh-mnemon",
           "rowId": "mnemon"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-runtime",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-runtime",
           "rowId": "mnemon-source-runtime"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-documents",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-documents",
           "rowId": "mnemon-source-documents"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-memory-spaces",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-memory-spaces",
           "rowId": "mnemon-source-memory-spaces"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-source-skills",
+          "enabled": false,
           "moduleName": "dsh-mnemon-source-skills",
           "rowId": "mnemon-source-skills"
         },
         {
-          "enabled": true,
-          "entryId": "include:mnemon-strategy-default-three-tier",
+          "enabled": false,
           "moduleName": "dsh-mnemon-strategy-default-three-tier",
           "rowId": "mnemon-strategy-default-three-tier"
         },
         {
           "enabled": false,
-          "entryId": "include:mnemon-strategy-general",
           "moduleName": "dsh-mnemon-strategy-general",
           "rowId": "mnemon-strategy-general"
         },
         {
           "enabled": false,
-          "entryId": "include:mnemon-strategy-auto-capture",
           "moduleName": "dsh-mnemon-strategy-auto-capture",
           "rowId": "mnemon-strategy-auto-capture"
         },
         {
           "enabled": false,
-          "entryId": "include:mnemon-strategy-light-context",
           "moduleName": "dsh-mnemon-strategy-light-context",
           "rowId": "mnemon-strategy-light-context"
         },
         {
           "enabled": false,
-          "entryId": "include:mnemon-strategy-scoped",
           "moduleName": "dsh-mnemon-strategy-scoped",
           "rowId": "mnemon-strategy-scoped"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:11:41.394Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.5.42"
     },
     "dsh-purge": {
       "builtIn": false,
       "displayName": "dsh-purge",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-purge",
       "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
       "name": "dsh-purge",
@@ -242,40 +226,36 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge",
+          "enabled": false,
           "moduleName": "dsh-purge",
           "rowId": "dsh-purge"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-store",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/store",
           "rowId": "dsh-purge-redteam-store"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-ui",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/ui",
           "rowId": "dsh-purge-redteam-ui"
         }
       ],
       "source": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "2.0.4"
     },
     "dsh-recall-plugin": {
       "builtIn": false,
       "displayName": "dsh-recall-plugin",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-recall-plugin",
       "installSpec": "dsh-recall-plugin@2.6.5",
       "name": "dsh-recall-plugin",
@@ -283,21 +263,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:recall",
+          "enabled": false,
           "moduleName": "dsh-recall-plugin",
           "rowId": "recall"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "2.6.5"
     },
     "dsh-session-sync": {
       "builtIn": false,
       "displayName": "dsh-session-sync",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-session-sync",
       "installSpec": "dsh-session-sync@0.2.32",
       "name": "dsh-session-sync",
@@ -305,21 +284,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:session-sync",
+          "enabled": false,
           "moduleName": "dsh-session-sync",
           "rowId": "session-sync"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.2.32"
     },
     "dsh-streamfold": {
       "builtIn": false,
       "displayName": "dsh-streamfold",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-streamfold",
       "installSpec": "dsh-streamfold@0.7.14",
       "name": "dsh-streamfold",
@@ -327,21 +305,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-streamfold",
+          "enabled": false,
           "moduleName": "dsh-streamfold",
           "rowId": "dsh-streamfold"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.7.14"
     },
     "dsh-vision-router": {
       "builtIn": false,
       "displayName": "dsh-vision-router",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-vision-router",
       "installSpec": "dsh-vision-router@3.0.3",
       "name": "dsh-vision-router",
@@ -349,14 +326,13 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:vision-router",
+          "enabled": false,
           "moduleName": "dsh-vision-router",
           "rowId": "vision-router"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:32:05.537Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "3.0.3"
     },
@@ -390,7 +366,7 @@
     "dsh-widgets": {
       "builtIn": false,
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -398,19 +374,18 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-07T17:22:10.341Z",
+      "updatedAt": "2026-11-08T09:41:52.202Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "1.8.5"
     }
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:32:05.537Z"
+  "updatedAt": "2026-11-08T09:41:52.202Z"
 }
