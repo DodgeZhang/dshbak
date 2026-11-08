@@ -226,13 +226,13 @@
           "rowId": "mnemon-strategy-default-three-tier"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-general",
           "moduleName": "dsh-mnemon-strategy-general",
           "rowId": "mnemon-strategy-general"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-auto-capture",
           "moduleName": "dsh-mnemon-strategy-auto-capture",
           "rowId": "mnemon-strategy-auto-capture"
@@ -244,7 +244,7 @@
           "rowId": "mnemon-strategy-light-context"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-scoped",
           "moduleName": "dsh-mnemon-strategy-scoped",
           "rowId": "mnemon-strategy-scoped"
@@ -348,29 +348,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "dsh-session-sync",
-      "enabled": false,
-      "id": "dsh-session-sync",
-      "installSpec": "dsh-session-sync@0.2.32",
-      "name": "dsh-session-sync",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-session-sync",
-          "rowId": "session-sync"
-        }
-      ],
-      "syncable": true,
-      "version": "0.2.32"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "dsh-streamfold",
       "enabled": true,
       "id": "dsh-streamfold",
@@ -396,9 +373,9 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-vision-router",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-vision-router",
-      "installSpec": "dsh-vision-router@3.0.3",
+      "installSpec": "dsh-vision-router@3.1.4",
       "name": "dsh-vision-router",
       "origin": "npm",
       "pathOnly": false,
@@ -406,13 +383,20 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:vision-router-web-connection-ready",
+          "moduleName": "dsh-vision-router",
+          "rowId": "vision-router-web-connection-ready"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:vision-router",
           "moduleName": "dsh-vision-router",
           "rowId": "vision-router"
         }
       ],
       "syncable": true,
-      "version": "3.0.3"
+      "version": "3.1.4"
     },
     {
       "builtIn": false,
@@ -472,7 +456,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@agentscope-ai/reme-dsh-plugin",
-      "enabled": false,
+      "enabled": true,
       "id": "local:@agentscope-ai/reme-dsh-plugin",
       "installSpec": null,
       "name": "@agentscope-ai/reme-dsh-plugin",
@@ -482,7 +466,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:reme-memory",
           "moduleName": "@agentscope-ai/reme-dsh-plugin",
           "rowId": "reme-memory"
         }
@@ -577,7 +562,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@liustack/modsearch",
-      "enabled": false,
+      "enabled": true,
       "id": "local:@liustack/modsearch",
       "installSpec": null,
       "name": "@liustack/modsearch",
@@ -587,7 +572,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:modsearch",
           "moduleName": "@liustack/modsearch",
           "rowId": "modsearch"
         }
@@ -648,5 +634,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:46:17.288Z"
+  "updatedAt": "2026-11-08T09:51:16.278Z"
 }

@@ -296,10 +296,11 @@
     },
     "dsh-session-sync": {
       "builtIn": false,
+      "deleted": true,
       "displayName": "dsh-session-sync",
       "enabled": false,
       "id": "dsh-session-sync",
-      "installSpec": "dsh-session-sync@0.2.32",
+      "installSpec": null,
       "name": "dsh-session-sync",
       "origin": "npm",
       "pathOnly": false,
@@ -311,7 +312,7 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:41:52.202Z",
+      "updatedAt": "2026-11-08T09:51:16.278Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.2.32"
     },
@@ -340,23 +341,30 @@
     "dsh-vision-router": {
       "builtIn": false,
       "displayName": "dsh-vision-router",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-vision-router",
-      "installSpec": "dsh-vision-router@3.0.3",
+      "installSpec": "dsh-vision-router@3.1.4",
       "name": "dsh-vision-router",
       "origin": "npm",
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:vision-router-web-connection-ready",
+          "moduleName": "dsh-vision-router",
+          "rowId": "vision-router-web-connection-ready"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:vision-router",
           "moduleName": "dsh-vision-router",
           "rowId": "vision-router"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:41:52.202Z",
+      "updatedAt": "2026-11-08T09:51:16.278Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "3.0.3"
+      "version": "3.1.4"
     },
     "dsh-webcode-bridge": {
       "builtIn": false,
@@ -410,5 +418,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:46:17.288Z"
+  "updatedAt": "2026-11-08T09:51:16.278Z"
 }

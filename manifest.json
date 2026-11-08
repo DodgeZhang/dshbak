@@ -5,11 +5,11 @@
     "version": "0.2.11"
   },
   "createdAt": "2026-11-07T17:22:10.341Z",
-  "updatedAt": "2026-11-08T09:46:17.288Z",
+  "updatedAt": "2026-11-08T09:51:16.278Z",
   "profiles": {
     "desktop": {
-      "pluginCount": 14,
-      "updatedAt": "2026-11-08T09:46:17.288Z"
+      "pluginCount": 13,
+      "updatedAt": "2026-11-08T09:51:16.278Z"
     }
   },
   "devices": [
