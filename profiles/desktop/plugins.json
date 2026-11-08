@@ -155,6 +155,82 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.5.5"
     },
+    "dsh-mnemon": {
+      "builtIn": false,
+      "displayName": "dsh-mnemon",
+      "enabled": true,
+      "id": "dsh-mnemon",
+      "installSpec": "dsh-mnemon@0.5.42",
+      "name": "dsh-mnemon",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:mnemon",
+          "moduleName": "dsh-mnemon",
+          "rowId": "mnemon"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-runtime",
+          "moduleName": "dsh-mnemon-source-runtime",
+          "rowId": "mnemon-source-runtime"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-documents",
+          "moduleName": "dsh-mnemon-source-documents",
+          "rowId": "mnemon-source-documents"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-memory-spaces",
+          "moduleName": "dsh-mnemon-source-memory-spaces",
+          "rowId": "mnemon-source-memory-spaces"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-skills",
+          "moduleName": "dsh-mnemon-source-skills",
+          "rowId": "mnemon-source-skills"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-strategy-default-three-tier",
+          "moduleName": "dsh-mnemon-strategy-default-three-tier",
+          "rowId": "mnemon-strategy-default-three-tier"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-general",
+          "moduleName": "dsh-mnemon-strategy-general",
+          "rowId": "mnemon-strategy-general"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-auto-capture",
+          "moduleName": "dsh-mnemon-strategy-auto-capture",
+          "rowId": "mnemon-strategy-auto-capture"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-light-context",
+          "moduleName": "dsh-mnemon-strategy-light-context",
+          "rowId": "mnemon-strategy-light-context"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-scoped",
+          "moduleName": "dsh-mnemon-strategy-scoped",
+          "rowId": "mnemon-strategy-scoped"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-08T09:11:41.394Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.5.42"
+    },
     "dsh-purge": {
       "builtIn": false,
       "displayName": "dsh-purge",
@@ -314,5 +390,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:44:40.525Z"
+  "updatedAt": "2026-11-08T09:11:41.394Z"
 }
