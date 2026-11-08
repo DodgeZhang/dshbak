@@ -456,31 +456,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "@agentscope-ai/reme-dsh-plugin",
-      "enabled": true,
-      "id": "local:@agentscope-ai/reme-dsh-plugin",
-      "installSpec": null,
-      "name": "@agentscope-ai/reme-dsh-plugin",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:reme-memory",
-          "moduleName": "@agentscope-ai/reme-dsh-plugin",
-          "rowId": "reme-memory"
-        }
-      ],
-      "source": "@agentscope-ai/reme-dsh-plugin@0.1.3",
-      "syncable": false,
-      "version": "0.1.3"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "@dmh2002/dsh-connect-qoder",
       "enabled": true,
       "id": "local:@dmh2002/dsh-connect-qoder",
@@ -635,5 +610,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:04:36.687Z"
+  "updatedAt": "2026-11-08T17:17:04.756Z"
 }
