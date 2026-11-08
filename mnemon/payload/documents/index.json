@@ -1,4 +1,24 @@
 {
   "version": 1,
-  "documents": []
+  "documents": [
+    {
+      "id": "4feaaa83-bc86-4afb-a72f-2d58fbc55527",
+      "title": "工作资料与检索约定（用户背景）",
+      "description": "用户职业背景、工作资料根目录、Obsidian 笔记库位置，以及「先查笔记库、无果再查根目录」的检索顺序；查找工作资料或回忆用户背景时召回。",
+      "status": "active",
+      "filename": "document-4feaaa83.md",
+      "relativePath": "documents/active/document-4feaaa83.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "session-167bbbcc-e985-4a36-9968-c85784e820e1"
+      ],
+      "createdAt": "2026-11-08T16:39:51.059Z",
+      "updatedAt": "2026-11-08T16:39:51.059Z",
+      "lastAccessedAt": "2026-11-08T16:39:51.059Z",
+      "revision": 1,
+      "contentHash": "da9d7c3eba78863e8a4679fb85d718f4f5ab1096ae93de3b51e7fc62fa5e62ea",
+      "sizeBytes": 1214,
+      "memoryBodyIds": []
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-08T09:19:29.917Z",
+  "exportedAt": "2026-11-08T16:47:08.067Z",
   "source": {
     "plugin": "dsh-mnemon",
     "pluginVersion": "0.5.42"
@@ -16,14 +16,14 @@
     {
       "component": "runtime",
       "files": 3,
-      "bytes": 36,
-      "items": 0
+      "bytes": 2194,
+      "items": 3
     },
     {
       "component": "documents",
-      "files": 1,
-      "bytes": 38,
-      "items": 0
+      "files": 2,
+      "bytes": 2149,
+      "items": 1
     },
     {
       "component": "memory-spaces",
@@ -36,7 +36,7 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-08T09:19:29.917Z",
+    "pushedAt": "2026-11-08T16:47:08.067Z",
     "machine": {
       "id": "12c839e1-a6cd-4a0b-be74-ca757aaa58b6",
       "label": "Dodge",
