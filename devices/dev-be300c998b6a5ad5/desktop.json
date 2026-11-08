@@ -132,7 +132,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-jot",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-jot",
       "installSpec": "dsh-jot@0.2.14",
       "name": "dsh-jot",
@@ -142,8 +142,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-jot",
+          "enabled": false,
           "moduleName": "dsh-jot",
           "rowId": "dsh-jot"
         }
@@ -497,9 +496,9 @@
           "rowId": "dsh-connect-qoder"
         }
       ],
-      "source": "@dmh2002/dsh-connect-qoder@1.20.1",
+      "source": "@dmh2002/dsh-connect-qoder@1.21.0",
       "syncable": false,
-      "version": "1.20.1"
+      "version": "1.21.0"
     },
     {
       "builtIn": false,
@@ -634,5 +633,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:51:16.278Z"
+  "updatedAt": "2026-11-08T15:45:35.115Z"
 }

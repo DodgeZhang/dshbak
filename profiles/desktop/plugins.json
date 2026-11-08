@@ -114,7 +114,7 @@
     "dsh-jot": {
       "builtIn": false,
       "displayName": "dsh-jot",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-jot",
       "installSpec": "dsh-jot@0.2.14",
       "name": "dsh-jot",
@@ -122,14 +122,13 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-jot",
+          "enabled": false,
           "moduleName": "dsh-jot",
           "rowId": "dsh-jot"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:43:16.447Z",
+      "updatedAt": "2026-11-08T15:45:35.115Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.2.14"
     },
@@ -418,5 +417,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:51:16.278Z"
+  "updatedAt": "2026-11-08T15:45:35.115Z"
 }
