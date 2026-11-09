@@ -5,7 +5,7 @@
     "id": "dev-be300c998b6a5ad5",
     "name": "Dodge",
     "platform": "win32",
-    "pluginVersion": "0.2.11"
+    "pluginVersion": "0.2.12"
   },
   "plugins": [
     {
@@ -236,7 +236,7 @@
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
-      "installSpec": "dsh-plugins-git-sync@0.2.11",
+      "installSpec": "dsh-plugins-git-sync@0.2.12",
       "name": "dsh-plugins-git-sync",
       "origin": "npm",
       "pathOnly": false,
@@ -251,7 +251,7 @@
         }
       ],
       "syncable": false,
-      "version": "0.2.11"
+      "version": "0.2.12"
     },
     {
       "builtIn": false,
@@ -551,5 +551,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:56:02.695Z"
+  "updatedAt": "2026-11-09T15:57:44.125Z"
 }

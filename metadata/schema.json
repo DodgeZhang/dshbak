@@ -19,7 +19,7 @@
   },
   "generator": {
     "name": "dsh-plugins-git-sync",
-    "version": "0.2.11"
+    "version": "0.2.12"
   },
   "notes": [
     "所有路径都相对于备份目录（默认是仓库根目录）/ all paths are relative to the backup directory (the repository root by default)",
