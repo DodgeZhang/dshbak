@@ -234,7 +234,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Our Free Model",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-our-free-model",
       "installSpec": "git+https://github.com/Ebony-Vinyl/dsh-our-free-model.git#999e9f784ea3ea7a11cae383b142697b1ff2c42f",
       "name": "dsh-our-free-model",
@@ -244,8 +244,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:our-free-model",
+          "enabled": false,
           "moduleName": "dsh-our-free-model",
           "rowId": "our-free-model"
         }
@@ -368,34 +367,6 @@
       ],
       "syncable": true,
       "version": "0.7.14"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-vision-router",
-      "enabled": false,
-      "id": "dsh-vision-router",
-      "installSpec": "dsh-vision-router@3.1.4",
-      "name": "dsh-vision-router",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-vision-router",
-          "rowId": "vision-router-web-connection-ready"
-        },
-        {
-          "enabled": false,
-          "moduleName": "dsh-vision-router",
-          "rowId": "vision-router"
-        }
-      ],
-      "syncable": true,
-      "version": "3.1.4"
     },
     {
       "builtIn": false,
@@ -633,5 +604,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:10:21.834Z"
+  "updatedAt": "2026-11-09T15:39:31.656Z"
 }
