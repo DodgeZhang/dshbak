@@ -386,7 +386,7 @@
     "dsh-vision-router": {
       "builtIn": false,
       "displayName": "dsh-vision-router",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-vision-router",
       "installSpec": "dsh-vision-router@3.1.4",
       "name": "dsh-vision-router",
@@ -407,7 +407,7 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:51:16.278Z",
+      "updatedAt": "2026-11-09T15:09:07.078Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "3.1.4"
     },
@@ -463,5 +463,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:11:32.392Z"
+  "updatedAt": "2026-11-09T15:09:07.078Z"
 }
