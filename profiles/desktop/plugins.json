@@ -160,7 +160,7 @@
       "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
-      "installSpec": "dsh-mnemon@0.5.42",
+      "installSpec": "dsh-mnemon@0.5.43",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
@@ -202,13 +202,13 @@
           "rowId": "mnemon-strategy-default-three-tier"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-general",
           "moduleName": "dsh-mnemon-strategy-general",
           "rowId": "mnemon-strategy-general"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-auto-capture",
           "moduleName": "dsh-mnemon-strategy-auto-capture",
           "rowId": "mnemon-strategy-auto-capture"
@@ -220,16 +220,16 @@
           "rowId": "mnemon-strategy-light-context"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-scoped",
           "moduleName": "dsh-mnemon-strategy-scoped",
           "rowId": "mnemon-strategy-scoped"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:43:16.447Z",
+      "updatedAt": "2026-11-09T15:55:28.525Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "0.5.42"
+      "version": "0.5.43"
     },
     "dsh-our-free-model": {
       "builtIn": false,
@@ -465,5 +465,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:50:06.643Z"
+  "updatedAt": "2026-11-09T15:55:28.526Z"
 }

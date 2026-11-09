@@ -158,7 +158,7 @@
       "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
-      "installSpec": "dsh-mnemon@0.5.42",
+      "installSpec": "dsh-mnemon@0.5.43",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
@@ -227,7 +227,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.5.42"
+      "version": "0.5.43"
     },
     {
       "builtIn": false,
@@ -551,5 +551,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:50:06.643Z"
+  "updatedAt": "2026-11-09T15:55:28.526Z"
 }
