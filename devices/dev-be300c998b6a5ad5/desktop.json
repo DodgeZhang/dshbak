@@ -384,14 +384,12 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:vision-router-web-connection-ready",
+          "enabled": false,
           "moduleName": "dsh-vision-router",
           "rowId": "vision-router-web-connection-ready"
         },
         {
-          "enabled": true,
-          "entryId": "include:vision-router",
+          "enabled": false,
           "moduleName": "dsh-vision-router",
           "rowId": "vision-router"
         }
@@ -635,5 +633,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:09:07.078Z"
+  "updatedAt": "2026-11-09T15:10:21.834Z"
 }
