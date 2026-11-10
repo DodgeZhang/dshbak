@@ -548,33 +548,9 @@
       "source": "@xmanrui/dsh-im@5.10.0",
       "syncable": false,
       "version": "5.10.0"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "Todo board",
-      "enabled": true,
-      "id": "local:dsh-todo",
-      "installSpec": null,
-      "name": "dsh-todo",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-todo",
-          "moduleName": "dsh-todo",
-          "rowId": "dsh-todo"
-        }
-      ],
-      "syncable": false,
-      "version": "0.1.0"
     }
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:09:13.055Z"
+  "updatedAt": "2026-11-10T08:35:01.146Z"
 }
