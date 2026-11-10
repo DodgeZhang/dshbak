@@ -233,6 +233,30 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "dsh-plugin-github",
+      "enabled": true,
+      "id": "dsh-plugin-github",
+      "installSpec": "dsh-plugin-github@0.1.2",
+      "name": "dsh-plugin-github",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:github",
+          "moduleName": "dsh-plugin-github",
+          "rowId": "github"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
@@ -424,5 +448,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:39:09.852Z"
+  "updatedAt": "2026-11-10T04:09:35.787Z"
 }

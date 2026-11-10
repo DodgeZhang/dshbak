@@ -253,6 +253,28 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "2.8.0"
     },
+    "dsh-plugin-github": {
+      "builtIn": false,
+      "displayName": "dsh-plugin-github",
+      "enabled": true,
+      "id": "dsh-plugin-github",
+      "installSpec": "dsh-plugin-github@0.1.2",
+      "name": "dsh-plugin-github",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:github",
+          "moduleName": "dsh-plugin-github",
+          "rowId": "github"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-10T04:09:35.787Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "0.1.2"
+    },
     "dsh-plugin-weixin": {
       "builtIn": false,
       "deleted": true,
@@ -487,5 +509,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:39:09.852Z"
+  "updatedAt": "2026-11-10T04:09:35.787Z"
 }
