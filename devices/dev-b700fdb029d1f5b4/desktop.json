@@ -208,7 +208,7 @@
           "rowId": "mnemon-strategy-general"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-auto-capture",
           "moduleName": "dsh-mnemon-strategy-auto-capture",
           "rowId": "mnemon-strategy-auto-capture"
@@ -220,7 +220,7 @@
           "rowId": "mnemon-strategy-light-context"
         },
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:mnemon-strategy-scoped",
           "moduleName": "dsh-mnemon-strategy-scoped",
           "rowId": "mnemon-strategy-scoped"
@@ -399,5 +399,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:51:45.032Z"
+  "updatedAt": "2026-11-10T02:52:51.599Z"
 }
