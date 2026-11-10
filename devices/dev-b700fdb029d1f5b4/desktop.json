@@ -376,6 +376,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "@dmh2002/dsh-connect-qoder",
+      "enabled": true,
+      "id": "local:@dmh2002/dsh-connect-qoder",
+      "installSpec": null,
+      "name": "@dmh2002/dsh-connect-qoder",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-qoder",
+          "moduleName": "@dmh2002/dsh-connect-qoder",
+          "rowId": "dsh-connect-qoder"
+        }
+      ],
+      "source": "@dmh2002/dsh-connect-qoder@1.23.0",
+      "syncable": false,
+      "version": "1.23.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Todo board",
       "enabled": true,
       "id": "local:dsh-todo",
@@ -399,5 +424,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:07:05.232Z"
+  "updatedAt": "2026-11-10T03:08:05.465Z"
 }
