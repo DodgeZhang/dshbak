@@ -530,7 +530,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Todo board",
-      "enabled": true,
+      "enabled": false,
       "id": "local:dsh-todo",
       "installSpec": null,
       "name": "dsh-todo",
@@ -540,8 +540,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-todo",
+          "enabled": false,
           "moduleName": "dsh-todo",
           "rowId": "dsh-todo"
         }
@@ -552,5 +551,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:33:41.411Z"
+  "updatedAt": "2026-11-10T07:58:15.051Z"
 }
