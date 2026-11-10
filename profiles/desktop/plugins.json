@@ -281,6 +281,28 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "2.8.0"
     },
+    "dsh-personalization": {
+      "builtIn": false,
+      "displayName": "dsh-personalization",
+      "enabled": true,
+      "id": "dsh-personalization",
+      "installSpec": "dsh-personalization@1.0.0",
+      "name": "dsh-personalization",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:personalization",
+          "moduleName": "dsh-personalization",
+          "rowId": "personalization"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-10T08:09:13.055Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "1.0.0"
+    },
     "dsh-plugin-github": {
       "builtIn": false,
       "displayName": "dsh-plugin-github",
@@ -559,5 +581,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:58:15.051Z"
+  "updatedAt": "2026-11-10T08:09:13.055Z"
 }

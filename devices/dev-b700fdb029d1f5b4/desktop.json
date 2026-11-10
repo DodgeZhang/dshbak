@@ -263,6 +263,30 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "dsh-personalization",
+      "enabled": true,
+      "id": "dsh-personalization",
+      "installSpec": "dsh-personalization@1.0.0",
+      "name": "dsh-personalization",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:personalization",
+          "moduleName": "dsh-personalization",
+          "rowId": "personalization"
+        }
+      ],
+      "syncable": true,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-plugin-github",
       "enabled": true,
       "id": "dsh-plugin-github",
@@ -530,7 +554,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Todo board",
-      "enabled": false,
+      "enabled": true,
       "id": "local:dsh-todo",
       "installSpec": null,
       "name": "dsh-todo",
@@ -540,7 +564,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-todo",
           "moduleName": "dsh-todo",
           "rowId": "dsh-todo"
         }
@@ -551,5 +576,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:58:15.051Z"
+  "updatedAt": "2026-11-10T08:09:13.055Z"
 }
