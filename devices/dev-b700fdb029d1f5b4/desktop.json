@@ -358,6 +358,30 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Restart Now",
+      "enabled": true,
+      "id": "dsh-restart-now",
+      "installSpec": "dsh-restart-now@1.3.0",
+      "name": "dsh-restart-now",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:restart-now",
+          "moduleName": "dsh-restart-now",
+          "rowId": "restart-now"
+        }
+      ],
+      "syncable": true,
+      "version": "1.3.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-streamfold",
       "enabled": true,
       "id": "dsh-streamfold",
@@ -528,5 +552,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:28:20.315Z"
+  "updatedAt": "2026-11-10T07:24:41.530Z"
 }

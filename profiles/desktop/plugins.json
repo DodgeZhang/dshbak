@@ -389,6 +389,28 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "2.6.5"
     },
+    "dsh-restart-now": {
+      "builtIn": false,
+      "displayName": "Restart Now",
+      "enabled": true,
+      "id": "dsh-restart-now",
+      "installSpec": "dsh-restart-now@1.3.0",
+      "name": "dsh-restart-now",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:restart-now",
+          "moduleName": "dsh-restart-now",
+          "rowId": "restart-now"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-10T07:24:41.530Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "1.3.0"
+    },
     "dsh-session-sync": {
       "builtIn": false,
       "deleted": true,
@@ -537,5 +559,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:28:20.315Z"
+  "updatedAt": "2026-11-10T07:24:41.530Z"
 }
