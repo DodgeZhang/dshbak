@@ -335,6 +335,78 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "dsh-plugin-wallpaper-engine",
+      "enabled": true,
+      "id": "dsh-plugin-wallpaper-engine",
+      "installSpec": "dsh-plugin-wallpaper-engine@1.4.2",
+      "name": "dsh-plugin-wallpaper-engine",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine",
+          "moduleName": "dsh-plugin-wallpaper-engine",
+          "rowId": "wallpaper-engine"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-about-notice",
+          "moduleName": "dsh-plugin-wallpaper-engine-about-notice",
+          "rowId": "wallpaper-engine-about-notice"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-mascot-avatar",
+          "moduleName": "dsh-plugin-wallpaper-engine-mascot-avatar",
+          "rowId": "wallpaper-engine-mascot-avatar"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-media-bridge",
+          "moduleName": "dsh-plugin-wallpaper-engine-media-bridge",
+          "rowId": "wallpaper-engine-media-bridge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-pet-link",
+          "moduleName": "dsh-plugin-wallpaper-engine-pet-link",
+          "rowId": "wallpaper-engine-pet-link"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-fx",
+          "moduleName": "dsh-plugin-wallpaper-engine-fx",
+          "rowId": "wallpaper-engine-fx"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-parallax",
+          "moduleName": "dsh-plugin-wallpaper-engine-parallax",
+          "rowId": "wallpaper-engine-parallax"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-fonts",
+          "moduleName": "dsh-plugin-wallpaper-engine-fonts",
+          "rowId": "wallpaper-engine-fonts"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-glass",
+          "moduleName": "dsh-plugin-wallpaper-engine-glass",
+          "rowId": "wallpaper-engine-glass"
+        }
+      ],
+      "syncable": true,
+      "version": "1.4.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
@@ -590,5 +662,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T19:11:14.287Z"
+  "updatedAt": "2026-11-10T19:22:58.089Z"
 }
