@@ -35,6 +35,204 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "dsh-connect-trae",
+      "enabled": true,
+      "id": "dsh-connect-trae",
+      "installSpec": "dsh-connect-trae@4.14.2",
+      "name": "dsh-connect-trae",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-trae",
+          "moduleName": "dsh-connect-trae",
+          "rowId": "dsh-connect-trae"
+        }
+      ],
+      "syncable": true,
+      "version": "4.14.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
+      "id": "dsh-connect-workbuddy",
+      "installSpec": "dsh-connect-workbuddy@5.20.2",
+      "name": "dsh-connect-workbuddy",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
+      "syncable": true,
+      "version": "5.20.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-conversation-recycle-bin",
+      "enabled": true,
+      "id": "dsh-conversation-recycle-bin",
+      "installSpec": "dsh-conversation-recycle-bin@0.3.19",
+      "name": "dsh-conversation-recycle-bin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:conversation-recycle-bin",
+          "moduleName": "dsh-conversation-recycle-bin",
+          "rowId": "conversation-recycle-bin"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.19"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Git Panel",
+      "enabled": true,
+      "id": "dsh-git-plus",
+      "installSpec": "dsh-git-plus@0.1.59",
+      "name": "dsh-git-plus",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:git-plus",
+          "moduleName": "dsh-git-plus",
+          "rowId": "git-plus"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.59"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "MCP & Skill Manager",
+      "enabled": true,
+      "id": "dsh-mcp-skill-manage",
+      "installSpec": "dsh-mcp-skill-manage@0.5.5",
+      "name": "dsh-mcp-skill-manage",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:mcp-skill-manager",
+          "moduleName": "dsh-mcp-skill-manage",
+          "rowId": "mcp-skill-manager"
+        }
+      ],
+      "syncable": true,
+      "version": "0.5.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-mnemon",
+      "enabled": true,
+      "id": "dsh-mnemon",
+      "installSpec": "dsh-mnemon@0.5.43",
+      "name": "dsh-mnemon",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:mnemon",
+          "moduleName": "dsh-mnemon",
+          "rowId": "mnemon"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-runtime",
+          "moduleName": "dsh-mnemon-source-runtime",
+          "rowId": "mnemon-source-runtime"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-documents",
+          "moduleName": "dsh-mnemon-source-documents",
+          "rowId": "mnemon-source-documents"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-memory-spaces",
+          "moduleName": "dsh-mnemon-source-memory-spaces",
+          "rowId": "mnemon-source-memory-spaces"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-source-skills",
+          "moduleName": "dsh-mnemon-source-skills",
+          "rowId": "mnemon-source-skills"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:mnemon-strategy-default-three-tier",
+          "moduleName": "dsh-mnemon-strategy-default-three-tier",
+          "rowId": "mnemon-strategy-default-three-tier"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-general",
+          "moduleName": "dsh-mnemon-strategy-general",
+          "rowId": "mnemon-strategy-general"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-auto-capture",
+          "moduleName": "dsh-mnemon-strategy-auto-capture",
+          "rowId": "mnemon-strategy-auto-capture"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-light-context",
+          "moduleName": "dsh-mnemon-strategy-light-context",
+          "rowId": "mnemon-strategy-light-context"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:mnemon-strategy-scoped",
+          "moduleName": "dsh-mnemon-strategy-scoped",
+          "rowId": "mnemon-strategy-scoped"
+        }
+      ],
+      "syncable": true,
+      "version": "0.5.43"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
@@ -82,6 +280,54 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "dsh-recall-plugin",
+      "enabled": true,
+      "id": "dsh-recall-plugin",
+      "installSpec": "dsh-recall-plugin@2.6.5",
+      "name": "dsh-recall-plugin",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:recall",
+          "moduleName": "dsh-recall-plugin",
+          "rowId": "recall"
+        }
+      ],
+      "syncable": true,
+      "version": "2.6.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-streamfold",
+      "enabled": true,
+      "id": "dsh-streamfold",
+      "installSpec": "dsh-streamfold@0.7.14",
+      "name": "dsh-streamfold",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-streamfold",
+          "moduleName": "dsh-streamfold",
+          "rowId": "dsh-streamfold"
+        }
+      ],
+      "syncable": true,
+      "version": "0.7.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Token Optimizer",
       "enabled": true,
       "id": "dsh-token-optimizer",
@@ -101,6 +347,30 @@
       ],
       "syncable": true,
       "version": "0.2.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Component System",
+      "enabled": true,
+      "id": "dsh-widgets",
+      "installSpec": "dsh-widgets@1.8.5",
+      "name": "dsh-widgets",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:widgets",
+          "moduleName": "dsh-widgets",
+          "rowId": "widgets"
+        }
+      ],
+      "syncable": true,
+      "version": "1.8.5"
     },
     {
       "builtIn": false,
@@ -129,5 +399,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:46:27.811Z"
+  "updatedAt": "2026-11-10T02:46:40.842Z"
 }
