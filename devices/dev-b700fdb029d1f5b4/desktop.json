@@ -480,6 +480,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "IM bots (dsh-im)",
+      "enabled": true,
+      "id": "local:@xmanrui/dsh-im",
+      "installSpec": null,
+      "name": "@xmanrui/dsh-im",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:xmanrui-dsh-im",
+          "moduleName": "@xmanrui/dsh-im",
+          "rowId": "xmanrui-dsh-im"
+        }
+      ],
+      "source": "@xmanrui/dsh-im@5.10.0",
+      "syncable": false,
+      "version": "5.10.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Todo board",
       "enabled": true,
       "id": "local:dsh-todo",
@@ -503,5 +528,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:24:32.945Z"
+  "updatedAt": "2026-11-10T04:28:20.315Z"
 }
