@@ -383,6 +383,28 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.7.14"
     },
+    "dsh-token-optimizer": {
+      "builtIn": false,
+      "displayName": "Token Optimizer",
+      "enabled": true,
+      "id": "dsh-token-optimizer",
+      "installSpec": "dsh-token-optimizer@0.2.5",
+      "name": "dsh-token-optimizer",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-token-optimizer",
+          "moduleName": "dsh-token-optimizer",
+          "rowId": "dsh-token-optimizer"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-10T02:46:27.811Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "0.2.5"
+    },
     "dsh-vision-router": {
       "builtIn": false,
       "deleted": true,
@@ -465,5 +487,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:57:44.126Z"
+  "updatedAt": "2026-11-10T02:46:27.811Z"
 }

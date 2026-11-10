@@ -1,0 +1,133 @@
+{
+  "device": {
+    "arch": "x64",
+    "dshVersion": "0.2.2-rc.1",
+    "id": "dev-b700fdb029d1f5b4",
+    "name": "Dodge-Office-2026",
+    "platform": "win32",
+    "pluginVersion": "0.2.12"
+  },
+  "plugins": [
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "cordis:include",
+      "installSpec": null,
+      "name": "cordis:include",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include",
+          "moduleName": "cordis:include"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Plugin Backup",
+      "enabled": true,
+      "id": "dsh-plugins-git-sync",
+      "installSpec": "dsh-plugins-git-sync@0.2.12",
+      "name": "dsh-plugins-git-sync",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-plugins-git-sync",
+          "moduleName": "dsh-plugins-git-sync",
+          "rowId": "dsh-plugins-git-sync"
+        }
+      ],
+      "syncable": false,
+      "version": "0.2.12"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "enabled": true,
+      "error": "no matching bundle metadata was found for this plugin entry",
+      "id": "dsh-purge",
+      "installSpec": null,
+      "name": "dsh-purge",
+      "origin": "unknown",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge",
+          "moduleName": "dsh-purge"
+        }
+      ],
+      "syncable": false,
+      "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Token Optimizer",
+      "enabled": true,
+      "id": "dsh-token-optimizer",
+      "installSpec": "dsh-token-optimizer@0.2.5",
+      "name": "dsh-token-optimizer",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-token-optimizer",
+          "moduleName": "dsh-token-optimizer",
+          "rowId": "dsh-token-optimizer"
+        }
+      ],
+      "syncable": true,
+      "version": "0.2.5"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Todo board",
+      "enabled": true,
+      "id": "local:dsh-todo",
+      "installSpec": null,
+      "name": "dsh-todo",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-todo",
+          "moduleName": "dsh-todo",
+          "rowId": "dsh-todo"
+        }
+      ],
+      "syncable": false,
+      "version": "0.1.0"
+    }
+  ],
+  "profile": "desktop",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-10T02:46:27.811Z"
+}
