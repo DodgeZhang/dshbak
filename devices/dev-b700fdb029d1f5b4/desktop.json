@@ -287,6 +287,30 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Live2D Pet",
+      "enabled": true,
+      "id": "dsh-pet-live2d",
+      "installSpec": "dsh-pet-live2d@3.6.0",
+      "name": "dsh-pet-live2d",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:live2d-pet",
+          "moduleName": "dsh-pet-live2d",
+          "rowId": "live2d-pet"
+        }
+      ],
+      "syncable": true,
+      "version": "3.6.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-plugin-github",
       "enabled": true,
       "id": "dsh-plugin-github",
@@ -347,12 +371,6 @@
       "rows": [
         {
           "enabled": true,
-          "entryId": "include:dsh-purge",
-          "moduleName": "dsh-purge",
-          "rowId": "dsh-purge"
-        },
-        {
-          "enabled": true,
           "entryId": "include:dsh-purge-redteam",
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
@@ -372,7 +390,7 @@
       ],
       "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "version": "2.0.4"
+      "version": "1.1.90"
     },
     {
       "builtIn": false,
@@ -572,5 +590,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:44:27.566Z"
+  "updatedAt": "2026-11-10T19:11:14.287Z"
 }

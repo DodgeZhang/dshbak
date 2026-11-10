@@ -303,6 +303,28 @@
       "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "1.0.0"
     },
+    "dsh-pet-live2d": {
+      "builtIn": false,
+      "displayName": "Live2D Pet",
+      "enabled": true,
+      "id": "dsh-pet-live2d",
+      "installSpec": "dsh-pet-live2d@3.6.0",
+      "name": "dsh-pet-live2d",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:live2d-pet",
+          "moduleName": "dsh-pet-live2d",
+          "rowId": "live2d-pet"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-10T19:11:14.287Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "3.6.0"
+    },
     "dsh-plugin-github": {
       "builtIn": false,
       "displayName": "dsh-plugin-github",
@@ -353,17 +375,11 @@
       "displayName": "dsh-purge",
       "enabled": true,
       "id": "dsh-purge",
-      "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "installSpec": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "name": "dsh-purge",
       "origin": "git",
       "pathOnly": false,
       "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-purge",
-          "moduleName": "dsh-purge",
-          "rowId": "dsh-purge"
-        },
         {
           "enabled": true,
           "entryId": "include:dsh-purge-redteam",
@@ -383,11 +399,11 @@
           "rowId": "dsh-purge-redteam-ui"
         }
       ],
-      "source": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "updatedAt": "2026-11-08T09:43:16.447Z",
-      "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "2.0.4"
+      "updatedAt": "2026-11-10T19:11:14.287Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "1.1.90"
     },
     "dsh-recall-plugin": {
       "builtIn": false,
@@ -581,5 +597,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:44:27.566Z"
+  "updatedAt": "2026-11-10T19:11:14.287Z"
 }
