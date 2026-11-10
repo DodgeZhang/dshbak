@@ -1,5 +1,33 @@
 {
   "plugins": {
+    "dsh-cloudflare-codemode": {
+      "builtIn": false,
+      "displayName": "Cloudflare Code Mode",
+      "enabled": true,
+      "id": "dsh-cloudflare-codemode",
+      "installSpec": "dsh-cloudflare-codemode@1.0.0",
+      "name": "dsh-cloudflare-codemode",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:cloudflare-codemode",
+          "moduleName": "dsh-cloudflare-codemode",
+          "rowId": "cloudflare-codemode"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:cloudflare-codemode-mcp",
+          "moduleName": "@deepseek-ai/dsh-mcp-client",
+          "rowId": "cloudflare-codemode-mcp"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-10T04:22:24.223Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "1.0.0"
+    },
     "dsh-code-ui": {
       "builtIn": false,
       "deleted": true,
@@ -509,5 +537,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:20:08.743Z"
+  "updatedAt": "2026-11-10T04:22:24.223Z"
 }

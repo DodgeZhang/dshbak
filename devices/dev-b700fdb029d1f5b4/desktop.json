@@ -35,6 +35,36 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Cloudflare Code Mode",
+      "enabled": true,
+      "id": "dsh-cloudflare-codemode",
+      "installSpec": "dsh-cloudflare-codemode@1.0.0",
+      "name": "dsh-cloudflare-codemode",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:cloudflare-codemode",
+          "moduleName": "dsh-cloudflare-codemode",
+          "rowId": "cloudflare-codemode"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:cloudflare-codemode-mcp",
+          "moduleName": "@deepseek-ai/dsh-mcp-client",
+          "rowId": "cloudflare-codemode-mcp"
+        }
+      ],
+      "syncable": true,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
@@ -401,7 +431,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@adenxie/dsh-vercel",
-      "enabled": false,
+      "enabled": true,
       "id": "local:@adenxie/dsh-vercel",
       "installSpec": null,
       "name": "@adenxie/dsh-vercel",
@@ -411,7 +441,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:adenxie-dsh-vercel",
           "moduleName": "@adenxie/dsh-vercel",
           "rowId": "adenxie-dsh-vercel"
         }
@@ -472,5 +503,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:20:08.742Z"
+  "updatedAt": "2026-11-10T04:22:24.223Z"
 }
