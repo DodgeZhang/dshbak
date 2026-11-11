@@ -594,6 +594,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "@adenxie/dsh-vercel",
+      "enabled": true,
+      "id": "local:@adenxie/dsh-vercel",
+      "installSpec": null,
+      "name": "@adenxie/dsh-vercel",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:adenxie-dsh-vercel",
+          "moduleName": "@adenxie/dsh-vercel",
+          "rowId": "adenxie-dsh-vercel"
+        }
+      ],
+      "source": "@adenxie/dsh-vercel@0.4.0",
+      "syncable": false,
+      "version": "0.4.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "@dmh2002/dsh-connect-qoder",
       "enabled": true,
       "id": "local:@dmh2002/dsh-connect-qoder",
@@ -773,5 +798,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:34:21.593Z"
+  "updatedAt": "2026-11-11T09:38:02.099Z"
 }
