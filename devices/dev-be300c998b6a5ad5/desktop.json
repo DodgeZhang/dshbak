@@ -767,9 +767,9 @@
           "rowId": "xmanrui-dsh-im"
         }
       ],
-      "source": "@xmanrui/dsh-im@4.39.0",
+      "source": "@xmanrui/dsh-im@5.10.0",
       "syncable": false,
-      "version": "4.39.0"
+      "version": "5.10.0"
     },
     {
       "builtIn": false,
@@ -798,5 +798,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:38:02.099Z"
+  "updatedAt": "2026-11-11T09:39:17.969Z"
 }
