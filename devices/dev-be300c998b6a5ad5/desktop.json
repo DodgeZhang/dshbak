@@ -35,6 +35,36 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Cloudflare Code Mode",
+      "enabled": true,
+      "id": "dsh-cloudflare-codemode",
+      "installSpec": "dsh-cloudflare-codemode@1.0.0",
+      "name": "dsh-cloudflare-codemode",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:cloudflare-codemode",
+          "moduleName": "dsh-cloudflare-codemode",
+          "rowId": "cloudflare-codemode"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:cloudflare-codemode-mcp",
+          "moduleName": "@deepseek-ai/dsh-mcp-client",
+          "rowId": "cloudflare-codemode-mcp"
+        }
+      ],
+      "syncable": true,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
@@ -233,6 +263,150 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "dsh-personalization",
+      "enabled": true,
+      "id": "dsh-personalization",
+      "installSpec": "dsh-personalization@1.0.0",
+      "name": "dsh-personalization",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:personalization",
+          "moduleName": "dsh-personalization",
+          "rowId": "personalization"
+        }
+      ],
+      "syncable": true,
+      "version": "1.0.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Live2D Pet",
+      "enabled": true,
+      "id": "dsh-pet-live2d",
+      "installSpec": "dsh-pet-live2d@3.6.0",
+      "name": "dsh-pet-live2d",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:live2d-pet",
+          "moduleName": "dsh-pet-live2d",
+          "rowId": "live2d-pet"
+        }
+      ],
+      "syncable": true,
+      "version": "3.6.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-plugin-github",
+      "enabled": true,
+      "id": "dsh-plugin-github",
+      "installSpec": "dsh-plugin-github@0.1.2",
+      "name": "dsh-plugin-github",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:github",
+          "moduleName": "dsh-plugin-github",
+          "rowId": "github"
+        }
+      ],
+      "syncable": true,
+      "version": "0.1.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "dsh-plugin-wallpaper-engine",
+      "enabled": true,
+      "id": "dsh-plugin-wallpaper-engine",
+      "installSpec": "dsh-plugin-wallpaper-engine@1.4.2",
+      "name": "dsh-plugin-wallpaper-engine",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine",
+          "moduleName": "dsh-plugin-wallpaper-engine",
+          "rowId": "wallpaper-engine"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-about-notice",
+          "moduleName": "dsh-plugin-wallpaper-engine-about-notice",
+          "rowId": "wallpaper-engine-about-notice"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-mascot-avatar",
+          "moduleName": "dsh-plugin-wallpaper-engine-mascot-avatar",
+          "rowId": "wallpaper-engine-mascot-avatar"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-media-bridge",
+          "moduleName": "dsh-plugin-wallpaper-engine-media-bridge",
+          "rowId": "wallpaper-engine-media-bridge"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-pet-link",
+          "moduleName": "dsh-plugin-wallpaper-engine-pet-link",
+          "rowId": "wallpaper-engine-pet-link"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-fx",
+          "moduleName": "dsh-plugin-wallpaper-engine-fx",
+          "rowId": "wallpaper-engine-fx"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-parallax",
+          "moduleName": "dsh-plugin-wallpaper-engine-parallax",
+          "rowId": "wallpaper-engine-parallax"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-fonts",
+          "moduleName": "dsh-plugin-wallpaper-engine-fonts",
+          "rowId": "wallpaper-engine-fonts"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:wallpaper-engine-glass",
+          "moduleName": "dsh-plugin-wallpaper-engine-glass",
+          "rowId": "wallpaper-engine-glass"
+        }
+      ],
+      "syncable": true,
+      "version": "1.4.2"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
@@ -324,6 +498,30 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Restart Now",
+      "enabled": true,
+      "id": "dsh-restart-now",
+      "installSpec": "dsh-restart-now@1.3.0",
+      "name": "dsh-restart-now",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:restart-now",
+          "moduleName": "dsh-restart-now",
+          "rowId": "restart-now"
+        }
+      ],
+      "syncable": true,
+      "version": "1.3.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-streamfold",
       "enabled": true,
       "id": "dsh-streamfold",
@@ -343,6 +541,30 @@
       ],
       "syncable": true,
       "version": "0.7.14"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Token Optimizer",
+      "enabled": true,
+      "id": "dsh-token-optimizer",
+      "installSpec": "dsh-token-optimizer@0.2.5",
+      "name": "dsh-token-optimizer",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-token-optimizer",
+          "moduleName": "dsh-token-optimizer",
+          "rowId": "dsh-token-optimizer"
+        }
+      ],
+      "syncable": true,
+      "version": "0.2.5"
     },
     {
       "builtIn": false,
@@ -551,5 +773,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:57:44.125Z"
+  "updatedAt": "2026-11-11T09:26:38.629Z"
 }
