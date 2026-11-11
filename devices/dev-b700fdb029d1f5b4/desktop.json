@@ -443,12 +443,6 @@
       "rows": [
         {
           "enabled": true,
-          "entryId": "include:dsh-purge",
-          "moduleName": "dsh-purge",
-          "rowId": "dsh-purge"
-        },
-        {
-          "enabled": true,
           "entryId": "include:dsh-purge-redteam",
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
@@ -468,7 +462,7 @@
       ],
       "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "version": "2.0.4"
+      "version": "1.1.90"
     },
     {
       "builtIn": false,
@@ -644,6 +638,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Prompt Enhancer",
+      "enabled": true,
+      "id": "local:@jianyiagi/dsh-prompt-enhancer",
+      "installSpec": null,
+      "name": "@jianyiagi/dsh-prompt-enhancer",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:prompt-enhancer",
+          "moduleName": "@jianyiagi/dsh-prompt-enhancer",
+          "rowId": "prompt-enhancer"
+        }
+      ],
+      "source": "@jianyiagi/dsh-prompt-enhancer@1.1.1",
+      "syncable": false,
+      "version": "1.1.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "IM bots (dsh-im)",
       "enabled": true,
       "id": "local:@xmanrui/dsh-im",
@@ -668,5 +687,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:28:55.984Z"
+  "updatedAt": "2026-11-11T09:53:51.899Z"
 }
