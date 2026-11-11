@@ -663,6 +663,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "@liustack/modsearch",
+      "enabled": true,
+      "id": "local:@liustack/modsearch",
+      "installSpec": null,
+      "name": "@liustack/modsearch",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:modsearch",
+          "moduleName": "@liustack/modsearch",
+          "rowId": "modsearch"
+        }
+      ],
+      "source": "@liustack/modsearch@5.10.12",
+      "syncable": false,
+      "version": "5.10.12"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "IM bots (dsh-im)",
       "enabled": true,
       "id": "local:@xmanrui/dsh-im",
@@ -687,5 +712,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:53:51.899Z"
+  "updatedAt": "2026-11-11T13:34:12.099Z"
 }
