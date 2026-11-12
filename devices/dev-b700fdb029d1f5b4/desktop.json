@@ -68,7 +68,7 @@
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
-      "installSpec": "dsh-connect-trae@4.14.2",
+      "installSpec": "dsh-connect-trae@4.18.1",
       "name": "dsh-connect-trae",
       "origin": "npm",
       "pathOnly": false,
@@ -83,7 +83,7 @@
         }
       ],
       "syncable": true,
-      "version": "4.14.2"
+      "version": "4.18.1"
     },
     {
       "builtIn": false,
@@ -92,7 +92,7 @@
       "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.20.2",
+      "installSpec": "dsh-connect-workbuddy@5.21.4",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -107,7 +107,7 @@
         }
       ],
       "syncable": true,
-      "version": "5.20.2"
+      "version": "5.21.4"
     },
     {
       "builtIn": false,
@@ -116,7 +116,7 @@
       "displayName": "dsh-conversation-recycle-bin",
       "enabled": true,
       "id": "dsh-conversation-recycle-bin",
-      "installSpec": "dsh-conversation-recycle-bin@0.3.19",
+      "installSpec": "dsh-conversation-recycle-bin@0.3.21",
       "name": "dsh-conversation-recycle-bin",
       "origin": "npm",
       "pathOnly": false,
@@ -131,7 +131,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.3.19"
+      "version": "0.3.21"
     },
     {
       "builtIn": false,
@@ -188,7 +188,7 @@
       "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
-      "installSpec": "dsh-mnemon@0.5.43",
+      "installSpec": "dsh-mnemon@0.5.44",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
@@ -257,7 +257,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.5.43"
+      "version": "0.5.44"
     },
     {
       "builtIn": false,
@@ -432,7 +432,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-purge",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-purge",
       "installSpec": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "name": "dsh-purge",
@@ -443,26 +443,29 @@
       "rows": [
         {
           "enabled": true,
-          "entryId": "include:dsh-purge-redteam",
+          "entryId": "include:dsh-purge",
+          "moduleName": "dsh-purge",
+          "rowId": "dsh-purge"
+        },
+        {
+          "enabled": false,
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-store",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/store",
           "rowId": "dsh-purge-redteam-store"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-ui",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/ui",
           "rowId": "dsh-purge-redteam-ui"
         }
       ],
       "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "version": "1.1.90"
+      "version": "2.0.4"
     },
     {
       "builtIn": false,
@@ -712,5 +715,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T13:34:12.099Z"
+  "updatedAt": "2026-11-12T05:26:11.464Z"
 }

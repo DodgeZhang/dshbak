@@ -443,9 +443,9 @@
     "dsh-purge": {
       "builtIn": false,
       "displayName": "dsh-purge",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-purge",
-      "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "installSpec": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "name": "dsh-purge",
       "origin": "git",
       "pathOnly": false,
@@ -457,28 +457,25 @@
           "rowId": "dsh-purge"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-store",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/store",
           "rowId": "dsh-purge-redteam-store"
         },
         {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-ui",
+          "enabled": false,
           "moduleName": "dsh-purge/redteam/ui",
           "rowId": "dsh-purge-redteam-ui"
         }
       ],
-      "source": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
+      "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "updatedAt": "2026-11-12T04:58:24.854Z",
-      "updatedBy": "dev-be300c998b6a5ad5",
+      "updatedAt": "2026-11-12T05:26:11.464Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "2.0.4"
     },
     "dsh-recall-plugin": {
@@ -673,5 +670,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T05:13:40.525Z"
+  "updatedAt": "2026-11-12T05:26:11.464Z"
 }
