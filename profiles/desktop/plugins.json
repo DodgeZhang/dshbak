@@ -259,6 +259,34 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.5.44"
     },
+    "dsh-open-market": {
+      "builtIn": false,
+      "displayName": "Open Plugin Market",
+      "enabled": true,
+      "id": "dsh-open-market",
+      "installSpec": "dsh-open-market@0.4.0",
+      "name": "dsh-open-market",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:open-market",
+          "moduleName": "dsh-open-market",
+          "rowId": "open-market"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:open-market-auto-review",
+          "moduleName": "dsh-open-market/auto-review",
+          "rowId": "open-market-auto-review"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-12T05:31:32.051Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "0.4.0"
+    },
     "dsh-our-free-model": {
       "builtIn": false,
       "deleted": true,
@@ -667,5 +695,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T05:30:09.224Z"
+  "updatedAt": "2026-11-12T05:31:32.051Z"
 }

@@ -263,6 +263,36 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Open Plugin Market",
+      "enabled": true,
+      "id": "dsh-open-market",
+      "installSpec": "dsh-open-market@0.4.0",
+      "name": "dsh-open-market",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:open-market",
+          "moduleName": "dsh-open-market",
+          "rowId": "open-market"
+        },
+        {
+          "enabled": false,
+          "entryId": "include:open-market-auto-review",
+          "moduleName": "dsh-open-market/auto-review",
+          "rowId": "open-market-auto-review"
+        }
+      ],
+      "syncable": true,
+      "version": "0.4.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "dsh-personalization",
       "enabled": true,
       "id": "dsh-personalization",
@@ -614,7 +644,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "DSH Plugin Auto Update",
-      "enabled": false,
+      "enabled": true,
       "id": "local:@chendaleiq/dsh-plugin-auto-update",
       "installSpec": null,
       "name": "@chendaleiq/dsh-plugin-auto-update",
@@ -624,7 +654,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:auto-update",
           "moduleName": "@chendaleiq/dsh-plugin-auto-update",
           "rowId": "auto-update"
         }
@@ -632,31 +663,6 @@
       "source": "@chendaleiq/dsh-plugin-auto-update@0.2.2",
       "syncable": false,
       "version": "0.2.2"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "@dmh2002/dsh-connect-qoder",
-      "enabled": true,
-      "id": "local:@dmh2002/dsh-connect-qoder",
-      "installSpec": null,
-      "name": "@dmh2002/dsh-connect-qoder",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-connect-qoder",
-          "moduleName": "@dmh2002/dsh-connect-qoder",
-          "rowId": "dsh-connect-qoder"
-        }
-      ],
-      "source": "@dmh2002/dsh-connect-qoder@1.23.0",
-      "syncable": false,
-      "version": "1.23.0"
     },
     {
       "builtIn": false,
@@ -736,5 +742,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T05:30:09.224Z"
+  "updatedAt": "2026-11-12T05:31:32.051Z"
 }
