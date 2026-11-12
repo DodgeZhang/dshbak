@@ -668,6 +668,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "@dmh2002/dsh-connect-qoder",
+      "enabled": true,
+      "id": "local:@dmh2002/dsh-connect-qoder",
+      "installSpec": null,
+      "name": "@dmh2002/dsh-connect-qoder",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-qoder",
+          "moduleName": "@dmh2002/dsh-connect-qoder",
+          "rowId": "dsh-connect-qoder"
+        }
+      ],
+      "source": "@dmh2002/dsh-connect-qoder@1.24.0",
+      "syncable": false,
+      "version": "1.24.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Prompt Enhancer",
       "enabled": true,
       "id": "local:@jianyiagi/dsh-prompt-enhancer",
@@ -742,5 +767,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:31:32.188Z"
+  "updatedAt": "2026-11-12T06:32:22.607Z"
 }
