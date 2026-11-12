@@ -462,7 +462,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-purge",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-purge",
       "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git",
       "name": "dsh-purge",
@@ -478,17 +478,20 @@
           "rowId": "dsh-purge"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam",
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-store",
           "moduleName": "dsh-purge/redteam/store",
           "rowId": "dsh-purge-redteam-store"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-ui",
           "moduleName": "dsh-purge/redteam/ui",
           "rowId": "dsh-purge-redteam-ui"
         }
@@ -770,5 +773,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:06:42.590Z"
+  "updatedAt": "2026-11-12T07:08:04.356Z"
 }
