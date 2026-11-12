@@ -462,12 +462,11 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-purge",
-      "enabled": true,
-      "error": "no matching bundle metadata was found for this plugin entry",
+      "enabled": false,
       "id": "dsh-purge",
-      "installSpec": null,
+      "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git",
       "name": "dsh-purge",
-      "origin": "unknown",
+      "origin": "git",
       "pathOnly": false,
       "platform": "win32",
       "profile": "desktop",
@@ -475,10 +474,27 @@
         {
           "enabled": true,
           "entryId": "include:dsh-purge",
-          "moduleName": "dsh-purge"
+          "moduleName": "dsh-purge",
+          "rowId": "dsh-purge"
+        },
+        {
+          "enabled": false,
+          "moduleName": "dsh-purge/redteam",
+          "rowId": "dsh-purge-redteam"
+        },
+        {
+          "enabled": false,
+          "moduleName": "dsh-purge/redteam/store",
+          "rowId": "dsh-purge-redteam-store"
+        },
+        {
+          "enabled": false,
+          "moduleName": "dsh-purge/redteam/ui",
+          "rowId": "dsh-purge-redteam-ui"
         }
       ],
-      "syncable": false,
+      "source": "git+https://github.com/xxy0722/dsh-purge-deep.git",
+      "syncable": true,
       "version": "2.0.4"
     },
     {
@@ -754,5 +770,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:04:47.863Z"
+  "updatedAt": "2026-11-12T07:06:42.590Z"
 }
