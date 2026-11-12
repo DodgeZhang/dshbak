@@ -462,11 +462,12 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-purge",
-      "enabled": true,
+      "enabled": false,
+      "error": "no matching bundle metadata was found for this plugin entry",
       "id": "dsh-purge",
-      "installSpec": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
+      "installSpec": null,
       "name": "dsh-purge",
-      "origin": "git",
+      "origin": "unknown",
       "pathOnly": false,
       "platform": "win32",
       "profile": "desktop",
@@ -474,30 +475,10 @@
         {
           "enabled": false,
           "entryId": "include:dsh-purge",
-          "moduleName": "dsh-purge",
-          "rowId": "dsh-purge"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam",
-          "moduleName": "dsh-purge/redteam",
-          "rowId": "dsh-purge-redteam"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-store",
-          "moduleName": "dsh-purge/redteam/store",
-          "rowId": "dsh-purge-redteam-store"
-        },
-        {
-          "enabled": true,
-          "entryId": "include:dsh-purge-redteam-ui",
-          "moduleName": "dsh-purge/redteam/ui",
-          "rowId": "dsh-purge-redteam-ui"
+          "moduleName": "dsh-purge"
         }
       ],
-      "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
-      "syncable": true,
+      "syncable": false,
       "version": "2.0.4"
     },
     {
@@ -773,5 +754,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:39:45.327Z"
+  "updatedAt": "2026-11-12T06:42:39.997Z"
 }
