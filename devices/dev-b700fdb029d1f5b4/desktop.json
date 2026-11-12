@@ -472,6 +472,12 @@
       "profile": "desktop",
       "rows": [
         {
+          "enabled": false,
+          "entryId": "include:dsh-purge",
+          "moduleName": "dsh-purge",
+          "rowId": "dsh-purge"
+        },
+        {
           "enabled": true,
           "entryId": "include:dsh-purge-redteam",
           "moduleName": "dsh-purge/redteam",
@@ -492,7 +498,7 @@
       ],
       "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "version": "1.1.90"
+      "version": "2.0.4"
     },
     {
       "builtIn": false,
@@ -767,5 +773,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:32:22.607Z"
+  "updatedAt": "2026-11-12T06:39:45.327Z"
 }
