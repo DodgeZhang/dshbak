@@ -625,7 +625,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -635,7 +635,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:widgets",
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
@@ -714,9 +715,9 @@
           "rowId": "dsh-connect-qoder"
         }
       ],
-      "source": "@dmh2002/dsh-connect-qoder@1.24.0",
+      "source": "@dmh2002/dsh-connect-qoder@1.25.0",
       "syncable": false,
-      "version": "1.24.0"
+      "version": "1.25.0"
     },
     {
       "builtIn": false,
@@ -796,5 +797,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T11:19:44.698Z"
+  "updatedAt": "2026-11-12T13:51:21.084Z"
 }
