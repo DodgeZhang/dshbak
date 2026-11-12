@@ -718,31 +718,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "@noob-stupid/dsh-plugin-console",
-      "enabled": true,
-      "id": "local:@noob-stupid/dsh-plugin-console",
-      "installSpec": null,
-      "name": "@noob-stupid/dsh-plugin-console",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:plugin-console",
-          "moduleName": "@noob-stupid/dsh-plugin-console",
-          "rowId": "plugin-console"
-        }
-      ],
-      "source": "@noob-stupid/dsh-plugin-console@0.5.110",
-      "syncable": false,
-      "version": "0.5.110"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "IM bots (dsh-im)",
       "enabled": true,
       "id": "local:@xmanrui/dsh-im",
@@ -767,5 +742,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:17:10.123Z"
+  "updatedAt": "2026-11-12T06:31:32.188Z"
 }
