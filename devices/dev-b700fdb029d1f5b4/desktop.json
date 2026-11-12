@@ -462,7 +462,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-purge",
-      "enabled": false,
+      "enabled": true,
       "error": "no matching bundle metadata was found for this plugin entry",
       "id": "dsh-purge",
       "installSpec": null,
@@ -473,7 +473,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
           "entryId": "include:dsh-purge",
           "moduleName": "dsh-purge"
         }
@@ -754,5 +754,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:47:39.476Z"
+  "updatedAt": "2026-11-12T06:52:31.479Z"
 }
