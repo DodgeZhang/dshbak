@@ -56,7 +56,7 @@
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
-      "installSpec": "dsh-connect-trae@4.14.2",
+      "installSpec": "dsh-connect-trae@4.18.1",
       "name": "dsh-connect-trae",
       "origin": "npm",
       "pathOnly": false,
@@ -69,16 +69,16 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:43:16.447Z",
+      "updatedAt": "2026-11-12T04:58:24.854Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "4.14.2"
+      "version": "4.18.1"
     },
     "dsh-connect-workbuddy": {
       "builtIn": false,
       "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.20.2",
+      "installSpec": "dsh-connect-workbuddy@5.21.4",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -91,16 +91,16 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:43:16.447Z",
+      "updatedAt": "2026-11-12T04:58:24.854Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "5.20.2"
+      "version": "5.21.4"
     },
     "dsh-conversation-recycle-bin": {
       "builtIn": false,
       "displayName": "dsh-conversation-recycle-bin",
       "enabled": true,
       "id": "dsh-conversation-recycle-bin",
-      "installSpec": "dsh-conversation-recycle-bin@0.3.19",
+      "installSpec": "dsh-conversation-recycle-bin@0.3.21",
       "name": "dsh-conversation-recycle-bin",
       "origin": "npm",
       "pathOnly": false,
@@ -113,9 +113,9 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:43:16.447Z",
+      "updatedAt": "2026-11-12T04:58:24.854Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "0.3.19"
+      "version": "0.3.21"
     },
     "dsh-git-plus": {
       "builtIn": false,
@@ -188,7 +188,7 @@
       "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
-      "installSpec": "dsh-mnemon@0.5.43",
+      "installSpec": "dsh-mnemon@0.5.44",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
@@ -255,9 +255,9 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-09T15:55:28.525Z",
+      "updatedAt": "2026-11-12T04:58:24.854Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "0.5.43"
+      "version": "0.5.44"
     },
     "dsh-our-free-model": {
       "builtIn": false,
@@ -445,11 +445,17 @@
       "displayName": "dsh-purge",
       "enabled": true,
       "id": "dsh-purge",
-      "installSpec": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
+      "installSpec": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
       "name": "dsh-purge",
       "origin": "git",
       "pathOnly": false,
       "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-purge",
+          "moduleName": "dsh-purge",
+          "rowId": "dsh-purge"
+        },
         {
           "enabled": true,
           "entryId": "include:dsh-purge-redteam",
@@ -469,11 +475,11 @@
           "rowId": "dsh-purge-redteam-ui"
         }
       ],
-      "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
+      "source": "git+https://github.com/xxy0722/dsh-purge-deep.git#c46cc85f22dd633997b1dd2c38155c24e9fa8046",
       "syncable": true,
-      "updatedAt": "2026-11-11T09:53:51.899Z",
-      "updatedBy": "dev-b700fdb029d1f5b4",
-      "version": "1.1.90"
+      "updatedAt": "2026-11-12T04:58:24.854Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "2.0.4"
     },
     "dsh-recall-plugin": {
       "builtIn": false,
@@ -667,5 +673,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T13:34:12.100Z"
+  "updatedAt": "2026-11-12T04:58:24.854Z"
 }
