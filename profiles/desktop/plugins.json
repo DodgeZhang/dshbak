@@ -443,7 +443,7 @@
     "dsh-purge": {
       "builtIn": false,
       "displayName": "dsh-purge",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-purge",
       "installSpec": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "name": "dsh-purge",
@@ -457,24 +457,27 @@
           "rowId": "dsh-purge"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam",
           "moduleName": "dsh-purge/redteam",
           "rowId": "dsh-purge-redteam"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-store",
           "moduleName": "dsh-purge/redteam/store",
           "rowId": "dsh-purge-redteam-store"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-purge-redteam-ui",
           "moduleName": "dsh-purge/redteam/ui",
           "rowId": "dsh-purge-redteam-ui"
         }
       ],
       "source": "github:YuJunZhiXue/dsh-purge#217d60d3d61881079ea95bbe2c174f338a02182b",
       "syncable": true,
-      "updatedAt": "2026-11-12T05:26:11.464Z",
+      "updatedAt": "2026-11-12T05:27:20.442Z",
       "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "2.0.4"
     },
@@ -670,5 +673,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T05:26:11.464Z"
+  "updatedAt": "2026-11-12T05:27:20.442Z"
 }
