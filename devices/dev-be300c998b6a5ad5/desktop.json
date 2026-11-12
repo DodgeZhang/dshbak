@@ -36,7 +36,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Better Sidebar",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-better-sidebar",
       "installSpec": "dsh-better-sidebar@0.32.0",
       "name": "dsh-better-sidebar",
@@ -46,7 +46,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:better-sidebar",
           "moduleName": "dsh-better-sidebar",
           "rowId": "better-sidebar"
         }
@@ -624,7 +625,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -634,8 +635,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
@@ -796,5 +796,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:34:56.437Z"
+  "updatedAt": "2026-11-12T07:36:05.272Z"
 }

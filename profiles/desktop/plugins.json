@@ -3,7 +3,7 @@
     "dsh-better-sidebar": {
       "builtIn": false,
       "displayName": "Better Sidebar",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-better-sidebar",
       "installSpec": "dsh-better-sidebar@0.32.0",
       "name": "dsh-better-sidebar",
@@ -11,13 +11,14 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:better-sidebar",
           "moduleName": "dsh-better-sidebar",
           "rowId": "better-sidebar"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-12T07:25:10.215Z",
+      "updatedAt": "2026-11-12T07:36:05.272Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.32.0"
     },
@@ -700,7 +701,7 @@
     "dsh-widgets": {
       "builtIn": false,
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -708,19 +709,18 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-08T09:46:17.288Z",
+      "updatedAt": "2026-11-12T07:36:05.272Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "1.8.5"
     }
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:34:56.437Z"
+  "updatedAt": "2026-11-12T07:36:05.273Z"
 }
