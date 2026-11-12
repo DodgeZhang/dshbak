@@ -35,6 +35,29 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "Better Sidebar",
+      "enabled": false,
+      "id": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.32.0",
+      "name": "dsh-better-sidebar",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-better-sidebar",
+          "rowId": "better-sidebar"
+        }
+      ],
+      "syncable": true,
+      "version": "0.32.0"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "Cloudflare Code Mode",
       "enabled": true,
       "id": "dsh-cloudflare-codemode",
@@ -773,5 +796,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:46:36.907Z"
+  "updatedAt": "2026-11-12T07:25:10.215Z"
 }

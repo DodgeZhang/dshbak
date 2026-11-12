@@ -1,5 +1,26 @@
 {
   "plugins": {
+    "dsh-better-sidebar": {
+      "builtIn": false,
+      "displayName": "Better Sidebar",
+      "enabled": false,
+      "id": "dsh-better-sidebar",
+      "installSpec": "dsh-better-sidebar@0.32.0",
+      "name": "dsh-better-sidebar",
+      "origin": "npm",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": false,
+          "moduleName": "dsh-better-sidebar",
+          "rowId": "better-sidebar"
+        }
+      ],
+      "syncable": true,
+      "updatedAt": "2026-11-12T07:25:10.215Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.32.0"
+    },
     "dsh-cloudflare-codemode": {
       "builtIn": false,
       "displayName": "Cloudflare Code Mode",
@@ -701,5 +722,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:08:04.356Z"
+  "updatedAt": "2026-11-12T07:25:10.216Z"
 }
