@@ -19,6 +19,27 @@
       "contentHash": "da9d7c3eba78863e8a4679fb85d718f4f5ab1096ae93de3b51e7fc62fa5e62ea",
       "sizeBytes": 1214,
       "memoryBodyIds": []
+    },
+    {
+      "id": "8faa2a57-d3e2-4b3c-8517-a738e8a12e45",
+      "title": "中心机房值班表排班规律（5人 / 6人模式）",
+      "description": "中心机房值班表重排班的核心规律：环+角色槽每周前进一格、N人即N周一轮、队列交替三条、24H队列循环铺满全周、节假日只停白班；含5人/6人具体环、历史验证结论、重排操作步骤与数据文件位置。以后用户要求\"重新排班/查排班规律/去掉某人改排班\"时召回。",
+      "status": "active",
+      "filename": "5-6-8faa2a57.md",
+      "relativePath": "documents/active/5-6-8faa2a57.md",
+      "sourcePaths": [
+        "03-机房笔记/中心机房值班表.md"
+      ],
+      "sessionIds": [
+        "session-2b3c026c-52d7-47c5-ace5-cf7910e2d66f"
+      ],
+      "createdAt": "2026-11-11T18:33:05.150Z",
+      "updatedAt": "2026-11-11T18:33:05.150Z",
+      "lastAccessedAt": "2026-11-11T18:33:05.150Z",
+      "revision": 1,
+      "contentHash": "6c8322e2b53a0d9759d63499c33b9d56d1d0debbf2c3c1e29d4be3f57a0e8c28",
+      "sizeBytes": 6288,
+      "memoryBodyIds": []
     }
   ]
 }
