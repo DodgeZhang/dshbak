@@ -76,7 +76,7 @@
     "dsh-connect-trae": {
       "builtIn": false,
       "displayName": "dsh-connect-trae",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-trae",
       "installSpec": "dsh-connect-trae@4.18.2",
       "name": "dsh-connect-trae",
@@ -84,21 +84,20 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-trae",
+          "enabled": false,
           "moduleName": "dsh-connect-trae",
           "rowId": "dsh-connect-trae"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-13T08:35:31.689Z",
+      "updatedAt": "2026-11-13T14:28:10.937Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "4.18.2"
     },
     "dsh-connect-workbuddy": {
       "builtIn": false,
       "displayName": "dsh-connect-workbuddy",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.23.0",
       "name": "dsh-connect-workbuddy",
@@ -106,14 +105,13 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-workbuddy",
+          "enabled": false,
           "moduleName": "dsh-connect-workbuddy",
           "rowId": "dsh-connect-workbuddy"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-13T08:35:31.689Z",
+      "updatedAt": "2026-11-13T14:28:10.937Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "5.23.0"
     },
@@ -745,5 +743,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:36:56.833Z"
+  "updatedAt": "2026-11-13T14:28:10.937Z"
 }

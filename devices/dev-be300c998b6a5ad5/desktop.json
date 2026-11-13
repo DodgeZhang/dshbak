@@ -90,7 +90,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-connect-trae",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-trae",
       "installSpec": "dsh-connect-trae@4.18.2",
       "name": "dsh-connect-trae",
@@ -100,8 +100,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-trae",
+          "enabled": false,
           "moduleName": "dsh-connect-trae",
           "rowId": "dsh-connect-trae"
         }
@@ -114,7 +113,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-connect-workbuddy",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.23.0",
       "name": "dsh-connect-workbuddy",
@@ -124,8 +123,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-workbuddy",
+          "enabled": false,
           "moduleName": "dsh-connect-workbuddy",
           "rowId": "dsh-connect-workbuddy"
         }
@@ -650,7 +648,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -660,38 +658,14 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:widgets",
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
       ],
       "syncable": true,
       "version": "1.8.5"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "@adenxie/dsh-vercel",
-      "enabled": true,
-      "id": "local:@adenxie/dsh-vercel",
-      "installSpec": null,
-      "name": "@adenxie/dsh-vercel",
-      "origin": "local-path",
-      "pathOnly": true,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:adenxie-dsh-vercel",
-          "moduleName": "@adenxie/dsh-vercel",
-          "rowId": "adenxie-dsh-vercel"
-        }
-      ],
-      "source": "@adenxie/dsh-vercel@0.4.0",
-      "syncable": false,
-      "version": "0.4.0"
     },
     {
       "builtIn": false,
@@ -723,7 +697,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@dmh2002/dsh-connect-qoder",
-      "enabled": true,
+      "enabled": false,
       "id": "local:@dmh2002/dsh-connect-qoder",
       "installSpec": null,
       "name": "@dmh2002/dsh-connect-qoder",
@@ -733,8 +707,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:dsh-connect-qoder",
+          "enabled": false,
           "moduleName": "@dmh2002/dsh-connect-qoder",
           "rowId": "dsh-connect-qoder"
         }
@@ -821,5 +794,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:36:56.833Z"
+  "updatedAt": "2026-11-13T14:28:10.937Z"
 }
