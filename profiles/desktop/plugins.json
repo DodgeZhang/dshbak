@@ -97,23 +97,24 @@
     "dsh-connect-workbuddy": {
       "builtIn": false,
       "displayName": "dsh-connect-workbuddy",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.23.0",
+      "installSpec": "dsh-connect-workbuddy@5.23.1",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
           "moduleName": "dsh-connect-workbuddy",
           "rowId": "dsh-connect-workbuddy"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-13T14:28:10.937Z",
+      "updatedAt": "2026-11-13T14:29:30.029Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "5.23.0"
+      "version": "5.23.1"
     },
     "dsh-conversation-recycle-bin": {
       "builtIn": false,
@@ -722,7 +723,7 @@
     "dsh-widgets": {
       "builtIn": false,
       "displayName": "Component System",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -730,18 +731,19 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:widgets",
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-13T08:36:56.833Z",
+      "updatedAt": "2026-11-13T14:29:30.029Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "1.8.5"
     }
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:28:10.937Z"
+  "updatedAt": "2026-11-13T14:29:30.029Z"
 }

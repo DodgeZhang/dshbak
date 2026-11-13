@@ -113,9 +113,9 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-connect-workbuddy",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.23.0",
+      "installSpec": "dsh-connect-workbuddy@5.23.1",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -123,13 +123,14 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
           "moduleName": "dsh-connect-workbuddy",
           "rowId": "dsh-connect-workbuddy"
         }
       ],
       "syncable": true,
-      "version": "5.23.0"
+      "version": "5.23.1"
     },
     {
       "builtIn": false,
@@ -671,6 +672,31 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
+      "displayName": "@adenxie/dsh-vercel",
+      "enabled": true,
+      "id": "local:@adenxie/dsh-vercel",
+      "installSpec": null,
+      "name": "@adenxie/dsh-vercel",
+      "origin": "local-path",
+      "pathOnly": true,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:adenxie-dsh-vercel",
+          "moduleName": "@adenxie/dsh-vercel",
+          "rowId": "adenxie-dsh-vercel"
+        }
+      ],
+      "source": "@adenxie/dsh-vercel@0.4.1",
+      "syncable": false,
+      "version": "0.4.1"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
       "displayName": "DSH Plugin Auto Update",
       "enabled": true,
       "id": "local:@chendaleiq/dsh-plugin-auto-update",
@@ -794,5 +820,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:28:10.937Z"
+  "updatedAt": "2026-11-13T14:29:30.029Z"
 }
