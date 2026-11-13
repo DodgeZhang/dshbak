@@ -78,7 +78,7 @@
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
-      "installSpec": "dsh-connect-trae@4.18.1",
+      "installSpec": "dsh-connect-trae@4.18.2",
       "name": "dsh-connect-trae",
       "origin": "npm",
       "pathOnly": false,
@@ -91,16 +91,16 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-12T04:58:24.854Z",
+      "updatedAt": "2026-11-13T08:35:31.689Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "4.18.1"
+      "version": "4.18.2"
     },
     "dsh-connect-workbuddy": {
       "builtIn": false,
       "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.22.0",
+      "installSpec": "dsh-connect-workbuddy@5.23.0",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -113,9 +113,9 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-13T03:36:43.514Z",
+      "updatedAt": "2026-11-13T08:35:31.689Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "5.22.0"
+      "version": "5.23.0"
     },
     "dsh-conversation-recycle-bin": {
       "builtIn": false,
@@ -210,7 +210,7 @@
       "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
-      "installSpec": "dsh-mnemon@0.5.44",
+      "installSpec": "dsh-mnemon@0.5.45",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
@@ -277,16 +277,16 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-12T04:58:24.854Z",
+      "updatedAt": "2026-11-13T08:35:31.689Z",
       "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "0.5.44"
+      "version": "0.5.45"
     },
     "dsh-open-market": {
       "builtIn": false,
       "displayName": "Open Plugin Market",
       "enabled": true,
       "id": "dsh-open-market",
-      "installSpec": "dsh-open-market@0.4.0",
+      "installSpec": "dsh-open-market@0.4.1",
       "name": "dsh-open-market",
       "origin": "npm",
       "pathOnly": false,
@@ -305,9 +305,9 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-12T05:31:32.051Z",
-      "updatedBy": "dev-b700fdb029d1f5b4",
-      "version": "0.4.0"
+      "updatedAt": "2026-11-13T08:35:31.689Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "0.4.1"
     },
     "dsh-our-free-model": {
       "builtIn": false,
@@ -619,6 +619,29 @@
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.7.14"
     },
+    "dsh-today": {
+      "builtIn": false,
+      "displayName": "dsh-today",
+      "enabled": true,
+      "id": "dsh-today",
+      "installSpec": "git+https://github.com/xuemei-wintersweet/dsh-today.git#8aca3dde8995d3b25033a114770ca8597add5611",
+      "name": "dsh-today",
+      "origin": "git",
+      "pathOnly": false,
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-today",
+          "moduleName": "dsh-today",
+          "rowId": "dsh-today"
+        }
+      ],
+      "source": "git+https://github.com/xuemei-wintersweet/dsh-today.git#8aca3dde8995d3b25033a114770ca8597add5611",
+      "syncable": true,
+      "updatedAt": "2026-11-13T08:35:31.689Z",
+      "updatedBy": "dev-be300c998b6a5ad5",
+      "version": "1.2.2"
+    },
     "dsh-token-optimizer": {
       "builtIn": false,
       "displayName": "Token Optimizer",
@@ -723,5 +746,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:36:43.515Z"
+  "updatedAt": "2026-11-13T08:35:31.689Z"
 }
