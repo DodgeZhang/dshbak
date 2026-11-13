@@ -116,7 +116,7 @@
       "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.21.4",
+      "installSpec": "dsh-connect-workbuddy@5.22.0",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -131,7 +131,7 @@
         }
       ],
       "syncable": true,
-      "version": "5.21.4"
+      "version": "5.22.0"
     },
     {
       "builtIn": false,
@@ -140,7 +140,7 @@
       "displayName": "dsh-conversation-recycle-bin",
       "enabled": true,
       "id": "dsh-conversation-recycle-bin",
-      "installSpec": "dsh-conversation-recycle-bin@0.3.21",
+      "installSpec": "dsh-conversation-recycle-bin@0.3.22",
       "name": "dsh-conversation-recycle-bin",
       "origin": "npm",
       "pathOnly": false,
@@ -155,7 +155,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.3.21"
+      "version": "0.3.22"
     },
     {
       "builtIn": false,
@@ -797,5 +797,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T13:51:21.084Z"
+  "updatedAt": "2026-11-13T03:36:43.514Z"
 }
