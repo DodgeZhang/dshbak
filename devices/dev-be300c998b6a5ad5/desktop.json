@@ -5,7 +5,7 @@
     "id": "dev-be300c998b6a5ad5",
     "name": "Dodge",
     "platform": "win32",
-    "pluginVersion": "0.2.12"
+    "pluginVersion": "0.2.13"
   },
   "plugins": [
     {
@@ -464,7 +464,7 @@
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
-      "installSpec": "dsh-plugins-git-sync@0.2.12",
+      "installSpec": "dsh-plugins-git-sync@0.2.13",
       "name": "dsh-plugins-git-sync",
       "origin": "npm",
       "pathOnly": false,
@@ -479,7 +479,7 @@
         }
       ],
       "syncable": false,
-      "version": "0.2.12"
+      "version": "0.2.13"
     },
     {
       "builtIn": false,
@@ -650,7 +650,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -660,8 +660,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
@@ -822,5 +821,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:35:31.689Z"
+  "updatedAt": "2026-11-13T08:36:56.833Z"
 }

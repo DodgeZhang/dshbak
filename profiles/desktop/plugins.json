@@ -724,7 +724,7 @@
     "dsh-widgets": {
       "builtIn": false,
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -732,19 +732,18 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-12T13:51:21.084Z",
+      "updatedAt": "2026-11-13T08:36:56.833Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "1.8.5"
     }
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:35:31.689Z"
+  "updatedAt": "2026-11-13T08:36:56.833Z"
 }

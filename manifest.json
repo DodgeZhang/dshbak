@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "generator": {
     "name": "dsh-plugins-git-sync",
-    "version": "0.2.12"
+    "version": "0.2.13"
   },
   "createdAt": "2026-11-07T17:22:10.341Z",
-  "updatedAt": "2026-11-13T08:35:31.689Z",
+  "updatedAt": "2026-11-13T08:36:56.833Z",
   "profiles": {
     "desktop": {
       "pluginCount": 20,
-      "updatedAt": "2026-11-13T08:35:31.689Z"
+      "updatedAt": "2026-11-13T08:36:56.833Z"
     }
   },
   "devices": [
