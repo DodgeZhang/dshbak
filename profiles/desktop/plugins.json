@@ -76,7 +76,7 @@
     "dsh-connect-trae": {
       "builtIn": false,
       "displayName": "dsh-connect-trae",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-connect-trae",
       "installSpec": "dsh-connect-trae@4.18.2",
       "name": "dsh-connect-trae",
@@ -84,13 +84,14 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-connect-trae",
           "moduleName": "dsh-connect-trae",
           "rowId": "dsh-connect-trae"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-13T14:28:10.937Z",
+      "updatedAt": "2026-11-13T15:13:17.196Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "4.18.2"
     },
@@ -745,5 +746,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:29:30.029Z"
+  "updatedAt": "2026-11-13T15:13:17.196Z"
 }

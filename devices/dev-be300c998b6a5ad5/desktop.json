@@ -90,7 +90,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-connect-trae",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-connect-trae",
       "installSpec": "dsh-connect-trae@4.18.2",
       "name": "dsh-connect-trae",
@@ -100,7 +100,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-connect-trae",
           "moduleName": "dsh-connect-trae",
           "rowId": "dsh-connect-trae"
         }
@@ -723,7 +724,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "@dmh2002/dsh-connect-qoder",
-      "enabled": false,
+      "enabled": true,
       "id": "local:@dmh2002/dsh-connect-qoder",
       "installSpec": null,
       "name": "@dmh2002/dsh-connect-qoder",
@@ -733,7 +734,8 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:dsh-connect-qoder",
           "moduleName": "@dmh2002/dsh-connect-qoder",
           "rowId": "dsh-connect-qoder"
         }
@@ -820,5 +822,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:29:30.029Z"
+  "updatedAt": "2026-11-13T15:13:17.196Z"
 }
