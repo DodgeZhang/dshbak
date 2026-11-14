@@ -40,6 +40,44 @@
       "contentHash": "b985226d5d465e8d2b8a3d84c2acba76427c62e110727f14e15c96f9db66606e",
       "sizeBytes": 9788,
       "memoryBodyIds": []
+    },
+    {
+      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
+      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
+      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
+      "status": "active",
+      "filename": "ds-bot-api-1e7a141d.md",
+      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
+      ],
+      "createdAt": "2026-11-13T18:02:51.316Z",
+      "updatedAt": "2026-11-13T18:02:51.316Z",
+      "lastAccessedAt": "2026-11-13T18:02:51.316Z",
+      "revision": 1,
+      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
+      "sizeBytes": 5584,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
+      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
+      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
+      "status": "active",
+      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
+      ],
+      "createdAt": "2026-11-14T05:15:39.178Z",
+      "updatedAt": "2026-11-14T05:15:39.178Z",
+      "lastAccessedAt": "2026-11-14T05:15:39.178Z",
+      "revision": 1,
+      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
+      "sizeBytes": 6805,
+      "memoryBodyIds": []
     }
   ]
 }

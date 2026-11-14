@@ -4,9 +4,11 @@
     "payload/runtime/memories.json": "6c16c47ee17560c6a792b7fbe287634867de35d655d8b1f28908a9adb8369354",
     "payload/runtime/USER.md": "86f54e89c40c00155e98daa33e675a1ccf387fdef6ea2fe00a13349dc36b22ab",
     "payload/runtime/MEMORY.md": "b1b220cc59027809ba4dc4b8bcaf58596ca58e9d59777d07b0d3f4ee21809b24",
-    "payload/documents/index.json": "e710817421677d2b661e16a0a84c524d8ba892e43c2edf04b025345f53da78af",
+    "payload/documents/index.json": "9ab8577904ea3e4d6fb65e47cfc49223b678b5be73ae7e80fa2d9fe07af2c83e",
     "payload/documents/active/document-4feaaa83.md": "3f4965d8c1cf15c0b64ce4a0b5846e75fe07737dc9323f0dc74ea55e99cfff00",
     "payload/documents/active/5-6-8faa2a57.md": "4ca53314e8c0196563b4dc42c89fc5386b1ade7c83685373802b10ef15745ee3",
+    "payload/documents/active/ds-bot-api-1e7a141d.md": "58a4e4f3a39bbcee25f8c2382d27dea29149f588f2808e591f2af75eb04216e8",
+    "payload/documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md": "e1cbd6e5106818c0f2c825e9b03e7f91cbe24eef99903324ba793be01e65b9bb",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
