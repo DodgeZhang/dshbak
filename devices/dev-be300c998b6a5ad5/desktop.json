@@ -36,7 +36,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "ds-bot",
-      "enabled": true,
+      "enabled": false,
       "id": "ds-bot",
       "installSpec": "ds-bot@0.3.6",
       "name": "ds-bot",
@@ -46,14 +46,12 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:bot",
+          "enabled": false,
           "moduleName": "ds-bot",
           "rowId": "bot"
         },
         {
-          "enabled": true,
-          "entryId": "include:web-search-auto",
+          "enabled": false,
           "moduleName": "ds-bot/web-search",
           "rowId": "web-search-auto"
         }
@@ -824,5 +822,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T04:49:41.570Z"
+  "updatedAt": "2026-11-14T04:58:43.362Z"
 }

@@ -3,7 +3,7 @@
     "ds-bot": {
       "builtIn": false,
       "displayName": "ds-bot",
-      "enabled": true,
+      "enabled": false,
       "id": "ds-bot",
       "installSpec": "ds-bot@0.3.6",
       "name": "ds-bot",
@@ -11,20 +11,18 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:bot",
+          "enabled": false,
           "moduleName": "ds-bot",
           "rowId": "bot"
         },
         {
-          "enabled": true,
-          "entryId": "include:web-search-auto",
+          "enabled": false,
           "moduleName": "ds-bot/web-search",
           "rowId": "web-search-auto"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-14T04:49:28.168Z",
+      "updatedAt": "2026-11-14T04:58:43.362Z",
       "updatedBy": "dev-be300c998b6a5ad5",
       "version": "0.3.6"
     },
@@ -771,5 +769,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T04:49:41.570Z"
+  "updatedAt": "2026-11-14T04:58:43.363Z"
 }
