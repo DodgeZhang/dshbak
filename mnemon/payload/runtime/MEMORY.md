@@ -4,6 +4,6 @@
 §
 中心机房值班表排班规律已存入项目文档《中心机房值班表排班规律（N 人通式：4 人 24H 队列固定）》（id 8faa2a57-d3e2-4b3c-8517-a738e8a12e45，rev2）。硬约束：4 人 24H 队列槽位固定不变，人数增减只改白班槽数（白班槽 = N−4）；N 人 = N 槽 = N 周一轮回，每人每周沿环前进一格、队尾升白班1；交替律通式：下周白班1=本周四24H、白班k=本周白班k−1、下周24H队列=[本周最后白班]+本周队列前3、周一24H=上周最后白班。已验证 N=5/6/7。以后重排班或增减人数先查该文档，不要改 24H 队列长度。
 §
-中心机房运维排班数据以在线金山文档 https://www.kdocs.cn/l/choxOglCxDpc 为准；本地排班表文件已是旧版本，后续涉及排班/值班提醒的任务直接读在线链接（用户明确纠正：不要读本地的，本地是旧的）。
+中心机房运维排班数据源定稿：内网 Seafile 直链 http://10.165.84.174:8989/f/23256cc72059478f9b65/（免登录 GET 分享页→解析最新直链→下载 xlsx，直链 JWT 会过期不可写死）。金山 kdocs.cn/l/choxOglCxDpc 需登录态(403)、腾讯 doc.weixin.qq.com 是空模板，均不可作数据源。真实表74行7列：A日期/B星期/C带班领导/D白班/E白班岗2(无表头)/F夜班24/G换班；今日值班读F列，带班领导读C列(合并单元格仅周一填，须向前回填非空值、周末回溯本周领导)，D/E白班岗仅作附加显示。本地 xlsx 保留兜底。
 §
 DSH Desktop 0.2.2-rc.3 曾出现 resources\runtime 被清空导致插件检查更新/卸载报 Cannot find module pnpm.mjs。已修复：junction「安装目录\resources\runtime\primary-runtime」→ C:\Users\Dodge\.dsh\dsh-runtimes\dsh-primary-runtime（rc.1 完好载荷，node 24.21.0 / pnpm 11.28.5 / python 3.12.14），并补 runtime\bin\node.exe 硬链接。若升级后复发，先查该 junction 是否被安装包更新清掉，重建即可；home 副本勿删。

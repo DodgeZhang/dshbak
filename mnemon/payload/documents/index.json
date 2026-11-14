@@ -35,7 +35,7 @@
       ],
       "createdAt": "2026-11-11T18:33:05.150Z",
       "updatedAt": "2026-11-12T03:45:53.489Z",
-      "lastAccessedAt": "2026-11-14T09:55:43.076Z",
+      "lastAccessedAt": "2026-11-14T11:59:09.929Z",
       "revision": 2,
       "contentHash": "b985226d5d465e8d2b8a3d84c2acba76427c62e110727f14e15c96f9db66606e",
       "sizeBytes": 9788,
@@ -229,7 +229,7 @@
       ],
       "createdAt": "2026-11-14T08:59:16.921Z",
       "updatedAt": "2026-11-14T08:59:16.921Z",
-      "lastAccessedAt": "2026-11-14T11:07:55.491Z",
+      "lastAccessedAt": "2026-11-14T11:59:09.929Z",
       "revision": 1,
       "contentHash": "0d54ed0449f8a271c7ba7fae3eee56e85feb0ed4e918d65381ad8764b3ac9d2e",
       "sizeBytes": 3529,
@@ -273,7 +273,7 @@
       ],
       "createdAt": "2026-11-14T09:56:11.291Z",
       "updatedAt": "2026-11-14T09:56:11.291Z",
-      "lastAccessedAt": "2026-11-14T10:56:37.781Z",
+      "lastAccessedAt": "2026-11-14T11:57:40.884Z",
       "revision": 1,
       "contentHash": "af92fa965ce819abb4083e0168e372c1bdc90c41d4361f723affa2cb3c69fafb",
       "sizeBytes": 3759,
@@ -318,7 +318,7 @@
       ],
       "createdAt": "2026-11-14T10:04:27.647Z",
       "updatedAt": "2026-11-14T10:04:27.647Z",
-      "lastAccessedAt": "2026-11-14T10:55:47.337Z",
+      "lastAccessedAt": "2026-11-14T11:59:14.058Z",
       "revision": 1,
       "contentHash": "9520ae54bfdd7ba66d52aa96e3c492feff9c8e7b080413522ac042cb9cf95287",
       "sizeBytes": 2956,
@@ -342,7 +342,7 @@
       ],
       "createdAt": "2026-11-14T10:15:29.610Z",
       "updatedAt": "2026-11-14T10:15:29.610Z",
-      "lastAccessedAt": "2026-11-14T11:15:22.665Z",
+      "lastAccessedAt": "2026-11-14T11:59:14.058Z",
       "revision": 1,
       "contentHash": "14af403b48f2d2ba2a61bf0b9fefc42e619bdef1bec79e34ca05612178b506f3",
       "sizeBytes": 5515,
@@ -436,7 +436,7 @@
       ],
       "createdAt": "2026-11-14T10:52:04.941Z",
       "updatedAt": "2026-11-14T10:52:04.941Z",
-      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
+      "lastAccessedAt": "2026-11-14T11:55:45.287Z",
       "revision": 1,
       "contentHash": "1608464dc014aa6163fd2511a5ac1a2c44b997cc7bfde40b6accc5d69dcf2431",
       "sizeBytes": 3317,
@@ -458,7 +458,7 @@
       ],
       "createdAt": "2026-11-14T10:55:49.155Z",
       "updatedAt": "2026-11-14T10:55:49.155Z",
-      "lastAccessedAt": "2026-11-14T11:17:12.738Z",
+      "lastAccessedAt": "2026-11-14T11:59:14.058Z",
       "revision": 1,
       "contentHash": "f4260351d156b58943c8bc2670437e2f61e0d8c1b909bf3f30988d55bd2e3043",
       "sizeBytes": 3137,
@@ -480,7 +480,7 @@
       ],
       "createdAt": "2026-11-14T10:56:42.756Z",
       "updatedAt": "2026-11-14T10:56:42.756Z",
-      "lastAccessedAt": "2026-11-14T11:17:12.738Z",
+      "lastAccessedAt": "2026-11-14T11:55:45.287Z",
       "revision": 1,
       "contentHash": "590c0cc035a697322b6e354945ea377f7aba6e871f3fcd16079cddccff432213",
       "sizeBytes": 4507,
@@ -501,7 +501,7 @@
       ],
       "createdAt": "2026-11-14T11:08:17.897Z",
       "updatedAt": "2026-11-14T11:08:17.897Z",
-      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
+      "lastAccessedAt": "2026-11-14T11:35:31.603Z",
       "revision": 1,
       "contentHash": "9c66860dda6bb70c97f9833f7c063df2278be0329f82d679736982b78b048e61",
       "sizeBytes": 3273,
@@ -527,7 +527,7 @@
       ],
       "createdAt": "2026-11-14T11:16:47.323Z",
       "updatedAt": "2026-11-14T11:16:47.323Z",
-      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
+      "lastAccessedAt": "2026-11-14T12:10:22.595Z",
       "revision": 1,
       "contentHash": "ed589412653e39d39160d3601688e8466fb7b9c0e7ba71fa2bca0d29640818fa",
       "sizeBytes": 5788,
@@ -552,10 +552,193 @@
       ],
       "createdAt": "2026-11-14T11:19:09.782Z",
       "updatedAt": "2026-11-14T11:19:09.782Z",
-      "lastAccessedAt": "2026-11-14T11:19:09.782Z",
+      "lastAccessedAt": "2026-11-14T11:35:31.603Z",
       "revision": 1,
       "contentHash": "b12b7883abc5cf4f4424fabe215c13cb0d18afb128b7f1e99a5078c414da3c02",
       "sizeBytes": 5443,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "4aed464d-1c2a-4e83-b0ff-06aec5ecc327",
+      "title": "值班提醒机器人：在线读取（数据源无关）技术方案与数据源待确认",
+      "description": "「在线读取」可插拔架构：金山/腾讯/本地 xlsx 三选一适配器、回退链、刷新时机与一致性裁定，以及数据源待确认（腾讯文档空模板 vs 权威金山 kdocs）。承接 GUI 架构 e45ce875 与 v1.1 收口 39e4cfd2。",
+      "status": "active",
+      "filename": "document-4aed464d.md",
+      "relativePath": "documents/active/document-4aed464d.md",
+      "sourcePaths": [
+        "值班提醒机器人/在线读取技术方案.md",
+        "值班提醒机器人/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-f6e6aaef-59c8-423f-b39b-fbae05af18a1"
+      ],
+      "createdAt": "2026-11-14T11:35:11.672Z",
+      "updatedAt": "2026-11-14T11:35:11.672Z",
+      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "revision": 1,
+      "contentHash": "9e5a88b0bd5a89045a6f54fe541624e703b1e6864eaad5bd00343418a3656ce0",
+      "sizeBytes": 3543,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "0af5d098-b497-4862-965b-cc0a40427407",
+      "title": "值班提醒机器人：GUI QA修复迭代（run.log改名+缺配置提示+全局异常钩子）与在线读取适配器设计",
+      "description": "GUI 编码开发 QA 修复迭代落地：P1 日志名 duty_gui.log→run.log（PM 硬口径）、P2 缺配置中文提示与全局异常钩子、裁剪4项、_install 显式 sys.executable 优化落地、重打包产物，以及在线读取 fetch_online 适配器设计（数据源未定暂缓）。",
+      "status": "active",
+      "filename": "gui-qa-run-log-0af5d098.md",
+      "relativePath": "documents/active/gui-qa-run-log-0af5d098.md",
+      "sourcePaths": [
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/duty_reminder.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-dc0b1210-298d-43a2-956f-1b1523f475e7"
+      ],
+      "createdAt": "2026-11-14T11:35:19.410Z",
+      "updatedAt": "2026-11-14T11:35:19.410Z",
+      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "revision": 1,
+      "contentHash": "879eb491a09e61b6b72caf81e2e4cef7225d3a0b105009e7d1f00b94827782cd",
+      "sizeBytes": 4056,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "d1a6fd51-b54c-406a-9d3b-ca69cf9a80d3",
+      "title": "值班提醒机器人：在线表格读取能力——需求框架、调研证据与硬口径（读取方式 TBD）",
+      "description": "2026-11-14 新需求「加在线表格读取能力」的需求侧 handoff：笔记库+交投资料无腾讯文档接口底子、现有 load_schedule 读本地 xlsx 转字典内核、三条零回归硬口径、空模板验收、读取方式 TBD、4 项待 PM 确认。承接 GUI v1.1 收口 39e4cfd2，供架构/编码/QA 阶段召回。",
+      "status": "active",
+      "filename": "tbd-d1a6fd51.md",
+      "relativePath": "documents/active/tbd-d1a6fd51.md",
+      "sourcePaths": [
+        "值班提醒机器人/需求说明-在线表格读取.md",
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/GUI版/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-044a927b-8056-450f-8be8-30cf4e30e5a2"
+      ],
+      "createdAt": "2026-11-14T11:36:47.376Z",
+      "updatedAt": "2026-11-14T11:36:47.376Z",
+      "lastAccessedAt": "2026-11-14T12:10:22.595Z",
+      "revision": 1,
+      "contentHash": "955f00402f49f33a228d06860e8009edb2682cce98774bc6432b82d04f1d0d4d",
+      "sizeBytes": 4605,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "943996c6-7da4-4e0c-bfda-7a08e27c0833",
+      "title": "值班提醒机器人：数据源定稿（内网 Seafile 直链）与排班表结构变更重核",
+      "description": "数据源三选一终结：定稿内网 Seafile 直链为唯一免登录源，排除金山(403)/腾讯(空模板)；排班表本身新增「带班领导」列需重核列映射；fetch_seafile 实现口径与内网 HTTP 安全白名单收口。承接在线读取方案 4aed464d 与 GUI 架构 e45ce875。",
+      "status": "active",
+      "filename": "seafile-943996c6.md",
+      "relativePath": "documents/active/seafile-943996c6.md",
+      "sourcePaths": [
+        "值班提醒机器人/在线读取技术方案.md",
+        "值班提醒机器人/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-dcbeed69-af52-4468-8003-748ba948f72d"
+      ],
+      "createdAt": "2026-11-14T11:56:02.941Z",
+      "updatedAt": "2026-11-14T11:56:02.941Z",
+      "lastAccessedAt": "2026-11-14T12:15:01.493Z",
+      "revision": 1,
+      "contentHash": "9438ffb372c8f7ea2ffa589f1a96704d22895f3498516d26775d7571652ec24c",
+      "sizeBytes": 3257,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "97a84876-8efa-47bd-8e55-dac75722db3d",
+      "title": "值班提醒机器人：新排班表（带班领导合并单元格）适配修复与 GUI 待收尾",
+      "description": "2026-11-14 用户更新中心机房运维排班表.xlsx 到机房笔记目录后，值班提醒机器人适配新表结构：带班领导合并单元格向下填充修复、config 指向新表、重新打包；GUI 版 exe 因程序占用未同步成功，留待收尾。",
+      "status": "active",
+      "filename": "gui-97a84876.md",
+      "relativePath": "documents/active/gui-97a84876.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/config.json",
+        "值班提醒机器人/GUI版/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-25e5955c-0185-4947-8163-529b918b174b"
+      ],
+      "createdAt": "2026-11-14T11:58:09.679Z",
+      "updatedAt": "2026-11-14T11:58:09.679Z",
+      "lastAccessedAt": "2026-11-14T12:01:18.653Z",
+      "revision": 1,
+      "contentHash": "5cae04dd7ac9c91839958760aa8786d4db2836900d1e1bc750e0f1ed5c7f1218",
+      "sizeBytes": 4689,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "109a3ccf-e7d7-4696-a8d8-30c7cc646ab2",
+      "title": "值班提醒机器人：在线读取实现定稿（fetch_seafile 下载链 + 三级回退 + 列映射精确锚定）",
+      "description": "在线读取实现定稿：fetch_seafile 下载链、三级回退、列映射精确锚定（C=带班领导/F=夜班24/D-E白班岗）、config 字段与安全白名单，源码层验证结论与 to_date 踩坑。",
+      "status": "active",
+      "filename": "fetch-seafile-109a3ccf.md",
+      "relativePath": "documents/active/fetch-seafile-109a3ccf.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-28550e0a-3ed4-4de9-b49a-89690cf423c8"
+      ],
+      "createdAt": "2026-11-14T12:07:13.317Z",
+      "updatedAt": "2026-11-14T12:07:13.317Z",
+      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "revision": 1,
+      "contentHash": "0c32bc26cc7287d80127676692dc3ac3dfa1470b32c357291c1f156d3b8bf462",
+      "sizeBytes": 5082,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "40299627-3458-4fe2-a03e-89bab30f2d09",
+      "title": "值班提醒机器人 v1.2 在线读取能力：实现落地与发布闸门待收口",
+      "description": "v1.2 在线读取（内网 Seafile 直链）实现已落代码、CLI 重打包、GUI 入口已加，安全四条红线放行、online_auto_refresh 开关小口子已补；但发布仍卡 GUI 重打包 + QA 9 条绿灯。承接 v1.1 放行(915e4849)、在线读取设计(0af5d098)、需求框架(d1a6fd51)。",
+      "status": "active",
+      "filename": "v1-2-40299627.md",
+      "relativePath": "documents/active/v1-2-40299627.md",
+      "sourcePaths": [
+        "值班提醒机器人/在线读取发布追踪.md",
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/config.json",
+        "值班提醒机器人/GUI版发布说明.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-623190ba-5230-433c-9849-a84dbc939651"
+      ],
+      "createdAt": "2026-11-14T12:10:58.338Z",
+      "updatedAt": "2026-11-14T12:10:58.338Z",
+      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "revision": 1,
+      "contentHash": "d56002685a758671e0be0f03bffb1efe7faed8e2eac40fa0b698909b5cea64a0",
+      "sizeBytes": 5439,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "0a26f67c-9750-46eb-b5be-fb75d3a1a25c",
+      "title": "值班提醒机器人 v1.2 P2 修复：online_auto_refresh 开关作用域收口 + 重打包交付",
+      "description": "v1.2 P2 开关作用域修复（allow_online 参数化）与重打包交付口径，纠正在线读取定稿文档中开关的旧行为描述。",
+      "status": "active",
+      "filename": "v1-2-p2-online-auto-refresh-0a26f67c.md",
+      "relativePath": "documents/active/v1-2-p2-online-auto-refresh-0a26f67c.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-3d29dca4-570d-4184-ac1e-062f72ef0b84"
+      ],
+      "createdAt": "2026-11-14T12:15:32.658Z",
+      "updatedAt": "2026-11-14T12:15:32.658Z",
+      "lastAccessedAt": "2026-11-14T12:16:16.799Z",
+      "revision": 1,
+      "contentHash": "09162fd0fb6a8e41d6771a814ce2f825f3a77ac671167b81c96dd9d312b305c0",
+      "sizeBytes": 2654,
       "memoryBodyIds": []
     }
   ]
