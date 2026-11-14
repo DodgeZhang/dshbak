@@ -1,7 +1,7 @@
 {
   "device": {
     "arch": "x64",
-    "dshVersion": "0.2.2-rc.1",
+    "dshVersion": "0.2.2-rc.3",
     "id": "dev-be300c998b6a5ad5",
     "name": "Dodge",
     "platform": "win32",
@@ -35,8 +35,38 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "Better Sidebar",
+      "displayName": "ds-bot",
       "enabled": true,
+      "id": "ds-bot",
+      "installSpec": "ds-bot@0.3.6",
+      "name": "ds-bot",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:bot",
+          "moduleName": "ds-bot",
+          "rowId": "bot"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:web-search-auto",
+          "moduleName": "ds-bot/web-search",
+          "rowId": "web-search-auto"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.6"
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "Better Sidebar",
+      "enabled": false,
       "id": "dsh-better-sidebar",
       "installSpec": "dsh-better-sidebar@0.32.0",
       "name": "dsh-better-sidebar",
@@ -46,8 +76,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:better-sidebar",
+          "enabled": false,
           "moduleName": "dsh-better-sidebar",
           "rowId": "better-sidebar"
         }
@@ -138,7 +167,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "dsh-conversation-recycle-bin",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-conversation-recycle-bin",
       "installSpec": "dsh-conversation-recycle-bin@0.3.22",
       "name": "dsh-conversation-recycle-bin",
@@ -148,8 +177,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:conversation-recycle-bin",
+          "enabled": false,
           "moduleName": "dsh-conversation-recycle-bin",
           "rowId": "conversation-recycle-bin"
         }
@@ -600,31 +628,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "dsh-today",
-      "enabled": true,
-      "id": "dsh-today",
-      "installSpec": "git+https://github.com/xuemei-wintersweet/dsh-today.git#8aca3dde8995d3b25033a114770ca8597add5611",
-      "name": "dsh-today",
-      "origin": "git",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:dsh-today",
-          "moduleName": "dsh-today",
-          "rowId": "dsh-today"
-        }
-      ],
-      "source": "git+https://github.com/xuemei-wintersweet/dsh-today.git#8aca3dde8995d3b25033a114770ca8597add5611",
-      "syncable": true,
-      "version": "1.2.2"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "Token Optimizer",
       "enabled": true,
       "id": "dsh-token-optimizer",
@@ -650,7 +653,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Component System",
-      "enabled": true,
+      "enabled": false,
       "id": "dsh-widgets",
       "installSpec": "dsh-widgets@1.8.5",
       "name": "dsh-widgets",
@@ -660,8 +663,7 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": true,
-          "entryId": "include:widgets",
+          "enabled": false,
           "moduleName": "dsh-widgets",
           "rowId": "widgets"
         }
@@ -822,5 +824,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:13:17.196Z"
+  "updatedAt": "2026-11-14T04:49:28.168Z"
 }
