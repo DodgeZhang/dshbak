@@ -35,48 +35,10 @@
       ],
       "createdAt": "2026-11-11T18:33:05.150Z",
       "updatedAt": "2026-11-12T03:45:53.489Z",
-      "lastAccessedAt": "2026-11-12T03:45:53.489Z",
+      "lastAccessedAt": "2026-11-14T09:55:43.076Z",
       "revision": 2,
       "contentHash": "b985226d5d465e8d2b8a3d84c2acba76427c62e110727f14e15c96f9db66606e",
       "sizeBytes": 9788,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
-      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
-      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
-      "status": "active",
-      "filename": "ds-bot-api-1e7a141d.md",
-      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
-      ],
-      "createdAt": "2026-11-13T18:02:51.316Z",
-      "updatedAt": "2026-11-13T18:02:51.316Z",
-      "lastAccessedAt": "2026-11-13T18:02:51.316Z",
-      "revision": 1,
-      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
-      "sizeBytes": 5584,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
-      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
-      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
-      "status": "active",
-      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
-      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
-      ],
-      "createdAt": "2026-11-14T05:15:39.178Z",
-      "updatedAt": "2026-11-14T05:15:39.178Z",
-      "lastAccessedAt": "2026-11-14T05:15:39.178Z",
-      "revision": 1,
-      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
-      "sizeBytes": 6805,
       "memoryBodyIds": []
     },
     {
@@ -92,7 +54,7 @@
       ],
       "createdAt": "2026-11-14T06:03:10.441Z",
       "updatedAt": "2026-11-14T06:03:10.441Z",
-      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "775b1340fc16a84a5f03ddfef8afcdfdafe0c2bb23ede2e2751a4bf5320e7f97",
       "sizeBytes": 6062,
@@ -111,10 +73,48 @@
       ],
       "createdAt": "2026-11-14T06:20:38.584Z",
       "updatedAt": "2026-11-14T06:20:38.584Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T07:16:57.011Z",
       "revision": 1,
       "contentHash": "dddb562ee4a84b46b00704429a472dca0cafef0c8f4c783a06dd98abc8f16253",
       "sizeBytes": 1958,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
+      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
+      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
+      "status": "active",
+      "filename": "ds-bot-api-1e7a141d.md",
+      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
+      ],
+      "createdAt": "2026-11-13T18:02:51.316Z",
+      "updatedAt": "2026-11-13T18:02:51.316Z",
+      "lastAccessedAt": "2026-11-14T06:53:29.175Z",
+      "revision": 1,
+      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
+      "sizeBytes": 5584,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
+      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
+      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
+      "status": "active",
+      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
+      ],
+      "createdAt": "2026-11-14T05:15:39.178Z",
+      "updatedAt": "2026-11-14T05:15:39.178Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
+      "revision": 1,
+      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
+      "sizeBytes": 6805,
       "memoryBodyIds": []
     },
     {
@@ -149,7 +149,7 @@
       ],
       "createdAt": "2026-11-14T06:53:52.000Z",
       "updatedAt": "2026-11-14T06:53:52.000Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
       "revision": 1,
       "contentHash": "473e97ba250e45871e90e07641adc3968f30bccf30d2bcd1cbf8c04a62dd8041",
       "sizeBytes": 3459,
@@ -168,7 +168,7 @@
       ],
       "createdAt": "2026-11-14T07:07:28.105Z",
       "updatedAt": "2026-11-14T07:07:28.105Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "a1af9c6d4ba8e06e2e0095cbe826c57672f0cdafca783095c738f6ccae78a757",
       "sizeBytes": 2592,
@@ -187,7 +187,7 @@
       ],
       "createdAt": "2026-11-14T07:17:23.820Z",
       "updatedAt": "2026-11-14T07:17:23.820Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "4956794d28aab1c71ab714c8531e60705a13a96a4c3841999545e67ac5168d6f",
       "sizeBytes": 3741,
@@ -210,6 +210,191 @@
       "revision": 1,
       "contentHash": "f19ce1629fdb34c1538cef5fd92e46dbdd181ffa1a941be527a38f8d41e7dffa",
       "sizeBytes": 3512,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "830067aa-8a2e-42df-83b7-baaae0370c1a",
+      "title": "值班提醒机器人（中心机房）实现与部署",
+      "description": "中心机房值班提醒机器人（企业微信推送 + Windows 计划任务）的实现与部署：交付文件位置、三大功能、内置 5 人排班算法验证结论、部署两步、排班数据源取舍（在线金山文档需登录态故走内置算法）。以后用户要求改机器人/换 webhook/重打包/再排班时召回。",
+      "status": "active",
+      "filename": "document-830067aa.md",
+      "relativePath": "documents/active/document-830067aa.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/config.json",
+        "值班提醒机器人/使用说明.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-6fe185a1-2381-42dc-80b2-a5ba9963d95f"
+      ],
+      "createdAt": "2026-11-14T08:59:16.921Z",
+      "updatedAt": "2026-11-14T08:59:16.921Z",
+      "lastAccessedAt": "2026-11-14T10:14:53.622Z",
+      "revision": 1,
+      "contentHash": "0d54ed0449f8a271c7ba7fae3eee56e85feb0ed4e918d65381ad8764b3ac9d2e",
+      "sizeBytes": 3529,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "2413d757-c420-4512-8f8e-b686f82ac1e7",
+      "title": "杠精群「我不是跟你杠嗷」四 Bot 人格与群规档案",
+      "description": "2026-11-14 杠精群「我不是跟你杠嗷」的群规、四名杠精 Bot 的人格分工与模型、挑刺鬼（山本国玉）人设要点与两轮实战范式。后续问群规/某人设/改群设定时召回。",
+      "status": "active",
+      "filename": "bot-2413d757.md",
+      "relativePath": "documents/active/bot-2413d757.md",
+      "sourcePaths": [
+        "."
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-c0fa4fe7-07a4-45d9-bde7-894f52deb175"
+      ],
+      "createdAt": "2026-11-14T09:45:31.361Z",
+      "updatedAt": "2026-11-14T09:45:31.361Z",
+      "lastAccessedAt": "2026-11-14T09:45:31.361Z",
+      "revision": 1,
+      "contentHash": "d038851694dde7ff1b008bfeb743aa2a396cd9502f3de40361ebd90682b8eee3",
+      "sizeBytes": 4440,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a82f102f-4942-4d2b-aac7-ccfcc16ddc21",
+      "title": "值班提醒机器人（中心机房）最终版：读导出 xlsx + 双击交互菜单",
+      "description": "中心机房值班提醒机器人最终交付：排班数据源改为读用户导出的排班表.xlsx（方案2）、双击进交互菜单、exe 与 config 同层、双击起不来的根因与部署三步。承接早期内置算法版文档 830067aa，排班规律引用 8faa2a57。以后用户要求改机器人/重打包/换 webhook/再排班时召回本版。",
+      "status": "active",
+      "filename": "xlsx-a82f102f.md",
+      "relativePath": "documents/active/xlsx-a82f102f.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/config.json",
+        "值班提醒机器人/使用说明.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-a4fb52cb-07a4-45f9-bde9-84115bb5814a"
+      ],
+      "createdAt": "2026-11-14T09:56:11.291Z",
+      "updatedAt": "2026-11-14T09:56:11.291Z",
+      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "revision": 1,
+      "contentHash": "af92fa965ce819abb4083e0168e372c1bdc90c41d4361f723affa2cb3c69fafb",
+      "sizeBytes": 3759,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a28a16fa-2591-4c54-a55b-63ac71f85d0f",
+      "title": "值班提醒机器人 exe 双击闪退真根因：腾讯电脑管家拦截 PyInstaller 单文件自解压",
+      "description": "值班提醒机器人 duty_reminder.exe 双击即退的真根因修正：非目录/闪退问题，而是腾讯电脑管家（QQPCRTP）拦截 PyInstaller onefile 自解压，报 Could not create temporary directory!。含证据链、按优先级的三套方案、无打包环境硬约束。承接 a82f102f 的旧根因判断。",
+      "status": "active",
+      "filename": "exe-pyinstaller-a28a16fa.md",
+      "relativePath": "documents/active/exe-pyinstaller-a28a16fa.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-3168b946-3ccf-453d-bb29-d5017963f738"
+      ],
+      "createdAt": "2026-11-14T10:01:20.744Z",
+      "updatedAt": "2026-11-14T10:01:20.744Z",
+      "lastAccessedAt": "2026-11-14T10:16:57.994Z",
+      "revision": 1,
+      "contentHash": "59c3e789100a1fa415ede9ac8182097eb8087f00dc639fa281d0addbbc8f7337",
+      "sizeBytes": 3756,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a9cbb58a-f47d-4eaa-a5c9-13de2082ce6d",
+      "title": "值班提醒机器人（中心机房）onedir 重打包根治杀软拦截（已完成验证）",
+      "description": "中心机房值班提醒机器人 onefile→onedir 重打包的根因确认、dsh 内置 runtime 打包环境、utf-8-sig 编码修复与端到端验证结论。承接文档 a82f102f，排班规律引用 8faa2a57。以后用户要求重打包/换 webhook/再排班时召回。",
+      "status": "active",
+      "filename": "onedir-a9cbb58a.md",
+      "relativePath": "documents/active/onedir-a9cbb58a.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/config.json",
+        "值班提醒机器人/使用说明.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-77064da1-d8af-444a-8f80-2dabaf623b20"
+      ],
+      "createdAt": "2026-11-14T10:04:27.647Z",
+      "updatedAt": "2026-11-14T10:04:27.647Z",
+      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "revision": 1,
+      "contentHash": "9520ae54bfdd7ba66d52aa96e3c492feff9c8e7b080413522ac042cb9cf95287",
+      "sizeBytes": 2956,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "58b81714-0d7b-4fa6-b307-daadc3ca2917",
+      "title": "值班提醒机器人 v1.0 发布定稿：QA 复验结论与 ⚠/GBK 编码 P2 缺陷",
+      "description": "值班提醒机器人 onedir 版 v1.0 发布闸门结论、QA复验报告要点（33/29 有条件通过），以及菜单 ⚠ 字符在 GBK 管道/重定向下的编码缺陷与已验证修复。承接 a9cbb58a（onedir 重打包根治）的发布收尾与已知遗留。",
+      "status": "active",
+      "filename": "v1-0-qa-gbk-p2-58b81714.md",
+      "relativePath": "documents/active/v1-0-qa-gbk-p2-58b81714.md",
+      "sourcePaths": [
+        "值班提醒机器人/发布说明.md",
+        "值班提醒机器人/QA复验报告.md",
+        "值班提醒机器人/审核意见.md",
+        "值班提醒机器人/duty_reminder.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-1f8815d8-1ab6-4998-a9a7-0a22aeee02b7"
+      ],
+      "createdAt": "2026-11-14T10:15:29.610Z",
+      "updatedAt": "2026-11-14T10:15:29.610Z",
+      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "revision": 1,
+      "contentHash": "14af403b48f2d2ba2a61bf0b9fefc42e619bdef1bec79e34ca05612178b506f3",
+      "sizeBytes": 5515,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "055cb971-bbd7-46f1-96f3-b3972d3653fb",
+      "title": "值班提醒机器人 v1.0 onedir 交付收尾：config 乱码勘误、QA 复验 P2 缺陷与验收口径",
+      "description": "中心机房值班提醒机器人 v0.9-rc→v1.0 onedir 交付收尾：config.json 中文乱码为 PowerShell GBK 显示误判（审核意见已勘误作废，勿重复改）、QA 复验 33 例有条件通过含 ⚠/GBK 管道 P2 缺陷及已验证修复、双击验收口径=弹中文菜单由人选、六份文档定稿与发布闸门状态。以后被要求改 config 编码/修菜单乱码/升版发布说明时召回。承接 a9cbb58a / a28a16fa。",
+      "status": "active",
+      "filename": "v1-0-onedir-config-qa-p2-055cb971.md",
+      "relativePath": "documents/active/v1-0-onedir-config-qa-p2-055cb971.md",
+      "sourcePaths": [
+        "值班提醒机器人/QA复验报告.md",
+        "值班提醒机器人/审核意见.md",
+        "值班提醒机器人/问题排查记录.md",
+        "值班提醒机器人/使用说明.md",
+        "值班提醒机器人/变更记录.md",
+        "值班提醒机器人/发布说明.md",
+        "值班提醒机器人/config.json",
+        "值班提醒机器人/duty_reminder.spec"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-236a63dc-e964-441d-80dc-df5a017200fc"
+      ],
+      "createdAt": "2026-11-14T10:19:02.003Z",
+      "updatedAt": "2026-11-14T10:19:02.003Z",
+      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "revision": 1,
+      "contentHash": "4e31c3e859f075a7e64250a2b0354579dc75eafe0c4ebddac2718ee463e33083",
+      "sizeBytes": 5995,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "56aa67af-57cd-4a4f-acd6-de8a54ed21d3",
+      "title": "值班提醒机器人 banner P1 修复：隐式字符串拼接致标题重复 46 次",
+      "description": "中心机房值班提醒机器人 v1.0 收尾阶段的菜单 banner P1 缺陷：隐式字符串拼接把 *46 错作用到整段导致标题刷成 109 行，已改 \"\\n\".join 显式拼接并重打包验证。承接 a9cbb58a / 055cb971，以后被要求修菜单刷屏/隐式拼接/升版时召回。",
+      "status": "active",
+      "filename": "banner-p1-46-56aa67af.md",
+      "relativePath": "documents/active/banner-p1-46-56aa67af.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-e5791a64-a5a3-4686-828f-4f9c44f928ef"
+      ],
+      "createdAt": "2026-11-14T10:27:06.154Z",
+      "updatedAt": "2026-11-14T10:27:06.154Z",
+      "lastAccessedAt": "2026-11-14T10:27:06.154Z",
+      "revision": 1,
+      "contentHash": "f3f78cd44bf47a8acdcaf11e5fbbdbe310756dc6c8f7d8bd301cb9b6fd4253c9",
+      "sizeBytes": 3102,
       "memoryBodyIds": []
     }
   ]
