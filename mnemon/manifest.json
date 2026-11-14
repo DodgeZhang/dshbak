@@ -2,7 +2,7 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-14T07:30:53.577Z",
+  "exportedAt": "2026-11-14T08:27:07.491Z",
   "source": {
     "plugin": "dsh-mnemon",
     "pluginVersion": "0.5.45"
@@ -16,14 +16,14 @@
     {
       "component": "runtime",
       "files": 3,
-      "bytes": 3816,
-      "items": 4
+      "bytes": 4503,
+      "items": 5
     },
     {
       "component": "documents",
-      "files": 11,
-      "bytes": 54986,
-      "items": 10
+      "files": 12,
+      "bytes": 59427,
+      "items": 11
     },
     {
       "component": "memory-spaces",
@@ -36,11 +36,11 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-14T07:30:53.577Z",
+    "pushedAt": "2026-11-14T08:27:07.491Z",
     "machine": {
-      "id": "12c839e1-a6cd-4a0b-be74-ca757aaa58b6",
-      "label": "Dodge",
-      "createdAt": "2026-11-08T09:17:30.886Z"
+      "id": "b7527233-55d9-44b2-af6a-b5946fe8e3ef",
+      "label": "Dodge-Office-2026",
+      "createdAt": "2026-11-10T02:52:42.412Z"
     },
     "tombstones": [
       {

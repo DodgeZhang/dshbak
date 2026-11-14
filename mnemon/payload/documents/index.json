@@ -42,44 +42,6 @@
       "memoryBodyIds": []
     },
     {
-      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
-      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
-      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
-      "status": "active",
-      "filename": "ds-bot-api-1e7a141d.md",
-      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
-      ],
-      "createdAt": "2026-11-13T18:02:51.316Z",
-      "updatedAt": "2026-11-13T18:02:51.316Z",
-      "lastAccessedAt": "2026-11-13T18:02:51.316Z",
-      "revision": 1,
-      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
-      "sizeBytes": 5584,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
-      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
-      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
-      "status": "active",
-      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
-      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
-      ],
-      "createdAt": "2026-11-14T05:15:39.178Z",
-      "updatedAt": "2026-11-14T05:15:39.178Z",
-      "lastAccessedAt": "2026-11-14T05:15:39.178Z",
-      "revision": 1,
-      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
-      "sizeBytes": 6805,
-      "memoryBodyIds": []
-    },
-    {
       "id": "7239f584-cfd0-4130-9813-cc438bea9348",
       "title": "AI文案团队系统提示词与协作流程（6常驻+2临时）",
       "description": "用户提供并采纳的文案AI团队运营方案：6个常驻角色+2个临时角色、两套固定协作流程、六条全局硬性规则，以及已落成的多智能体团队实况。以后接文案类需求、或问文案团队角色/流程时召回。",
@@ -92,7 +54,7 @@
       ],
       "createdAt": "2026-11-14T06:03:10.441Z",
       "updatedAt": "2026-11-14T06:03:10.441Z",
-      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "775b1340fc16a84a5f03ddfef8afcdfdafe0c2bb23ede2e2751a4bf5320e7f97",
       "sizeBytes": 6062,
@@ -115,6 +77,44 @@
       "revision": 1,
       "contentHash": "dddb562ee4a84b46b00704429a472dca0cafef0c8f4c783a06dd98abc8f16253",
       "sizeBytes": 1958,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
+      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
+      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
+      "status": "active",
+      "filename": "ds-bot-api-1e7a141d.md",
+      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
+      ],
+      "createdAt": "2026-11-13T18:02:51.316Z",
+      "updatedAt": "2026-11-13T18:02:51.316Z",
+      "lastAccessedAt": "2026-11-14T06:53:29.175Z",
+      "revision": 1,
+      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
+      "sizeBytes": 5584,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
+      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
+      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
+      "status": "active",
+      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
+      ],
+      "createdAt": "2026-11-14T05:15:39.178Z",
+      "updatedAt": "2026-11-14T05:15:39.178Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
+      "revision": 1,
+      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
+      "sizeBytes": 6805,
       "memoryBodyIds": []
     },
     {
@@ -168,7 +168,7 @@
       ],
       "createdAt": "2026-11-14T07:07:28.105Z",
       "updatedAt": "2026-11-14T07:07:28.105Z",
-      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "a1af9c6d4ba8e06e2e0095cbe826c57672f0cdafca783095c738f6ccae78a757",
       "sizeBytes": 2592,
@@ -187,10 +187,29 @@
       ],
       "createdAt": "2026-11-14T07:17:23.820Z",
       "updatedAt": "2026-11-14T07:17:23.820Z",
-      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "4956794d28aab1c71ab714c8531e60705a13a96a4c3841999545e67ac5168d6f",
       "sizeBytes": 3741,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "bd1678e0-ea21-4978-a1dc-b6792c219dfa",
+      "title": "DSH 第三方插件清单审计与精简结论",
+      "description": "2026-11-14 盘点 profile 25 个第三方插件的作用、保留/精简分类、需增加项结论，及 dsh-plugins-git-sync 无更好替代的专项结论。以后问插件作用、能否精简、需补什么插件时召回。",
+      "status": "active",
+      "filename": "dsh-bd1678e0.md",
+      "relativePath": "documents/active/dsh-bd1678e0.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-8242a46e-35c3-4d13-a9dc-52c088b29a00"
+      ],
+      "createdAt": "2026-11-14T08:22:18.162Z",
+      "updatedAt": "2026-11-14T08:22:18.162Z",
+      "lastAccessedAt": "2026-11-14T08:22:18.162Z",
+      "revision": 1,
+      "contentHash": "f19ce1629fdb34c1538cef5fd92e46dbdd181ffa1a941be527a38f8d41e7dffa",
+      "sizeBytes": 3512,
       "memoryBodyIds": []
     }
   ]
