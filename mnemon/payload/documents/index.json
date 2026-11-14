@@ -42,6 +42,44 @@
       "memoryBodyIds": []
     },
     {
+      "id": "7239f584-cfd0-4130-9813-cc438bea9348",
+      "title": "AI文案团队系统提示词与协作流程（6常驻+2临时）",
+      "description": "用户提供并采纳的文案AI团队运营方案：6个常驻角色+2个临时角色、两套固定协作流程、六条全局硬性规则，以及已落成的多智能体团队实况。以后接文案类需求、或问文案团队角色/流程时召回。",
+      "status": "active",
+      "filename": "ai-6-2-7239f584.md",
+      "relativePath": "documents/active/ai-6-2-7239f584.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-75586626-fe53-4a66-b558-2daf6f4b2c5b"
+      ],
+      "createdAt": "2026-11-14T06:03:10.441Z",
+      "updatedAt": "2026-11-14T06:03:10.441Z",
+      "lastAccessedAt": "2026-11-14T06:03:10.441Z",
+      "revision": 1,
+      "contentHash": "775b1340fc16a84a5f03ddfef8afcdfdafe0c2bb23ede2e2751a4bf5320e7f97",
+      "sizeBytes": 6062,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "c462c699-982b-4180-8f44-7b53e2a558d3",
+      "title": "开发项目目录索引（webhome / tvbox / ai-leaderboard）",
+      "description": "用户提供的项目目录索引，映射项目别名到绝对路径，已写入「AI开发团队」群公告；后续说\"改 xx 项目\"时按此定位目录。",
+      "status": "active",
+      "filename": "webhome-tvbox-ai-leaderboard-c462c699.md",
+      "relativePath": "documents/active/webhome-tvbox-ai-leaderboard-c462c699.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-97831b87-e4ac-4ed5-9e83-593246ee6a77"
+      ],
+      "createdAt": "2026-11-14T06:20:38.584Z",
+      "updatedAt": "2026-11-14T06:20:38.584Z",
+      "lastAccessedAt": "2026-11-14T06:20:38.584Z",
+      "revision": 1,
+      "contentHash": "dddb562ee4a84b46b00704429a472dca0cafef0c8f4c783a06dd98abc8f16253",
+      "sizeBytes": 1958,
+      "memoryBodyIds": []
+    },
+    {
       "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
       "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
       "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
