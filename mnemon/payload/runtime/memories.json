@@ -50,6 +50,18 @@
       }
     },
     {
+      "content": "DSH Desktop 0.2.2-rc.3 曾出现 resources\\runtime 被清空导致插件检查更新/卸载报 Cannot find module pnpm.mjs。已修复：junction「安装目录\\resources\\runtime\\primary-runtime」→ C:\\Users\\Dodge\\.dsh\\dsh-runtimes\\dsh-primary-runtime（rc.1 完好载荷，node 24.21.0 / pnpm 11.28.5 / python 3.12.14），并补 runtime\\bin\\node.exe 硬链接。若升级后复发，先查该 junction 是否被安装包更新清掉，重建即可；home 副本勿删。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-14T08:17:16.284Z",
+      "updated_at": "2026-11-14T08:17:16.284Z",
+      "origin": {
+        "machine": "12c839e1-a6cd-4a0b-be74-ca757aaa58b6",
+        "label": "Dodge",
+        "at": "2026-11-14T08:17:16.284Z"
+      }
+    },
+    {
       "content": "干爹喜欢 Live2D 大肥鱼宠物（dsh-pet-live2d）和壁纸引擎（dsh-plugin-wallpaper-engine）这两个装饰插件，明确要保留，以后别再建议删。",
       "target": "user",
       "importance": "low",
@@ -83,18 +95,6 @@
         "machine": "b7527233-55d9-44b2-af6a-b5946fe8e3ef",
         "label": "Dodge-Office-2026",
         "at": "2026-11-14T09:18:43.204Z"
-      }
-    },
-    {
-      "content": "DSH Desktop 0.2.2-rc.3 曾出现 resources\\runtime 被清空导致插件检查更新/卸载报 Cannot find module pnpm.mjs。已修复：junction「安装目录\\resources\\runtime\\primary-runtime」→ C:\\Users\\Dodge\\.dsh\\dsh-runtimes\\dsh-primary-runtime（rc.1 完好载荷，node 24.21.0 / pnpm 11.28.5 / python 3.12.14），并补 runtime\\bin\\node.exe 硬链接。若升级后复发，先查该 junction 是否被安装包更新清掉，重建即可；home 副本勿删。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-14T08:17:16.284Z",
-      "updated_at": "2026-11-14T08:17:16.284Z",
-      "origin": {
-        "machine": "12c839e1-a6cd-4a0b-be74-ca757aaa58b6",
-        "label": "Dodge",
-        "at": "2026-11-14T08:17:16.284Z"
       }
     }
   ]
