@@ -142,8 +142,8 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "enabled": false,
-      "error": "operation-error: dsh: cannot resolve profile bundle \"dsh-connect-workbuddy\" from the dsh installation or C:\\Users\\zhang\\.dsh\\profiles\\desktop; run 'dsh plugin --profile desktop install' if its dependency is not installed",
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.24.1",
       "name": "dsh-connect-workbuddy",
@@ -151,7 +151,14 @@
       "pathOnly": false,
       "platform": "win32",
       "profile": "desktop",
-      "rows": [],
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
       "syncable": true,
       "version": "5.24.1"
     },
@@ -771,5 +778,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T07:55:48.510Z"
+  "updatedAt": "2026-11-14T07:57:12.313Z"
 }

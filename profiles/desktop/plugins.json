@@ -124,15 +124,23 @@
     },
     "dsh-connect-workbuddy": {
       "builtIn": false,
-      "enabled": false,
+      "displayName": "dsh-connect-workbuddy",
+      "enabled": true,
       "id": "dsh-connect-workbuddy",
       "installSpec": "dsh-connect-workbuddy@5.24.1",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
-      "rows": [],
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:dsh-connect-workbuddy",
+          "moduleName": "dsh-connect-workbuddy",
+          "rowId": "dsh-connect-workbuddy"
+        }
+      ],
       "syncable": true,
-      "updatedAt": "2026-11-14T07:55:48.510Z",
+      "updatedAt": "2026-11-14T07:57:12.313Z",
       "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "5.24.1"
     },
@@ -765,5 +773,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T07:55:48.510Z"
+  "updatedAt": "2026-11-14T07:57:12.313Z"
 }
