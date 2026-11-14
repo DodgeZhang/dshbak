@@ -31,23 +31,24 @@
     "dsh-better-sidebar": {
       "builtIn": false,
       "displayName": "Better Sidebar",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-better-sidebar",
-      "installSpec": "dsh-better-sidebar@0.32.0",
+      "installSpec": "dsh-better-sidebar@0.32.1",
       "name": "dsh-better-sidebar",
       "origin": "npm",
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:better-sidebar",
           "moduleName": "dsh-better-sidebar",
           "rowId": "better-sidebar"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-14T04:49:28.168Z",
-      "updatedBy": "dev-be300c998b6a5ad5",
-      "version": "0.32.0"
+      "updatedAt": "2026-11-14T07:58:25.235Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
+      "version": "0.32.1"
     },
     "dsh-cloudflare-codemode": {
       "builtIn": false,
@@ -773,5 +774,5 @@
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T07:57:12.313Z"
+  "updatedAt": "2026-11-14T07:58:25.235Z"
 }

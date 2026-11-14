@@ -66,9 +66,9 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Better Sidebar",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-better-sidebar",
-      "installSpec": "dsh-better-sidebar@0.32.0",
+      "installSpec": "dsh-better-sidebar@0.32.1",
       "name": "dsh-better-sidebar",
       "origin": "npm",
       "pathOnly": false,
@@ -76,13 +76,14 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:better-sidebar",
           "moduleName": "dsh-better-sidebar",
           "rowId": "better-sidebar"
         }
       ],
       "syncable": true,
-      "version": "0.32.0"
+      "version": "0.32.1"
     },
     {
       "builtIn": false,
@@ -778,5 +779,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T07:57:12.313Z"
+  "updatedAt": "2026-11-14T07:58:25.235Z"
 }
