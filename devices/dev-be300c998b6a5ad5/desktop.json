@@ -36,7 +36,7 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "ds-bot",
-      "enabled": false,
+      "enabled": true,
       "id": "ds-bot",
       "installSpec": "ds-bot@0.3.6",
       "name": "ds-bot",
@@ -46,12 +46,14 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:bot",
           "moduleName": "ds-bot",
           "rowId": "bot"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:web-search-auto",
           "moduleName": "ds-bot/web-search",
           "rowId": "web-search-auto"
         }
@@ -64,9 +66,9 @@
       "configSkipped": [],
       "configs": {},
       "displayName": "Better Sidebar",
-      "enabled": false,
+      "enabled": true,
       "id": "dsh-better-sidebar",
-      "installSpec": "dsh-better-sidebar@0.32.0",
+      "installSpec": "dsh-better-sidebar@0.32.1",
       "name": "dsh-better-sidebar",
       "origin": "npm",
       "pathOnly": false,
@@ -74,13 +76,14 @@
       "profile": "desktop",
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:better-sidebar",
           "moduleName": "dsh-better-sidebar",
           "rowId": "better-sidebar"
         }
       ],
       "syncable": true,
-      "version": "0.32.0"
+      "version": "0.32.1"
     },
     {
       "builtIn": false,
@@ -143,7 +146,7 @@
       "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.23.1",
+      "installSpec": "dsh-connect-workbuddy@5.24.1",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -158,30 +161,7 @@
         }
       ],
       "syncable": true,
-      "version": "5.23.1"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-conversation-recycle-bin",
-      "enabled": false,
-      "id": "dsh-conversation-recycle-bin",
-      "installSpec": "dsh-conversation-recycle-bin@0.3.22",
-      "name": "dsh-conversation-recycle-bin",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-conversation-recycle-bin",
-          "rowId": "conversation-recycle-bin"
-        }
-      ],
-      "syncable": true,
-      "version": "0.3.22"
+      "version": "5.24.1"
     },
     {
       "builtIn": false,
@@ -650,29 +630,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "Component System",
-      "enabled": false,
-      "id": "dsh-widgets",
-      "installSpec": "dsh-widgets@1.8.5",
-      "name": "dsh-widgets",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": false,
-          "moduleName": "dsh-widgets",
-          "rowId": "widgets"
-        }
-      ],
-      "syncable": true,
-      "version": "1.8.5"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "@adenxie/dsh-vercel",
       "enabled": true,
       "id": "local:@adenxie/dsh-vercel",
@@ -822,5 +779,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T05:06:51.385Z"
+  "updatedAt": "2026-11-14T08:23:48.469Z"
 }
