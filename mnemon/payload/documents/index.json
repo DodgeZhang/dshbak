@@ -35,48 +35,10 @@
       ],
       "createdAt": "2026-11-11T18:33:05.150Z",
       "updatedAt": "2026-11-12T03:45:53.489Z",
-      "lastAccessedAt": "2026-11-12T03:45:53.489Z",
+      "lastAccessedAt": "2026-11-14T09:55:43.076Z",
       "revision": 2,
       "contentHash": "b985226d5d465e8d2b8a3d84c2acba76427c62e110727f14e15c96f9db66606e",
       "sizeBytes": 9788,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
-      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
-      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
-      "status": "active",
-      "filename": "ds-bot-api-1e7a141d.md",
-      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
-      ],
-      "createdAt": "2026-11-13T18:02:51.316Z",
-      "updatedAt": "2026-11-13T18:02:51.316Z",
-      "lastAccessedAt": "2026-11-13T18:02:51.316Z",
-      "revision": 1,
-      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
-      "sizeBytes": 5584,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
-      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
-      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
-      "status": "active",
-      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
-      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
-      ],
-      "createdAt": "2026-11-14T05:15:39.178Z",
-      "updatedAt": "2026-11-14T05:15:39.178Z",
-      "lastAccessedAt": "2026-11-14T05:15:39.178Z",
-      "revision": 1,
-      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
-      "sizeBytes": 6805,
       "memoryBodyIds": []
     },
     {
@@ -92,7 +54,7 @@
       ],
       "createdAt": "2026-11-14T06:03:10.441Z",
       "updatedAt": "2026-11-14T06:03:10.441Z",
-      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "775b1340fc16a84a5f03ddfef8afcdfdafe0c2bb23ede2e2751a4bf5320e7f97",
       "sizeBytes": 6062,
@@ -111,10 +73,48 @@
       ],
       "createdAt": "2026-11-14T06:20:38.584Z",
       "updatedAt": "2026-11-14T06:20:38.584Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T07:16:57.011Z",
       "revision": 1,
       "contentHash": "dddb562ee4a84b46b00704429a472dca0cafef0c8f4c783a06dd98abc8f16253",
       "sizeBytes": 1958,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "1e7a141d-a1f9-48e7-b361-61fc74c9a7ad",
+      "title": "ds-bot 本地团队状态管理与 /api 浏览器会话认证（操作手册）",
+      "description": "ds-bot（DSH Bot 团队插件）本地运维手册：state.json 结构、机器人/分组删除的 API 调用与认证方式（browser-session 凭据、HMAC 签名 cookie）、状态迁移规则与备份还原步骤。涉及「管理/清理/恢复 Bot 团队」「调用 127.0.0.1:7445 的 ds-bot API」「ds-bot state 迁移」时召回。",
+      "status": "active",
+      "filename": "ds-bot-api-1e7a141d.md",
+      "relativePath": "documents/active/ds-bot-api-1e7a141d.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-839f8d4a-42a9-446a-bfeb-aeda6a2bbc65"
+      ],
+      "createdAt": "2026-11-13T18:02:51.316Z",
+      "updatedAt": "2026-11-13T18:02:51.316Z",
+      "lastAccessedAt": "2026-11-14T06:53:29.175Z",
+      "revision": 1,
+      "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
+      "sizeBytes": 5584,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "95a0e5a3-6d63-4fef-8798-6f42dc769d37",
+      "title": "DSH 插件正规卸载失败根因（pnpm runtime 缺失）与手工复刻 pnpm remove 流程",
+      "description": "DSH desktop profile 下插件卸载按钮报错的诊断与手工卸载手册：pnpm.mjs MODULE_NOT_FOUND、runtime 目录蒸发、事务回滚 changed:false、\"停用\"与\"卸载\"差异、cordis 补丁式 profile 结构，以及备份→清 5 处登记→搬包→复核→重启刷新清单的完整流程与复核清单。涉及「DSH 插件卸载失败 / pnpm 找不到 / 手工移除插件 / ds-bot 卸载 / node_modules 清理」时召回。",
+      "status": "active",
+      "filename": "dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "relativePath": "documents/active/dsh-pnpm-runtime-pnpm-remove-95a0e5a3.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-b0810969-fa0d-4fba-b76d-dc06427cc80e"
+      ],
+      "createdAt": "2026-11-14T05:15:39.178Z",
+      "updatedAt": "2026-11-14T05:15:39.178Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
+      "revision": 1,
+      "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
+      "sizeBytes": 6805,
       "memoryBodyIds": []
     },
     {
@@ -149,7 +149,7 @@
       ],
       "createdAt": "2026-11-14T06:53:52.000Z",
       "updatedAt": "2026-11-14T06:53:52.000Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
       "revision": 1,
       "contentHash": "473e97ba250e45871e90e07641adc3968f30bccf30d2bcd1cbf8c04a62dd8041",
       "sizeBytes": 3459,
@@ -168,7 +168,7 @@
       ],
       "createdAt": "2026-11-14T07:07:28.105Z",
       "updatedAt": "2026-11-14T07:07:28.105Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "a1af9c6d4ba8e06e2e0095cbe826c57672f0cdafca783095c738f6ccae78a757",
       "sizeBytes": 2592,
@@ -187,7 +187,7 @@
       ],
       "createdAt": "2026-11-14T07:17:23.820Z",
       "updatedAt": "2026-11-14T07:17:23.820Z",
-      "lastAccessedAt": "2026-11-14T08:29:26.025Z",
+      "lastAccessedAt": "2026-11-14T08:20:36.882Z",
       "revision": 1,
       "contentHash": "4956794d28aab1c71ab714c8531e60705a13a96a4c3841999545e67ac5168d6f",
       "sizeBytes": 3741,
@@ -229,7 +229,7 @@
       ],
       "createdAt": "2026-11-14T08:59:16.921Z",
       "updatedAt": "2026-11-14T08:59:16.921Z",
-      "lastAccessedAt": "2026-11-14T10:14:53.622Z",
+      "lastAccessedAt": "2026-11-14T11:07:55.491Z",
       "revision": 1,
       "contentHash": "0d54ed0449f8a271c7ba7fae3eee56e85feb0ed4e918d65381ad8764b3ac9d2e",
       "sizeBytes": 3529,
@@ -273,7 +273,7 @@
       ],
       "createdAt": "2026-11-14T09:56:11.291Z",
       "updatedAt": "2026-11-14T09:56:11.291Z",
-      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "lastAccessedAt": "2026-11-14T10:56:37.781Z",
       "revision": 1,
       "contentHash": "af92fa965ce819abb4083e0168e372c1bdc90c41d4361f723affa2cb3c69fafb",
       "sizeBytes": 3759,
@@ -295,7 +295,7 @@
       ],
       "createdAt": "2026-11-14T10:01:20.744Z",
       "updatedAt": "2026-11-14T10:01:20.744Z",
-      "lastAccessedAt": "2026-11-14T10:16:57.994Z",
+      "lastAccessedAt": "2026-11-14T10:55:47.337Z",
       "revision": 1,
       "contentHash": "59c3e789100a1fa415ede9ac8182097eb8087f00dc639fa281d0addbbc8f7337",
       "sizeBytes": 3756,
@@ -318,7 +318,7 @@
       ],
       "createdAt": "2026-11-14T10:04:27.647Z",
       "updatedAt": "2026-11-14T10:04:27.647Z",
-      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "lastAccessedAt": "2026-11-14T10:55:47.337Z",
       "revision": 1,
       "contentHash": "9520ae54bfdd7ba66d52aa96e3c492feff9c8e7b080413522ac042cb9cf95287",
       "sizeBytes": 2956,
@@ -342,7 +342,7 @@
       ],
       "createdAt": "2026-11-14T10:15:29.610Z",
       "updatedAt": "2026-11-14T10:15:29.610Z",
-      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "lastAccessedAt": "2026-11-14T11:15:22.665Z",
       "revision": 1,
       "contentHash": "14af403b48f2d2ba2a61bf0b9fefc42e619bdef1bec79e34ca05612178b506f3",
       "sizeBytes": 5515,
@@ -370,7 +370,7 @@
       ],
       "createdAt": "2026-11-14T10:19:02.003Z",
       "updatedAt": "2026-11-14T10:19:02.003Z",
-      "lastAccessedAt": "2026-11-14T10:26:34.361Z",
+      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
       "revision": 1,
       "contentHash": "4e31c3e859f075a7e64250a2b0354579dc75eafe0c4ebddac2718ee463e33083",
       "sizeBytes": 5995,
@@ -391,10 +391,171 @@
       ],
       "createdAt": "2026-11-14T10:27:06.154Z",
       "updatedAt": "2026-11-14T10:27:06.154Z",
-      "lastAccessedAt": "2026-11-14T10:27:06.154Z",
+      "lastAccessedAt": "2026-11-14T10:31:36.358Z",
       "revision": 1,
       "contentHash": "f3f78cd44bf47a8acdcaf11e5fbbdbe310756dc6c8f7d8bd301cb9b6fd4253c9",
       "sizeBytes": 3102,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "8dbdd41d-6431-4018-93ef-60bb050f5a84",
+      "title": "值班提醒机器人 v1.0 收口：P1 banner 拼接缺陷与最终发布闭环",
+      "description": "P1 interactive_menu() banner 隐式拼接致标题×46/109行，显式join修复并重打包onedir 18:25:14，E5复验21项全过、QA报告升「通过·v1.0可放行」，发布说明定稿v1.0正式发布。承接055cb971（P2/乱码勘误）、58b81714（v1.0发布定稿P2）。",
+      "status": "active",
+      "filename": "v1-0-p1-banner-8dbdd41d.md",
+      "relativePath": "documents/active/v1-0-p1-banner-8dbdd41d.md",
+      "sourcePaths": [
+        "值班提醒机器人/QA复验报告.md",
+        "值班提醒机器人/发布说明.md",
+        "值班提醒机器人/duty_reminder.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-6eb6fb8a-17af-4fde-aa1e-a8c046242190"
+      ],
+      "createdAt": "2026-11-14T10:31:24.964Z",
+      "updatedAt": "2026-11-14T10:31:24.964Z",
+      "lastAccessedAt": "2026-11-14T11:15:22.665Z",
+      "revision": 1,
+      "contentHash": "0eeb099987652e4ac177e0d73b876f2ee0f867e6d67cc1a93f5875df429891a6",
+      "sizeBytes": 3695,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "e45ce875-4119-4526-bce6-3ef16691692f",
+      "title": "值班提醒机器人：图形界面（GUI）架构决策——壳层UI、保留命令行入口、run.log落盘",
+      "description": "中心机房值班提醒机器人加图形界面的定版架构决策：UI仅做壳层不动内核（读排班表.xlsx+周末回溯21项全绿）、保留--install/--test命令行入口、三项UI交互拍板、日志必须落盘run.log。承接最终版文档a82f102f与onedir重打包a9cbb58a，编码开发阶段召回。",
+      "status": "active",
+      "filename": "gui-ui-run-log-e45ce875.md",
+      "relativePath": "documents/active/gui-ui-run-log-e45ce875.md",
+      "sourcePaths": [
+        "值班提醒机器人/需求说明-图形界面UI.md",
+        "值班提醒机器人/使用说明.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-457d2d71-260b-4de1-b82a-7f86d2841c4c"
+      ],
+      "createdAt": "2026-11-14T10:52:04.941Z",
+      "updatedAt": "2026-11-14T10:52:04.941Z",
+      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
+      "revision": 1,
+      "contentHash": "1608464dc014aa6163fd2511a5ac1a2c44b997cc7bfde40b6accc5d69dcf2431",
+      "sizeBytes": 3317,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "4002c165-b190-459d-a22a-f007eafca3f5",
+      "title": "值班提醒机器人 GUI 版安全验收：四条红线、windowed 落盘与计划任务高危确认",
+      "description": "GUI 版（tkinter --windowed）安全侧四条红线验收清单与实测放行结论：日志落盘、webhook 脱敏、计划任务确认框、onedir+utf-8-sig 防回归；承接 a28a16fa / 055cb971。",
+      "status": "active",
+      "filename": "gui-windowed-4002c165.md",
+      "relativePath": "documents/active/gui-windowed-4002c165.md",
+      "sourcePaths": [
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/审核意见.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-2e0d8783-1cfa-4135-9476-9c2a32d67a02"
+      ],
+      "createdAt": "2026-11-14T10:55:49.155Z",
+      "updatedAt": "2026-11-14T10:55:49.155Z",
+      "lastAccessedAt": "2026-11-14T11:17:12.738Z",
+      "revision": 1,
+      "contentHash": "f4260351d156b58943c8bc2670437e2f61e0d8c1b909bf3f30988d55bd2e3043",
+      "sizeBytes": 3137,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "50b94934-7d6a-4c90-a84d-da475d7f12f9",
+      "title": "值班提醒机器人：GUI 实现交付与架构复核（tkinter 壳层 + 计划任务指向澄清）",
+      "description": "值班提醒机器人 GUI 编码开发→架构复核阶段的实现落地（gui.py tkinter 壳层）、四条安全约定、关键实现要点、最终目录结构，以及「注册每日推送」按钮 exe 指向回退 sys.executable 的非阻塞澄清。承接 a28a16fa（管家拦 onefile 根因）、a9cbb58a（onedir 重打包）、58b81714（GUI 架构决策定版）。",
+      "status": "active",
+      "filename": "gui-tkinter-50b94934.md",
+      "relativePath": "documents/active/gui-tkinter-50b94934.md",
+      "sourcePaths": [
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/duty_reminder.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-19306888-86ec-4942-9805-a64783c8e297"
+      ],
+      "createdAt": "2026-11-14T10:56:42.756Z",
+      "updatedAt": "2026-11-14T10:56:42.756Z",
+      "lastAccessedAt": "2026-11-14T11:17:12.738Z",
+      "revision": 1,
+      "contentHash": "590c0cc035a697322b6e354945ea377f7aba6e871f3fcd16079cddccff432213",
+      "sizeBytes": 4507,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "541f27a9-46e6-4c01-b642-1fc4a6b1256b",
+      "title": "值班提醒机器人：GUI 版 P1/P2 修复收口（run.log 改名 + 缺配置提示 + 全局异常钩子）",
+      "description": "GUI 版 P0 入口分流之后的收尾修复轮：日志名 duty_gui.log→run.log、缺配置中文提示、全局异常钩子，以及 _install 显式 sys.executable 落地；重打包产物 19:06:29。修正 50b94934 中已过期的 duty_gui.log 口径。",
+      "status": "active",
+      "filename": "gui-p1-p2-run-log-541f27a9.md",
+      "relativePath": "documents/active/gui-p1-p2-run-log-541f27a9.md",
+      "sourcePaths": [
+        "值班提醒机器人/gui.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-d2d51475-e8db-47b8-a744-0af1d054ad7a"
+      ],
+      "createdAt": "2026-11-14T11:08:17.897Z",
+      "updatedAt": "2026-11-14T11:08:17.897Z",
+      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
+      "revision": 1,
+      "contentHash": "9c66860dda6bb70c97f9833f7c063df2278be0329f82d679736982b78b048e61",
+      "sizeBytes": 3273,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "915e4849-a9d8-4a55-8c4c-df905543a85b",
+      "title": "值班提醒机器人 GUI 版 v1.1：QA 发布闸门最终放行（暂缓 → 通过）",
+      "description": "GUI 版 v1.1 发布闸门最终判定：QA 定向 18/18 全绿、复验报告由「暂缓」改判「可放行」、PM 裁剪 4 项标后续版本；承接 541f27a9 的「待绿灯/勿提前升版」并关闭该状态。",
+      "status": "active",
+      "filename": "gui-v1-1-qa-915e4849.md",
+      "relativePath": "documents/active/gui-v1-1-qa-915e4849.md",
+      "sourcePaths": [
+        "值班提醒机器人/GUI版QA复验报告.md",
+        "值班提醒机器人/gui.py",
+        "值班提醒机器人/需求说明-图形界面UI.md",
+        "值班提醒机器人/UI改造技术方案.md",
+        "值班提醒机器人/GUI版QA验收清单.md",
+        "值班提醒机器人/GUI版发布说明.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-01e0eb0b-b606-4999-8869-7ca230a0bd10"
+      ],
+      "createdAt": "2026-11-14T11:16:47.323Z",
+      "updatedAt": "2026-11-14T11:16:47.323Z",
+      "lastAccessedAt": "2026-11-14T11:17:44.806Z",
+      "revision": 1,
+      "contentHash": "ed589412653e39d39160d3601688e8466fb7b9c0e7ba71fa2bca0d29640818fa",
+      "sizeBytes": 5788,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "39e4cfd2-cbf1-4df1-8a89-8f9b39ea3cf9",
+      "title": "值班提醒机器人 GUI 版 v1.1：文档侧收口定稿与归档勘误（点按钮版口径）",
+      "description": "GUI v1.1 四份文档最终定稿 handoff：使用说明改图形窗口五块、实际按钮文字核对、裁剪4项与CLI保留口径；审核意见两处旧结论勘误（duty_gui.log→run.log、/TR指CLI→GUI exe自身）；变更记录占位转正。承接架构决策e45ce875与QA放行915e4849。",
+      "status": "active",
+      "filename": "gui-v1-1-39e4cfd2.md",
+      "relativePath": "documents/active/gui-v1-1-39e4cfd2.md",
+      "sourcePaths": [
+        "值班提醒机器人/使用说明.md",
+        "值班提醒机器人/问题排查记录.md",
+        "值班提醒机器人/审核意见.md",
+        "值班提醒机器人/变更记录.md",
+        "值班提醒机器人/gui.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-ab1c9d4e-4e85-40b6-9d22-e74798977a0d"
+      ],
+      "createdAt": "2026-11-14T11:19:09.782Z",
+      "updatedAt": "2026-11-14T11:19:09.782Z",
+      "lastAccessedAt": "2026-11-14T11:19:09.782Z",
+      "revision": 1,
+      "contentHash": "b12b7883abc5cf4f4424fabe215c13cb0d18afb128b7f1e99a5078c414da3c02",
+      "sizeBytes": 5443,
       "memoryBodyIds": []
     }
   ]
