@@ -54,7 +54,7 @@
       ],
       "createdAt": "2026-11-14T06:03:10.441Z",
       "updatedAt": "2026-11-14T06:03:10.441Z",
-      "lastAccessedAt": "2026-11-14T06:03:10.441Z",
+      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
       "revision": 1,
       "contentHash": "775b1340fc16a84a5f03ddfef8afcdfdafe0c2bb23ede2e2751a4bf5320e7f97",
       "sizeBytes": 6062,
@@ -73,7 +73,7 @@
       ],
       "createdAt": "2026-11-14T06:20:38.584Z",
       "updatedAt": "2026-11-14T06:20:38.584Z",
-      "lastAccessedAt": "2026-11-14T06:20:38.584Z",
+      "lastAccessedAt": "2026-11-14T07:16:57.011Z",
       "revision": 1,
       "contentHash": "dddb562ee4a84b46b00704429a472dca0cafef0c8f4c783a06dd98abc8f16253",
       "sizeBytes": 1958,
@@ -92,7 +92,7 @@
       ],
       "createdAt": "2026-11-13T18:02:51.316Z",
       "updatedAt": "2026-11-13T18:02:51.316Z",
-      "lastAccessedAt": "2026-11-13T18:02:51.316Z",
+      "lastAccessedAt": "2026-11-14T06:53:29.175Z",
       "revision": 1,
       "contentHash": "e39e8639b246bc1e2ca30968774d389bb464817f213b9cfa6ff0dfbae3de9c07",
       "sizeBytes": 5584,
@@ -115,6 +115,82 @@
       "revision": 1,
       "contentHash": "d0c33bdc5dd051d7ee9475b3db6052f545f79cd79d9725c255365cdaf9979696",
       "sizeBytes": 6805,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "7b1eda53-47a9-40c8-8e1a-f9dde563fa22",
+      "title": "DS Bot 目录授权报错排查：权限档位与团队工作区机制",
+      "description": "排查 DS Bot 在团队工作区外目录操作报\"需要用户授权\"的根因：权限档位（read-only/workspace-write/danger-full-access）与工作文件夹、团队工作区边界的交互，以及两条解决路线。",
+      "status": "active",
+      "filename": "ds-bot-7b1eda53.md",
+      "relativePath": "documents/active/ds-bot-7b1eda53.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-f2b33782-9284-4ac1-9549-5075fe18e820"
+      ],
+      "createdAt": "2026-11-14T06:27:08.196Z",
+      "updatedAt": "2026-11-14T06:27:08.196Z",
+      "lastAccessedAt": "2026-11-14T07:07:03.683Z",
+      "revision": 1,
+      "contentHash": "8e4374a772d9739b719616086fcf87f0059b725da5dee1b22d631e733d892661",
+      "sizeBytes": 3661,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "77278248-ee61-4e26-b790-c4fdd34a1990",
+      "title": "AI团队产物落盘规则（最终版）",
+      "description": "2026-11-14 定稿的产物落盘规则：改项目落对应项目目录、临时小工具按工具名建子目录落 C 盘工作区、文案出稿落当前工作区；已清除对已删除目录 08-AI开发团队 的指向。",
+      "status": "active",
+      "filename": "ai-77278248.md",
+      "relativePath": "documents/active/ai-77278248.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-af708a90-5a86-4a58-9d9f-0969776e56ac"
+      ],
+      "createdAt": "2026-11-14T06:53:52.000Z",
+      "updatedAt": "2026-11-14T06:53:52.000Z",
+      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "revision": 1,
+      "contentHash": "473e97ba250e45871e90e07641adc3968f30bccf30d2bcd1cbf8c04a62dd8041",
+      "sizeBytes": 3459,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3099d2dc-912e-4685-a77e-20aed8f7e632",
+      "title": "AI团队 Bot 模型分配方案（7强档+9轻档）",
+      "description": "2026-11-14 按分工结合效率与经济性为 16 个 Bot 分配的模型方案：7 个核心角色保留 deepseek-v4-pro，9 个辅助角色切 deepseek-v4.1-flash，成本约省 44%。",
+      "status": "active",
+      "filename": "ai-bot-7-9-3099d2dc.md",
+      "relativePath": "documents/active/ai-bot-7-9-3099d2dc.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-73986e1b-a254-468b-ab1b-66a2901fd728"
+      ],
+      "createdAt": "2026-11-14T07:07:28.105Z",
+      "updatedAt": "2026-11-14T07:07:28.105Z",
+      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "revision": 1,
+      "contentHash": "a1af9c6d4ba8e06e2e0095cbe826c57672f0cdafca783095c738f6ccae78a757",
+      "sizeBytes": 2592,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "9ec085f5-336f-4486-915c-758963ea01f9",
+      "title": "AI团队 Bot 模型最终分配方案（四档：7核心付费+7限免hy4+2永久免费hy3）",
+      "description": "2026-11-14 最终生效的四档模型分配：7 核心 deepseek-v4-pro + 7 限免 hy4free + 2 永久免费 hy3，含经济账、风险回退与模型能力对比；取代两档方案。",
+      "status": "active",
+      "filename": "ai-bot-7-7-hy4-2-hy3-9ec085f5.md",
+      "relativePath": "documents/active/ai-bot-7-7-hy4-2-hy3-9ec085f5.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-f70784b4-b3e6-4a32-86a4-7c1dac86d22a"
+      ],
+      "createdAt": "2026-11-14T07:17:23.820Z",
+      "updatedAt": "2026-11-14T07:17:23.820Z",
+      "lastAccessedAt": "2026-11-14T07:21:54.634Z",
+      "revision": 1,
+      "contentHash": "4956794d28aab1c71ab714c8531e60705a13a96a4c3841999545e67ac5168d6f",
+      "sizeBytes": 3741,
       "memoryBodyIds": []
     }
   ]
