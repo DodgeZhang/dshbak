@@ -1,11 +1,11 @@
 {
   "device": {
     "arch": "x64",
-    "dshVersion": "0.2.2-rc.1",
+    "dshVersion": "0.2.2-rc.3",
     "id": "dev-b700fdb029d1f5b4",
     "name": "Dodge-Office-2026",
     "platform": "win32",
-    "pluginVersion": "0.2.12"
+    "pluginVersion": "0.2.13"
   },
   "plugins": [
     {
@@ -30,6 +30,36 @@
       ],
       "syncable": false,
       "version": null
+    },
+    {
+      "builtIn": false,
+      "configSkipped": [],
+      "configs": {},
+      "displayName": "ds-bot",
+      "enabled": true,
+      "id": "ds-bot",
+      "installSpec": "ds-bot@0.3.6",
+      "name": "ds-bot",
+      "origin": "npm",
+      "pathOnly": false,
+      "platform": "win32",
+      "profile": "desktop",
+      "rows": [
+        {
+          "enabled": true,
+          "entryId": "include:bot",
+          "moduleName": "ds-bot",
+          "rowId": "bot"
+        },
+        {
+          "enabled": true,
+          "entryId": "include:web-search-auto",
+          "moduleName": "ds-bot/web-search",
+          "rowId": "web-search-auto"
+        }
+      ],
+      "syncable": true,
+      "version": "0.3.6"
     },
     {
       "builtIn": false,
@@ -68,7 +98,7 @@
       "displayName": "dsh-connect-trae",
       "enabled": true,
       "id": "dsh-connect-trae",
-      "installSpec": "dsh-connect-trae@4.18.1",
+      "installSpec": "dsh-connect-trae@4.18.2",
       "name": "dsh-connect-trae",
       "origin": "npm",
       "pathOnly": false,
@@ -83,7 +113,7 @@
         }
       ],
       "syncable": true,
-      "version": "4.18.1"
+      "version": "4.18.2"
     },
     {
       "builtIn": false,
@@ -92,7 +122,7 @@
       "displayName": "dsh-connect-workbuddy",
       "enabled": true,
       "id": "dsh-connect-workbuddy",
-      "installSpec": "dsh-connect-workbuddy@5.21.4",
+      "installSpec": "dsh-connect-workbuddy@5.23.1",
       "name": "dsh-connect-workbuddy",
       "origin": "npm",
       "pathOnly": false,
@@ -107,31 +137,7 @@
         }
       ],
       "syncable": true,
-      "version": "5.21.4"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
-      "displayName": "dsh-conversation-recycle-bin",
-      "enabled": true,
-      "id": "dsh-conversation-recycle-bin",
-      "installSpec": "dsh-conversation-recycle-bin@0.3.21",
-      "name": "dsh-conversation-recycle-bin",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:conversation-recycle-bin",
-          "moduleName": "dsh-conversation-recycle-bin",
-          "rowId": "conversation-recycle-bin"
-        }
-      ],
-      "syncable": true,
-      "version": "0.3.21"
+      "version": "5.23.1"
     },
     {
       "builtIn": false,
@@ -188,7 +194,7 @@
       "displayName": "dsh-mnemon",
       "enabled": true,
       "id": "dsh-mnemon",
-      "installSpec": "dsh-mnemon@0.5.44",
+      "installSpec": "dsh-mnemon@0.5.45",
       "name": "dsh-mnemon",
       "origin": "npm",
       "pathOnly": false,
@@ -257,7 +263,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.5.44"
+      "version": "0.5.45"
     },
     {
       "builtIn": false,
@@ -266,7 +272,7 @@
       "displayName": "Open Plugin Market",
       "enabled": true,
       "id": "dsh-open-market",
-      "installSpec": "dsh-open-market@0.4.0",
+      "installSpec": "dsh-open-market@0.4.1",
       "name": "dsh-open-market",
       "origin": "npm",
       "pathOnly": false,
@@ -287,7 +293,7 @@
         }
       ],
       "syncable": true,
-      "version": "0.4.0"
+      "version": "0.4.1"
     },
     {
       "builtIn": false,
@@ -440,7 +446,7 @@
       "displayName": "Plugin Backup",
       "enabled": true,
       "id": "dsh-plugins-git-sync",
-      "installSpec": "dsh-plugins-git-sync@0.2.12",
+      "installSpec": "dsh-plugins-git-sync@0.2.13",
       "name": "dsh-plugins-git-sync",
       "origin": "npm",
       "pathOnly": false,
@@ -455,7 +461,7 @@
         }
       ],
       "syncable": false,
-      "version": "0.2.12"
+      "version": "0.2.13"
     },
     {
       "builtIn": false,
@@ -600,30 +606,6 @@
       "builtIn": false,
       "configSkipped": [],
       "configs": {},
-      "displayName": "Component System",
-      "enabled": true,
-      "id": "dsh-widgets",
-      "installSpec": "dsh-widgets@1.8.5",
-      "name": "dsh-widgets",
-      "origin": "npm",
-      "pathOnly": false,
-      "platform": "win32",
-      "profile": "desktop",
-      "rows": [
-        {
-          "enabled": true,
-          "entryId": "include:widgets",
-          "moduleName": "dsh-widgets",
-          "rowId": "widgets"
-        }
-      ],
-      "syncable": true,
-      "version": "1.8.5"
-    },
-    {
-      "builtIn": false,
-      "configSkipped": [],
-      "configs": {},
       "displayName": "@adenxie/dsh-vercel",
       "enabled": true,
       "id": "local:@adenxie/dsh-vercel",
@@ -641,9 +623,9 @@
           "rowId": "adenxie-dsh-vercel"
         }
       ],
-      "source": "@adenxie/dsh-vercel@0.4.0",
+      "source": "@adenxie/dsh-vercel@0.4.1",
       "syncable": false,
-      "version": "0.4.0"
+      "version": "0.4.1"
     },
     {
       "builtIn": false,
@@ -691,9 +673,9 @@
           "rowId": "dsh-connect-qoder"
         }
       ],
-      "source": "@dmh2002/dsh-connect-qoder@1.24.0",
+      "source": "@dmh2002/dsh-connect-qoder@1.25.1",
       "syncable": false,
-      "version": "1.24.0"
+      "version": "1.25.1"
     },
     {
       "builtIn": false,
@@ -773,5 +755,5 @@
   ],
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:08:04.356Z"
+  "updatedAt": "2026-11-14T05:46:42.816Z"
 }

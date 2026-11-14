@@ -3,7 +3,7 @@
     "ds-bot": {
       "builtIn": false,
       "displayName": "ds-bot",
-      "enabled": false,
+      "enabled": true,
       "id": "ds-bot",
       "installSpec": "ds-bot@0.3.6",
       "name": "ds-bot",
@@ -11,19 +11,21 @@
       "pathOnly": false,
       "rows": [
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:bot",
           "moduleName": "ds-bot",
           "rowId": "bot"
         },
         {
-          "enabled": false,
+          "enabled": true,
+          "entryId": "include:web-search-auto",
           "moduleName": "ds-bot/web-search",
           "rowId": "web-search-auto"
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-14T04:58:43.362Z",
-      "updatedBy": "dev-be300c998b6a5ad5",
+      "updatedAt": "2026-11-14T05:46:42.816Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "0.3.6"
     },
     "dsh-better-sidebar": {
@@ -144,10 +146,11 @@
     },
     "dsh-conversation-recycle-bin": {
       "builtIn": false,
+      "deleted": true,
       "displayName": "dsh-conversation-recycle-bin",
       "enabled": false,
       "id": "dsh-conversation-recycle-bin",
-      "installSpec": "dsh-conversation-recycle-bin@0.3.22",
+      "installSpec": null,
       "name": "dsh-conversation-recycle-bin",
       "origin": "npm",
       "pathOnly": false,
@@ -159,8 +162,8 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-14T04:49:28.168Z",
-      "updatedBy": "dev-be300c998b6a5ad5",
+      "updatedAt": "2026-11-14T05:46:42.817Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "0.3.22"
     },
     "dsh-git-plus": {
@@ -747,10 +750,11 @@
     },
     "dsh-widgets": {
       "builtIn": false,
+      "deleted": true,
       "displayName": "Component System",
       "enabled": false,
       "id": "dsh-widgets",
-      "installSpec": "dsh-widgets@1.8.5",
+      "installSpec": null,
       "name": "dsh-widgets",
       "origin": "npm",
       "pathOnly": false,
@@ -762,12 +766,12 @@
         }
       ],
       "syncable": true,
-      "updatedAt": "2026-11-14T04:49:28.168Z",
-      "updatedBy": "dev-be300c998b6a5ad5",
+      "updatedAt": "2026-11-14T05:46:42.817Z",
+      "updatedBy": "dev-b700fdb029d1f5b4",
       "version": "1.8.5"
     }
   },
   "profile": "desktop",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T05:06:51.385Z"
+  "updatedAt": "2026-11-14T05:46:42.817Z"
 }
