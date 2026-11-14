@@ -2,7 +2,7 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-14T12:27:36.291Z",
+  "exportedAt": "2026-11-14T13:27:43.801Z",
   "source": {
     "plugin": "dsh-mnemon",
     "pluginVersion": "0.5.45"
@@ -21,9 +21,9 @@
     },
     {
       "component": "documents",
-      "files": 35,
-      "bytes": 182726,
-      "items": 34
+      "files": 38,
+      "bytes": 197655,
+      "items": 37
     },
     {
       "component": "memory-spaces",
@@ -36,7 +36,7 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-14T12:27:36.291Z",
+    "pushedAt": "2026-11-14T13:27:43.801Z",
     "machine": {
       "id": "b7527233-55d9-44b2-af6a-b5946fe8e3ef",
       "label": "Dodge-Office-2026",

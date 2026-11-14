@@ -229,7 +229,7 @@
       ],
       "createdAt": "2026-11-14T08:59:16.921Z",
       "updatedAt": "2026-11-14T08:59:16.921Z",
-      "lastAccessedAt": "2026-11-14T11:59:09.929Z",
+      "lastAccessedAt": "2026-11-14T13:10:19.631Z",
       "revision": 1,
       "contentHash": "0d54ed0449f8a271c7ba7fae3eee56e85feb0ed4e918d65381ad8764b3ac9d2e",
       "sizeBytes": 3529,
@@ -273,7 +273,7 @@
       ],
       "createdAt": "2026-11-14T09:56:11.291Z",
       "updatedAt": "2026-11-14T09:56:11.291Z",
-      "lastAccessedAt": "2026-11-14T11:57:40.884Z",
+      "lastAccessedAt": "2026-11-14T13:10:19.631Z",
       "revision": 1,
       "contentHash": "af92fa965ce819abb4083e0168e372c1bdc90c41d4361f723affa2cb3c69fafb",
       "sizeBytes": 3759,
@@ -295,7 +295,7 @@
       ],
       "createdAt": "2026-11-14T10:01:20.744Z",
       "updatedAt": "2026-11-14T10:01:20.744Z",
-      "lastAccessedAt": "2026-11-14T10:55:47.337Z",
+      "lastAccessedAt": "2026-11-14T13:10:19.631Z",
       "revision": 1,
       "contentHash": "59c3e789100a1fa415ede9ac8182097eb8087f00dc639fa281d0addbbc8f7337",
       "sizeBytes": 3756,
@@ -318,7 +318,7 @@
       ],
       "createdAt": "2026-11-14T10:04:27.647Z",
       "updatedAt": "2026-11-14T10:04:27.647Z",
-      "lastAccessedAt": "2026-11-14T11:59:14.058Z",
+      "lastAccessedAt": "2026-11-14T13:10:19.631Z",
       "revision": 1,
       "contentHash": "9520ae54bfdd7ba66d52aa96e3c492feff9c8e7b080413522ac042cb9cf95287",
       "sizeBytes": 2956,
@@ -574,7 +574,7 @@
       ],
       "createdAt": "2026-11-14T11:35:11.672Z",
       "updatedAt": "2026-11-14T11:35:11.672Z",
-      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "lastAccessedAt": "2026-11-14T13:19:42.680Z",
       "revision": 1,
       "contentHash": "9e5a88b0bd5a89045a6f54fe541624e703b1e6864eaad5bd00343418a3656ce0",
       "sizeBytes": 3543,
@@ -641,7 +641,7 @@
       ],
       "createdAt": "2026-11-14T11:56:02.941Z",
       "updatedAt": "2026-11-14T11:56:02.941Z",
-      "lastAccessedAt": "2026-11-14T12:15:01.493Z",
+      "lastAccessedAt": "2026-11-14T13:19:42.680Z",
       "revision": 1,
       "contentHash": "9438ffb372c8f7ea2ffa589f1a96704d22895f3498516d26775d7571652ec24c",
       "sizeBytes": 3257,
@@ -664,7 +664,7 @@
       ],
       "createdAt": "2026-11-14T11:58:09.679Z",
       "updatedAt": "2026-11-14T11:58:09.679Z",
-      "lastAccessedAt": "2026-11-14T12:01:18.653Z",
+      "lastAccessedAt": "2026-11-14T13:19:42.680Z",
       "revision": 1,
       "contentHash": "5cae04dd7ac9c91839958760aa8786d4db2836900d1e1bc750e0f1ed5c7f1218",
       "sizeBytes": 4689,
@@ -687,7 +687,7 @@
       ],
       "createdAt": "2026-11-14T12:07:13.317Z",
       "updatedAt": "2026-11-14T12:07:13.317Z",
-      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "lastAccessedAt": "2026-11-14T13:19:42.680Z",
       "revision": 1,
       "contentHash": "0c32bc26cc7287d80127676692dc3ac3dfa1470b32c357291c1f156d3b8bf462",
       "sizeBytes": 5082,
@@ -712,7 +712,7 @@
       ],
       "createdAt": "2026-11-14T12:10:58.338Z",
       "updatedAt": "2026-11-14T12:10:58.338Z",
-      "lastAccessedAt": "2026-11-14T12:24:02.880Z",
+      "lastAccessedAt": "2026-11-14T13:09:29.365Z",
       "revision": 1,
       "contentHash": "d56002685a758671e0be0f03bffb1efe7faed8e2eac40fa0b698909b5cea64a0",
       "sizeBytes": 5439,
@@ -739,6 +739,72 @@
       "revision": 1,
       "contentHash": "09162fd0fb6a8e41d6771a814ce2f825f3a77ac671167b81c96dd9d312b305c0",
       "sizeBytes": 2654,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "0b40ecd1-0fba-4003-9e7e-1c41c18ad6fc",
+      "title": "值班提醒机器人 Server 2012 R2 免装部署：downlevel UCRT 塞包法",
+      "description": "PyInstaller Python 3.12 exe 在 Server 2012 R2 (NT 6.3) 报 api-ms-win-crt-process-l1-1-0.dll 找不到的根因与免装解法：从 C:\\Windows\\System32\\downlevel 取真实 UCRT dll 全集，用 --add-binary 塞进 onefile。承接 830067aa 与 a28a16fa。",
+      "status": "active",
+      "filename": "server-2012-r2-downlevel-ucrt-0b40ecd1.md",
+      "relativePath": "documents/active/server-2012-r2-downlevel-ucrt-0b40ecd1.md",
+      "sourcePaths": [
+        "值班提醒机器人/duty_reminder.py",
+        "值班提醒机器人/config.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-d0632070-3712-4b6e-bcf9-98605743a26f"
+      ],
+      "createdAt": "2026-11-14T13:10:41.310Z",
+      "updatedAt": "2026-11-14T13:10:41.310Z",
+      "lastAccessedAt": "2026-11-14T13:10:41.310Z",
+      "revision": 1,
+      "contentHash": "049eec896469c5d1d564bbcb6343c1e92c0582967ca2840d89e2164153d17069",
+      "sizeBytes": 3855,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "0c876471-6839-42ad-8971-4ad9aeae4eb7",
+      "title": "值班提醒机器人：Server 2012 R2 免装运行库单文件打包（UCRT 依赖解决）",
+      "description": "部署排障：Server 2012 R2 缺 UCRT 报 api-ms-win-crt-process-l1-1-0.dll 丢失；两条解法（vc_redist 安装兜底 / onefile 内嵌 UCRT 免装）与已交付单文件 exe 的约束与回退路径。",
+      "status": "active",
+      "filename": "server-2012-r2-ucrt-0c876471.md",
+      "relativePath": "documents/active/server-2012-r2-ucrt-0c876471.md",
+      "sourcePaths": [
+        "值班提醒机器人/vc_redist.x64.exe",
+        "服务器版/duty_reminder_server.exe"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-0f2a1001-75b0-4817-826e-260138bd4cf2"
+      ],
+      "createdAt": "2026-11-14T13:15:06.550Z",
+      "updatedAt": "2026-11-14T13:15:06.550Z",
+      "lastAccessedAt": "2026-11-14T13:15:06.550Z",
+      "revision": 1,
+      "contentHash": "5fc30b1168a072b1b3e8418df482864855e173dcaa20fb075f7f1c485849f2c2",
+      "sizeBytes": 3487,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "fbd52b6d-e083-4476-a325-1aa9b2ddf5f0",
+      "title": "值班提醒机器人：服务器免装单文件部署（UCRT 运行库打包 + 配置写死）",
+      "description": "Server 2012 R2 缺 UCRT 导致 api-ms-win-crt-process-l1-1-0.dll 报错的诊断与解法；从 vc_redist.x64.exe 提取真实 UCRT dll 塞进 onefile 的免装打包方案；GUI+单文件+配置写死 exe 默认值的终极交付口径与风险。",
+      "status": "active",
+      "filename": "ucrt-fbd52b6d.md",
+      "relativePath": "documents/active/ucrt-fbd52b6d.md",
+      "sourcePaths": [
+        "值班提醒机器人/vc_redist.x64.exe",
+        "值班提醒机器人/服务器版"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-9ddda0dc-769d-4686-ab3e-7c3ea7d27be4"
+      ],
+      "createdAt": "2026-11-14T13:20:32.158Z",
+      "updatedAt": "2026-11-14T13:20:32.158Z",
+      "lastAccessedAt": "2026-11-14T13:20:32.158Z",
+      "revision": 1,
+      "contentHash": "91341e30d871f9e8dcf90e88711dd81608bee29aaeb0465e8e23cd2e4367efaf",
+      "sizeBytes": 4250,
       "memoryBodyIds": []
     }
   ]

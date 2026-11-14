@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "c2e6c214b046ad4d3eac68195024448815e20f862689fa7e71fb72a5c8ffa499",
     "payload/runtime/USER.md": "cc0680c9f264d7b73af9667b5fd7077ab96c4dd2a9a7f7f97e94ae12cf8baf13",
     "payload/runtime/MEMORY.md": "0106efe382ea14660779c35493859a3b9c70661e015c7f9c31c348c6ec012447",
-    "payload/documents/index.json": "0cb73104db7b4b99d261a64c638d1584e0efc634c4def9e874f028cb59aa6eca",
+    "payload/documents/index.json": "605c39a9d83082368c61274931beff1e8b21595fba4a93098e9618a183d41165",
     "payload/documents/active/document-4feaaa83.md": "3f4965d8c1cf15c0b64ce4a0b5846e75fe07737dc9323f0dc74ea55e99cfff00",
     "payload/documents/active/5-6-8faa2a57.md": "4ca53314e8c0196563b4dc42c89fc5386b1ade7c83685373802b10ef15745ee3",
     "payload/documents/active/ai-6-2-7239f584.md": "bde07cab7fc5d09d0c18ee7477194584ee9b428487f75797839480e2be225005",
@@ -39,6 +39,9 @@
     "payload/documents/active/fetch-seafile-109a3ccf.md": "5ddef419dcf40d9fda7461e8807e015e477ed78132c47e00adbe807a6c193bcf",
     "payload/documents/active/v1-2-40299627.md": "0b4d031044a88487f99a3aacebcf8a2a1ec31427ba65d4936e6d04b62701308f",
     "payload/documents/active/v1-2-p2-online-auto-refresh-0a26f67c.md": "c43cf40d3fc2fe21a2b7a0f5196bfb8736c82be61d36e42445cc0941a5bb1e62",
+    "payload/documents/active/server-2012-r2-downlevel-ucrt-0b40ecd1.md": "08898da6c6dc8b55e3f69a8944810894694d83f10c55fc4882335e334972d923",
+    "payload/documents/active/server-2012-r2-ucrt-0c876471.md": "ea06c34fe2026b43d1f987fd2140c62f7f46184c513ba29f83e6176def0ae7a4",
+    "payload/documents/active/ucrt-fbd52b6d.md": "6349f60dc2e20d9f3885532ddeb60d3cff62860eedb0fd9b9a3cd1db8aa98f14",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
